@@ -10,3 +10,21 @@
 [submodule "classroom/hoangvancuong/EntryTest"]
 	path = classroom/hoangvancuong/EntryTest
 	url = https://github.com/cuonghv91/homeWork1.git
+[submodule "classroom/tranhaitrieu/Test01"]
+	path = classroom/tranhaitrieu/Test01
+	url = https://github.com/trieubkpro/Buoi1validform.git
+[submodule "classroom/hominhquan/Test01"]
+	path = classroom/hominhquan/Test01
+	url = https://github.com/kiemhon555/Euroland-Asia.git
+[submodule "classroom/nguyendinhbinh/Test01"]
+	path = classroom/nguyendinhbinh/Test01
+	url = https://github.com/yaibait/euroTrainJS.git
+[submodule "classroom/hoangvanhung/Test01"]
+	path = classroom/hoangvanhung/Test01
+	url = https://github.com/VanHungHoang/homwork.git
+[submodule "classroom/homautuanlinh/Test01"]
+	path = classroom/homautuanlinh/Test01
+	url = https://github.com/linhho/eurolandIrFresher.git
+[submodule "classroom/nguyenmanhcuong/Test01"]
+	path = classroom/nguyenmanhcuong/Test01
+	url = https://github.com/cuongcau93/demo1_register.git
