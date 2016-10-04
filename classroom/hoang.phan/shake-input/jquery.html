@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <style media="screen">
+    body {
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    form {
+      background: #DEF;
+      display: block;
+      margin: 0 auto;
+      padding: 10px;
+      width: 250px;
+    }
+
+    input {
+      background: #FFF;
+      box-shadow: 0 1px 4px #CCC inset;
+      border: 1px solid #999;
+      color: #333;
+      padding: 1px;
+      width: 200px;
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    input:invalid {
+      border: 1px solid #C66;
+    }
+
+    input:valid {
+      border: 1px solid #492;
+    }
+
+    button {
+      background: #369;
+      border: 1px solid #69C;
+      color: #FFF;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+
+  <form method="GET" onsubmit="return false">
+    <input id="email" type="email" placeholder="email" required />
+    <button id="button" type="button">Go</button>
+  </form>
+
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+    (function($) {
+      $.fn.shake = function(options) {
+        // defaults
+        var settings = {
+          'shakes': 2,
+          'distance': 10,
+          'duration': 400
+        };
+        // merge options
+        if (options) {
+          $.extend(settings, options);
+        }
+        // make it so
+        var pos;
+        return this.each(function() {
+          $this = $(this);
+          // position if necessary
+          pos = $this.css('position');
+          if (!pos || pos === 'static') {
+            $this.css('position', 'relative');
+          }
+          // shake it
+          for (var x = 1; x <= settings.shakes; x++) {
+            $this.animate({
+                left: settings.distance * -1
+              }, (settings.duration / settings.shakes) / 4)
+              .animate({
+                left: settings.distance
+              }, (settings.duration / settings.shakes) / 2)
+              .animate({
+                left: 0
+              }, (settings.duration / settings.shakes) / 4);
+          }
+        });
+      };
+    }(jQuery));
+
+    $('#button').click(function() {
+      if ($('#email').is(':valid')) { // doesn't work in IE // TODO: ericleads.com/h5validate/
+        $(this.form).css('color', '#492').html("SPAMTASTICAL!");
+      } else {
+        $(this.form).shake();
+      }
+    });
+  </script>
+</body>
+
+</html>

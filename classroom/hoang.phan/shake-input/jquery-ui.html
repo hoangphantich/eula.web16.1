@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Login form - Demo Preview</title>
+  <meta content="noindex, nofollow" name="robots">
+</head>
+<style media="screen">
+  @import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+  /*-------------------------------------------------------
+CSS for required elements.
+---------------------------------------------------------*/
+
+  div#maindiv {
+    margin: 30px auto;
+    width: 980px;
+    height: 500px;
+    background: #Ffffff;
+    padding-top: 20px;
+    font-family: 'Droid Serif', serif;
+    font-size: 14px;
+  }
+
+  .textbox {
+    border: 1px solid #c4c4c4;
+    height: 30px;
+    width: 250px;
+    padding: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    box-shadow: 0px 0px 8px #d9d9d9;
+    -moz-box-shadow: 0px 0px 8px #d9d9d9;
+    -webkit-box-shadow: 0px 0px 8px #d9d9d9;
+  }
+
+  .textbox:focus {
+    border: 1px solid #7bc1f7;
+  }
+
+  div#message {
+    color: red;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  input#login_button {
+    background-color: #33bdef;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border: 1px solid #057fd0;
+    color: #ffffff;
+    padding: 4px;
+    margin-top: 10px;
+  }
+
+  span {
+    color: green;
+  }
+
+  #login {
+    clear: both;
+    width: 400px;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px #123456;
+    height: 280px;
+  }
+
+  #first {
+    width: 60%;
+    float: left;
+    text-align: center;
+    margin-left: 100px;
+  }
+
+  #title {
+    width: 400px;
+    height: 70px;
+    text-shadow: 2px 2px 2px #cfcfcf;
+    margin-top: 30px;
+    font-size: 16px;
+  }
+
+  #last {
+    clear: both;
+    padding-top: 30px;
+    width: 400px;
+  }
+</style>
+
+<body>
+  <div id="maindiv">
+    <!--=========================================================================================
+Shake Effect Login Form HTML Starts Here
+===========================================================================================-->
+    <div id="first">
+      <div id="title">
+        <h2>Shake Form on Invalid Login</h2>
+      </div>
+      <form id="login" name="login">
+        <h3>Login Form</h3>
+        <input class="textbox" id="email" name="email" placeholder="Email" type="email">
+        <input class="textbox" id="password" name="password" placeholder="Password" type="password">
+        <input id="login_button" type="button" value=" Login ">
+        <div id="message"></div>
+      </form>
+      <div id="last">
+        Example:
+        <br> Email :
+        <span>formget@gmail.com</span>
+        <br> Password :
+        <span>fugo</span>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    // Start when document will be ready.
+    $("#login_button").click(function() {
+      var email = $("#email").val(); // Store E-mail input value in the variable email.
+      var password = $("#password").val(); // Store Password input value in the variable password.
+      /* Check if email=formget@gmail.com and password=fugo then,Show the message Account Validated!!! in the Div having id message.*/
+      if (email == "formget@gmail.com" && password == "fugo") {
+        $("#message").html("Account Validated!!!");
+      }
+      /* If E-mail and Password do not match then shake Div having id maindiv and show the message "***Invalid email or password***" in the div having id message.*/
+      else {
+        $("#password").effect("shake");
+        $("#message").html('***Invalid email or password***');
+      }
+    });
+  });
+</script>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <style media="screen">
+    div.box {
+      margin: 20px;
+      padding: 15px;
+      background-color: lightgrey;
+    }
+
+    #demo-password {
+      margin: 5px;
+      position: relative;
+    }
+
+    #demo-password.invalid {
+      outline-color: red;
+      -webkit-animation: shake .6s linear;
+    }
+    /* also keyframes and -moz-keyframes */
+
+    @-webkit-keyframes shake {
+      0% {
+        left: -10px;
+      }
+      16% {
+        left: 9px;
+      }
+      33% {
+        left: -6px;
+      }
+      50% {
+        left: 5px;
+      }
+      66% {
+        left: -2px;
+      }
+      83% {
+        left: 1px;
+      }
+      100% {
+        left: 0px;
+      }
+    }
+  </style>
+
+  <h1>Password Shake</h1>
+  <p>Type anything other than
+    <code>password</code> in the input field below and hit [enter], and watch it change to a red outline and shake back and forth</p>
+
+  <div class="box">
+    <input type="password" id="demo-password" placeholder="password" autofocus />
+  </div>
+
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+    $('#demo-password').on('keyup', function(e) {
+      var $input = $(this);
+      var val = $.trim($input.val());
+
+      $input.removeClass("invalid");
+
+      if (e.which !== 13 || !val) {
+        return;
+      }
+
+      if (val != "password") {
+        $input.select();
+
+        $input.addClass("invalid");
+      }
+    });
+  </script>
+</body>
+
+</html>
