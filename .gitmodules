@@ -1,0 +1,9 @@
+[submodule "classroom/phamduynguyen/EntryTest"]
+	path = classroom/phamduynguyen/EntryTest
+	url = https://github.com/IceNeoMax/test.git
+[submodule "classroom/nguyenduykhanh/EntryTest"]
+	path = classroom/nguyenduykhanh/EntryTest
+	url = https://github.com/kenvandemar/FormExercise.git
+[submodule "classroom/haconglinh/EntryTest"]
+	path = classroom/haconglinh/EntryTest
+	url = https://github.com/haconglinh1990/homeWork1.git
