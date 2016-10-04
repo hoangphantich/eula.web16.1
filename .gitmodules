@@ -7,3 +7,6 @@
 [submodule "classroom/haconglinh/EntryTest"]
 	path = classroom/haconglinh/EntryTest
 	url = https://github.com/haconglinh1990/homeWork1.git
+[submodule "classroom/hoangvancuong/EntryTest"]
+	path = classroom/hoangvancuong/EntryTest
+	url = https://github.com/cuonghv91/homeWork1.git
