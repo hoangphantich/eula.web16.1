@@ -117,11 +117,22 @@ var userData = [
   function validate() {
          if (passField.length == 0 && emailField.length == 0) {
              document.getElementById("generalError").innerHTML = errList[0];
+
              emailInput.classList.add("invalid");
              passInput.classList.add("invalid");
+             setTimeout(function() {
+                 emailInput.classList.remove("invalid");
+                 passInput.classList.remove("invalid");
+             }, 500);
+
+
          } else if (!emailRex.test(emailField)) {
              document.getElementById("generalError").innerHTML = errList[2];
              emailInput.classList.add("invalid");
+
+             setTimeout(function() {
+                 emailInput.classList.remove("invalid");
+             }, 500);
         } else {
             document.getElementById("error").innerHTML = ""; 
         }
@@ -134,12 +145,17 @@ function Authentication(emailField, passField) {
            return e.email === emailField && e.password === passField;
        });
         if (found) {
-             alert("Login Successful");
+            alert("Login Successful");
             document.getElementById("generalError").innerHTML = "";
         } else {
-            document.getElementById("generalError").innerHTML = errList[5];
+             document.getElementById("generalError").innerHTML = errList[5];
              emailInput.classList.add("invalid");
              passInput.classList.add("invalid");
+
+            setTimeout(function() {
+                emailInput.classList.remove("invalid");
+                passInput.classList.remove("invalid");
+            }, 500);
         }     
     }
     //INVOKE AUTHENTICATION
@@ -209,20 +225,5 @@ function onSuccess(googleUser) {
       });
     }
 
-
-
-    //Google
-
-
-// gapi.load('auth2', function() {
-//     gapi.auth2.init();
-// });
-// function onSignIn(googleUser) {
-//   var profile = googleUser.getBasicProfile();
-//   console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-//   console.log('Name: ' + profile.getName());
-//   console.log('Image URL: ' + profile.getImageUrl());
-//   console.log('Email: ' + profile.getEmail());
-// }
 
 

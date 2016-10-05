@@ -227,7 +227,7 @@ body{
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   perspective: 1000px;
- box-shadow:0 0 5px 1px blue;
+
 	
 }
 @keyframes shake {
