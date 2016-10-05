@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+    <script src="form.js"></script>
+</head>
+<body>
+   <style>
+    .more3sec{
+        -webkit-animation-duration: 3s;
+      animation-duration: 3s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+    }
+       
+    .error {
+    color: #990000;
+    }
+    </style>
+    <form id="contact" name="contact" onsubmit="return validateFormOnSubmit(this)">
+    <div>
+        <label>Name</label>
+        <input placeholder="Name" type="text" name="name" id="name" autofocus />
+        <div id="name-error" class="error"></div>
+    </div>
+    <div>
+        <label>Pass</label>
+        <input placeholder="Pass" type="password" name="pass" id="pass" autofocus />
+        <div id="pass-error" class="error"></div>
+    </div>
+    <div>
+        <label>Re-Pass</label>
+        <input placeholder="Re-Pass" type="password" name="repass" id="repass" autofocus />
+        <div id="repass-error" class="error"></div>
+    </div>
+    <div>
+        <label>Email</label>
+        <input placeholder="Email" type="text" name="email" id="email" autofocus />
+        <div id="email-error" class="error"></div>
+    </div>
+
+    <div>
+        <label>Gender</label>
+        <input type="radio" name="gen" id="male" autofocus checked />Male
+        <input type="radio" name="gen" id="female" autofocus />Female
+    </div>
+    <div>
+        <label>Nation</label>
+        <select>
+          <option value="vietnam">Vietnam</option>
+          <option value="england">England</option>
+        </select>
+    </div>
+    <div>
+        <button type="submit" name="submit" id="submit" >Send</button>
+    </div>
+</form>
+
+</body>
+</html>

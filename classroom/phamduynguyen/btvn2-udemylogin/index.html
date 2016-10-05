@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-signin-client_id" content="487034388139-66cilos2glnp1kn52iagjjuf897h97vk.apps.googleusercontent.com">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://apis.google.com/js/api:client.js" async defer></script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=1214826988569474";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+var googleUser = {};
+  var startApp = function() {
+    gapi.load('auth2', function(){
+      // Retrieve the singleton for the GoogleAuth library and set up the client.
+      auth2 = gapi.auth2.init({
+        client_id: '487034388139-66cilos2glnp1kn52iagjjuf897h97vk.apps.googleusercontent.com',
+        cookiepolicy: 'single_host_origin',
+        // Request scopes in addition to 'profile' and 'email'
+        //scope: 'additional_scope'
+      });
+      attachSignin(document.getElementById('customgg-button'));
+    });
+  };
+
+  function attachSignin(element) {
+    console.log(element.id);
+    auth2.attachClickHandler(element, {},
+        function(googleUser) {
+          document.getElementById('name').innerText = "Signed in: " +
+              googleUser.getBasicProfile().getName();
+        }, function(error) {
+          alert(JSON.stringify(error, undefined, 2));
+        });
+  }
+
+</script>
+    <div class="green-cross"></div>
+    
+    <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Log into your account Udemy!</h4>
+              </div>
+              <div class="box-warper">
+                 <div class="row">
+                     <div class="col-md-5">
+                      <div class="loginfb" onclick="loginfb()">
+                          <i class="face-icon fa fa-facebook"></i>
+                          <span class="face-text">Continue With Facebook</span>
+                          <!-- <div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="true">Continue With Facebook</div> -->
+                      </div>
+                      <div id="customgg-button" class="logingg">
+                          <i class="gg-icon fa fa-google-plus"></i>
+                          <span class="gg-text">Continue With Google</span>
+                          <!-- <div class="g-signin2" data-onsuccess="onSignIn"></div> -->
+                          <a href="#" onclick="signOut();"></a>
+                           <div id="name"></div>
+                      </div>
+                      </div>
+                  
+                      <div class="col-md-5 col-md-offset-1 logindf">
+                          <h4>Log in with your email address</h4>
+                          <form>
+                             
+                              <div class="form-group">
+                                <div class="input-group">
+                                   <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-envelope"></span> 
+                                   </div>
+                                   <input class="form-control" id="email" name="email" type="text" placeholder="Email"/>
+                                </div>
+                                 
+                              </div>
+                              
+                              <div class="form-group">
+                               <div class="input-group">
+                                   <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-lock"></span> 
+                                   </div>
+                                   <input class="form-control" id="pass" name="pass" type="text" placeholder="Password"/>
+                                </div>
+                              </div>
+                              <button type="submit" class="btn btn-success" onclick="logindf(document.getElementById('email').value,document.getElementById('pass').value)">Login</button>
+                              or <span style="color:blue; cursor:pointer;"> Forgot your password. </span>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="endbox">Do not have an account? <span style="color:blue; cursor:pointer;"> Register. </span></div>
+              </div>
+              
+            </div>
+
+          </div>
+        </div>
+    <section class="banner-bg">
+	       
+        <div class="container">
+            <nav class="navbar navbar-fixed-top" style="background: linear-gradient(to top, rgba(255,0,0,0), rgba(0, 0, 0, 0.99));">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><img class="udemy-logo" src="https://www.udemy.com/staticx/udemy/images/v5/logo-white.svg" alt="udemy" width="80"></a>
+                    <div class="blank-space"></div>
+                </div>
+
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">Udemy for companies</a></li>
+                        <li><a href="#about">become a trainer</a></li>
+                        <li><a href="#about" data-toggle="modal" data-target="#myModal">Login</a></li>
+                        <li><a class="last-element" href="#contact">Register</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>  
+      
+        <div class="top-box">
+            <h1 class="heading"><font><font>What course your life will it take?</font></font></h1>
+            <div class="subhead">
+            Take control of your future by learning new skills online
+            </div>
+            <form  class="formbox">
+                <input type="hidden" name="ref" value="home">
+                <input type="hidden" name="src" value="ukw">
+                <div class="search-inp-container fx">
+                    <div class="input-group input-group-lg">
+                      
+                      <input type="text" class="form-control" placeholder="Trouvez un cours sur pratiquement n'importe quoi" >
+                      <span class="input-group-addon" id="sizing-addon1"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+                    </div>
+                </div>
+            </form>
+            
+            <div class="row gridbottombox">
+              <div class="col-md-4"><i class="fa fa-users" aria-hidden="true"></i>More than 12 million participants</div>
+              <div class="col-md-4"><i class="fa fa-rocket"></i>Over 40,000 courses</div>
+              <div class="col-md-4"><i class="fa fa-mobile-phone"></i>Learn at your own pace from any device</div>
+            </div> 
+        </div>
+         
+    </section>
+   
+  <script>startApp();</script>
+<script src="check-login.js"></script>
+
+</body>
+</html>
