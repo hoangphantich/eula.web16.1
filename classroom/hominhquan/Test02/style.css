@@ -1,0 +1,255 @@
+body {
+    background: url(images/man_mockup_n.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-animation: changeBg 8s infinite;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+@-webkit-keyframes changeBg {
+    0% {
+        background-image: url(images/man_mockup_n.jpg);
+    }
+    100% {
+        background-image: url(images/woman_phone.jpg);
+    }
+}
+
+.line-up {
+    height: 8px;
+    background: rgb(23, 170, 28);
+}
+
+.gradient-up {
+    opacity: 0.19;
+    height: 50px;
+    background: black;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, white);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, white);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, white);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, white);
+    /* Standard syntax (must be last) */
+}
+
+.logo {
+    position: relative;
+    top: -36px;
+    left: 39px;
+}
+
+.right-nav {
+    float: right;
+    position: relative;
+    top: -67px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+    float: left;
+    color: white;
+    font-weight: bold;
+    font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.item4 {
+    margin-left: 26px;
+    margin-right: 71px;
+}
+
+.item3 {
+    margin-left: 26px;
+}
+
+.item2 {
+    margin-left: 26px;
+}
+
+.smaller-logo {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url(images/man_mockup_n.jpg);
+        background-size: cover;
+    }
+    .item1,
+    .item2,
+    .item3,
+    .item4 {
+        display: none;
+    }
+    .smaller-logo {
+        display: none;
+    }
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.home-top-splash{
+	width: 850px;
+    height: 300px;
+    background-color: black;
+    margin: auto;
+    margin-top: 50px;
+    opacity: 0.5;
+    border-radius: 3px;
+	text-align: center;
+	padding: 2em 0 2em 0;
+}
+
+.heading{
+	color: white;
+}
+
+.subhead{
+	color: white;
+    font-size: 20px;
+}
+
+.search--home{
+	width: 550px;
+    padding: 2em 0 2em 0;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.features{
+	margin: auto;
+}
+
+.desc{
+	color: white;
+	font-size: 15px;
+}
+
+.fxjc{
+	list-style: none;
+	text-align: center;
+}
+
+.fxac{
+	display: inline;
+}
+
+/*Modal*/
+ul.list-social > li {
+    padding-bottom: 5px;
+}
+.modal-header {
+    min-height: 16.43px;
+    padding: 8px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.modal-body{
+  border-bottom: 2px solid #e5e5e5;
+}
+.modal-body .row .col-xs-6{
+  border-left: 2px solid #e5e5e5;  
+}
+
+.modal-content{
+    background-color: #edeff1;
+}
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    font-size: 22px;
+}
+.modal-account{
+    line-height: 1.42857143;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+}
+.modal-account a{
+    line-height: 1.42857143;
+    text-align: center;
+    font-size: 19px;
+    color: #d03a3c;
+}
+.facebook {
+    color: white !important;
+    background-color: #337ab7 !important;
+    border-color: #2e6da4;
+}
+.google{
+    color: #fff;
+    background-color: crimson !important;
+    border-color: #d03a5c;
+}
+.btn-default:hover { 
+    color: white;
+    background-color: #2b85c3 !important;
+}
+.google:hover{
+    color: white;
+    background-color: #d03a5c !important; 
+}
+.col-md-12{
+    font-size: 16px;
+    position: relative;
+    top: -20px;
+}
+.btn-block{
+    font-size: 16px;
+}
+.col-md-12 p{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+}
+.col-md-12 p a{
+    color: #d03a3c;
+}
+.fa-times{
+    position: relative;
+    top: -4vh;
+    left: 35vw;
+    font-size: 20px;
+}
+.well {
+    border: none ;
+    background-color: #edeff1;
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: -5px;
+}
+.fg{
+    color: white !important;
+    font-size:  17px;
+}
+.modal-md{
+    
+    height: 52vh;
+}

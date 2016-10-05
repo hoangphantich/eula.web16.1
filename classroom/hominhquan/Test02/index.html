@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="line-up"></div>
+    <div class="gradient-up"></div>
+    <div class="logo"><img class="udemy-logo" src="https://www.udemy.com/staticx/udemy/images/v5/logo-white.svg" alt="udemy" width="100"></div>
+    <div class="smaller-logo"><img class="udemy-logo" src="https://www.udemy.com/staticx/udemy/images/v5/logo-white.svg" alt="udemy" width="80"></div>
+    <div class="right-nav">
+        <div class="item1"><a href="#">Udemy for Business</a></div>
+        <div class="item2"><a href="#">Become an Instructor</a></div>
+        <div class="item3" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><a href="#">Login</a></div>
+        <div class="item4"><a href="#">Sign Up</a></div>
+    </div>
+	<div class="home-top-splash">
+        <h1 class="heading">What course will your life take?</h1>
+        <div class="subhead">
+            Own your future by learning new skills online
+        </div>
+        <div class="search--home">
+            <form action="" class="form pos-r fxac">
+                <div class="input-group">
+                    <input type="search" name="q"
+                           class="search-field form-control quick-search"
+                           placeholder="Find a course on virtually anything" />
+                	<span class="input-group-btn">
+                		<button type="submit" class="btn btn-primary">
+                			<i class="fa fa-search"></i>
+                		</button>
+                	</span>
+                </div>
+            </form>
+        </div>
+        <ul class="fxjc features">
+            <li class="fxac">
+                <i class="fa fa-group"></i>
+                <span class="desc">Over 12 million students</span>
+            </li>
+            <li class="fxac">
+                <i class="fa fa-rocket"></i>
+                <span class="desc">More than 40,000 courses</span>
+            </li>
+            <li class="fxac">
+                <i class="fa fa-mobile-phone"></i>
+                <span class="desc">Learn at your pace on any device</span>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+    	<div class="modal-dialog">
+
+    		<div id="login-overlay" class="modal-dialog modal-md">
+                <div class="modal-content">
+                	<div class="modal-header">
+                		<h4 class="modal-title" id="myModalLabel">Login your Udemy account!</h4>
+                		<div><i class="fa fa-times" aria-hidden="true"></i></div>
+                	</div>
+
+                	<div class="modal-body">
+                		<div class="row">
+                			<div class="col-xs-6">
+                				<div class="well">
+                					<ul class="list-unstyled list-social">
+                						<li>
+                							<a href="#" class="btn btn-lg btn-default btn-block facebook">
+                								<i class="fa fa-facebook-official iconface" aria-hidden="true"></i>
+                								<span class="fg">Continue with Facebook</span>
+                							</a>
+                						</li>
+                						<li>
+                							<a href="#" class="btn btn-lg btn-primary btn-block google">
+                								<i class="fa fa-google-plus"></i>
+                								<span class="fg">Continue with Google</span>
+                							</a>
+                						</li>
+                					</ul>
+                				</div>
+                			</div>
+
+                			<div class="col-xs-6">
+                				<div class="well">
+                					<form role="form" action="">
+                						<div class="row">
+                							<div class="col-md-12">
+                								<div class="form-group">
+                									<label for="username" class="control-label">Login with your email</label>
+                									<input id="userEmail" type="text" class="form-control" name="email" value="" required  placeholder="E-mail">
+                								</div>
+                								<div class="form-group">
+                									<input id="userPassword" type="password" class="form-control" name="password" placeholder="Password" value="" required>
+                									<span class="help-block"></span>
+                								</div>
+                							</div>
+                						</div>
+                						<div class="row">
+                							<div class="col-md-12">
+                								<button type="button" value="login" name="submit" class="btn btn-success btn-block" onclick="login()">Login</button>
+                							</div>
+                						</div>
+                						<div class="row">
+                							<div class="col-md-12">
+                								<p>or<a href="">  Forgot Password</a></p>
+                							</div>
+                						</div>
+                					</form>
+                				</div>
+                			</div>
+
+                		</div>
+                	</div>
+
+                	<p class="modal-account" >Don't have an account? <a href="">Sign up</a></p>
+
+                </div>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
