@@ -1,0 +1,179 @@
+.feature-wrap{
+    background: url("../images/woman_phone.jpg") no-repeat;
+    height: 100vh;
+}
+.no-padding{
+    padding: 0px;
+}
+
+#logo img{
+    width: 80px;
+    height: 100%;
+}
+.top-menu{
+    color: #fff;
+}
+.top-menu li{
+    padding: 15px 12px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.home-box{
+    width: 840px;
+    background: rgba(0,0,0,.85);
+    padding: 50px 60px;
+    margin: auto;
+    border-radius: 2px;
+    text-align: center;
+    color: #fff;
+}
+
+.home-box h3{
+    margin: 0;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 1.3px;
+    padding-bottom: 15px;
+}
+.home-box h4{
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 30px;
+    line-height: 1;
+    font-weight: 300;
+}
+.home-box-item{
+    font-size: 15px;
+}
+.home-box-item i{
+    margin-right: 20px;
+    font-size: 30px;
+    line-height: 42px;
+}
+.home-box-item span{
+    display: inline-block;
+    width: 60%;
+}
+
+#search-btn{
+    background: #1376d7;
+    border: 0;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 0 8px 8px 0;
+    padding: 0 20px;
+    height: 60px;
+    display: inline-block;
+    width: 10%;
+    border: none;
+    position: relative;
+    left: -5px;
+    top: 2px;
+}
+#search-input{
+    height: 60px;
+    width: 80%;
+    display: inline-block;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+}
+.more-info{
+    margin-top: 45px;
+}
+.more-info .fa-mobile{
+    font-size: 42px;
+}
+
+/* loginModal */
+#loginModal .modal-content{
+    background: #edeff1;
+}
+#loginModal .modal-title{
+    text-align: center;
+    margin: 0;
+    color: #355368;
+    font-size: 24px;
+    padding: 10px 0;
+    font-weight: 200;
+}
+
+#loginModal .form-control{
+    border-radius: 4px;
+}
+#loginModal .wrap-input i.fa{
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+    top: 11px;
+    left: 12px;
+    color: #d3d3d3;
+}
+#loginModal .wrap-input i.fa-lock{
+    font-size: 30px;
+}
+
+#loginModal input.form-control{
+    border-radius: 5px;
+    padding: 11px 10px 12px 40px;
+    outline: 0;
+    font-size: 18px;
+    color: #355368;
+    height: 50px;
+    margin-top: 15px;
+    font-weight: 200;
+}
+.mybtn{
+    color: #fff;
+    padding: 0px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.mybtn > i{
+    border-right: 1px solid rgba(0,0,0,.2);
+    line-height: 52px;
+    font-size: 20px;
+    
+}
+#facebookLoginBtn{
+    background-color: #2b85c3;
+    
+}
+#facebookLoginBtn > i{
+    padding-right: 20px;
+    padding-left: 3px;
+}
+#googleLoginBtn{
+    background-color: #d03a3c;
+    
+}
+#googleLoginBtn > i{
+    padding-right: 8px;
+}
+
+#loginBtn{
+    width: 100%;
+    color: #fff;
+    background-color: #17aa1c;
+    border-color: transparent;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.wrap-input{
+    position: relative;
+    padding-right: 20px;
+}
+.text-center{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.alert{
+    padding: 20px;
+    background: #fad5ce;
+    display: none;
+}
