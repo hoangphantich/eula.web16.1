@@ -1,4 +1,4 @@
-body{
+body {
     background: url("./background2.jpg") no-repeat;
 }
 /*
@@ -6,24 +6,20 @@ body{
     
 }
 */
-
-
 /*NAV BAR STYLING*/
 
-#myNavbar{
-    background: none;   
+#myNavbar {
+    background: none;
     border: none;
 }
 #myNavbar .navbar-header a {
     color: #fff;
     font-size: 25px;
 }
-
-#myNavbar .container .navbar-collapse ul.nav li a{
-   color: #fff;
+#myNavbar .container .navbar-collapse ul.nav li a {
+    color: #fff;
     font-size: 15px;
 }
-
 .loginField {
     width: 680px;
     height: 414px;
@@ -32,21 +28,19 @@ body{
     margin-top: 53px;
     border-radius: 8px;
 }
- .head{
+.head {
     color: #486376;
     width: 640px;
     height: 47px;
-    text-align: center; 
+    text-align: center;
     border-bottom: 1px solid #d3d3d3;
     margin-left: 320px;
     font-weight: 200;
     font-size: 25px;
     margin-top: -370px;
 }
-
-
-
 /*SOCIAL STYLING*/
+
 .fbgg {
     width: 319.5px;
     height: 268px;
@@ -58,7 +52,7 @@ body{
     border-right: 1px solid #d3d3d3;
     margin-top: -11px;
 }
-.fb{
+.fb {
     width: 279.5px;
     height: 50px;
     background: #2b85c3;
@@ -74,7 +68,7 @@ body{
     content: "\f09a";
     padding-right: 20px;
 }
-.fb a{
+.fb a {
     color: #fff;
     text-decoration: none;
     padding-left: 6px;
@@ -86,16 +80,15 @@ body{
 .fb:hover {
     background: #226a9c;
 }
-.gg{
+.gg {
     width: 279.5px;
     height: 50px;
     background: #d03a3c;
     padding: 14px;
     border: 1px solid none;
     border-radius: 5px;
-   
 }
-.gg:hover{
+.gg:hover {
     background: firebrick;
 }
 .gg::before {
@@ -103,7 +96,6 @@ body{
     font-family: FontAwesome;
     content: "\f0d5";
     padding-right: 20px;
-  
 }
 .gg a {
     color: #fff;
@@ -112,13 +104,12 @@ body{
     border-left: 1px solid #226a9c;
     padding-top: 15px;
     padding-bottom: 12px;
-    
 }
-
-
-
 /* INPUT AND SUBMIT STYLING */
-.right-panel, .email-panel, .password-panel {
+
+.right-panel,
+.email-panel,
+.password-panel {
     width: 319.5px;
     height: 268px;
     margin-left: 680px;
@@ -129,7 +120,7 @@ body{
     margin-top: -260px;
     margin-bottom: 50px;
 }
-.form-control{
+.form-control {
     width: 279px;
     height: 49px;
     margin-top: -40px;
@@ -138,30 +129,24 @@ body{
     font-size: 1em;
     font-weight: normal;
 }
-
-
-.email-panel::before{
+.email-panel::before {
     display: inline-block;
     font-family: FontAwesome;
     content: "\f0e0";
     color: #d3d3d3;
     padding-left: 6px;
     position: relative;
-    
 }
-
-.password-panel::before{
+.password-panel::before {
     display: inline-block;
     font-family: FontAwesome;
     content: "\f023";
     color: #d3d3d3;
     padding-left: 8px;
     font-size: 20px;
-  
 }
-
-.submit { 
-    margin-left: 680px;   
+.submit {
+    margin-left: 680px;
     font-weight: normal;
     font-size: 18px;
     padding-top: 10px;
@@ -181,12 +166,10 @@ body{
     font-family: sans-serif;
     margin-top: 5px;
 }
-
-
 .signup {
     width: 640px;
     height: 38px;
-    margin-left: 320px;   
+    margin-left: 320px;
     font-weight: 200;
     font-size: 15px;
     padding-top: 10px;
@@ -194,16 +177,12 @@ body{
     margin-bottom: 50px;
     font-family: sans-serif;
     padding-left: 220px;
-    border-top:  1px solid #d3d3d3;
+    border-top: 1px solid #d3d3d3;
     box-shadow: inset 0 1px #fff;
 }
-
-
 #toggle {
     display: none;
 }
-
-
 .loginBtn {
     cursor: pointer;
 }
@@ -213,52 +192,36 @@ body{
     font-size: 1.5em;
     font-family: sans-serif;
 }
-
 /* ERROR STYLING */
-#generalError, #emailError, #passError{
+
+#generalError,
+#emailError,
+#passError {
     font-size: 10px;
     color: red;
-    
 }
-
 /*VALIDATE STYLING*/
-.invalid {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
 
-	
+.invalid {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
 }
 @keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-  
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
-
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
