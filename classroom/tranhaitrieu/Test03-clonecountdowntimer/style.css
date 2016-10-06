@@ -1,0 +1,121 @@
+body{
+	    font-family: Roboto;
+}
+
+.bg_block{
+	background-color: rgb(232, 99, 44);
+	    position: relative;
+    top: -8px;
+    left: -8px;
+    height: 38px;
+}
+.common_part{
+background-color: white;
+	display: inline-block;
+	position: relative;
+}
+
+
+
+.block1{	
+	text-align: center;
+    left: 67px;
+    width: 46px;
+    height: 38px;
+    overflow: hidden;
+}
+
+.block2{	
+    text-align: center;
+    left: 67px;
+    width: 46px;
+    height: 38px;
+    overflow: hidden;
+}
+
+.block3{	
+    text-align: center;
+    left: 67px;
+    width: 46px;
+    height: 38px;
+    overflow: hidden;
+}
+
+.block4{	
+    text-align: center;
+    left: 67px;
+    width: 46px;
+    height: 38px;
+    overflow: hidden;
+}
+
+.day{
+color: rgb(232, 99, 44);
+    position: relative;
+    top: -21px;
+    font-size: 21px;
+}
+
+.ngay{
+	color: rgb(232, 99, 44);
+    position: relative;
+    top: -41px;
+    font-size: 9px;
+}
+
+.hour{
+    color: rgb(127, 127, 127);
+    position: relative;
+    top: -21px;
+    font-size: 21px;
+
+}
+
+.gio{
+    color: rgb(127, 127, 127);
+        position: relative;
+    top: -41px;
+    font-size: 9px;
+}
+
+.minute{
+color: rgb(127, 127, 127);
+    position: relative;
+    top: -21px;
+    font-size: 21px;
+}
+
+.phut{
+    color: rgb(127, 127, 127);
+        position: relative;
+    top: -41px;
+    font-size: 9px;
+}
+
+.second{
+color: rgb(127, 127, 127);
+    position: relative;
+    top: -21px;
+    font-size: 21px;
+}
+
+.giay{
+    color: rgb(127, 127, 127);
+        position: relative;
+    top: -41px;
+    font-size: 9px;
+}
+
+.con{
+    display: inline-block;
+        position: relative;
+    top: -13px;
+    left: 49px;
+    color: white;
+    font-size: 22px;
+}
+
+
+
+
+
