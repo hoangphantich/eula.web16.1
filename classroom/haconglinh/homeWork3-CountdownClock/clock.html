@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CountDown Clock</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <h1 id='title'>Countdown Clock !!!</h1>
+
+    <div class="container">
+        <form class="form-vertical">
+
+
+            <fieldset>
+                <!-- Text input-->
+                <div class="col-md-3 form-group">
+
+                    <label class="control-label" for="dateInput">Số Ngày</label>
+                    <input id="dateInput" name="dateInput" type="text" placeholder="Nhập bằng số VD: 5" class="form-control input-md">
+
+                </div>
+
+                <!-- Text input-->
+                <div class="col-md-3 form-group">
+                    <label class="control-label" for="hourInput">Số giờ:</label>
+                    <input id="hourInput" name="hourInput" type="text" placeholder="Nhập bằng số VD: 5" class="form-control input-md">
+                </div>
+
+                <!-- Text input-->
+                <div class="col-md-3 form-group">
+                    <label class="control-label" for="minuteInput">Số phút:</label>
+                    <input id="minuteInput" name="minuteInput" type="text" placeholder="Nhập bằng số VD: 25" class="form-control input-md">
+                </div>
+
+                <!-- Text input-->
+                <div class="col-md-3 form-group">
+                    <label class="control-label" for="second">Số giây</label>
+                    <input id="second" name="second" type="text" placeholder="Nhập bằng số VD: 5" class="form-control input-md">
+                </div>
+
+
+
+
+            </fieldset>
+        </form>
+
+        <div class="boxBtn">
+
+            <button id="startBtn" class="btn btn-success">Bắt đầu đếm</button>
+        </div>
+
+        <div class="contaner text-center">
+            <h3>Thời gian còn lại là:</h3>
+
+            <div class="boxTimer"></div>
+            <div class="boxTimer"></div>
+            <div class="boxTimer"></div>
+            <div class="boxTimer"></div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

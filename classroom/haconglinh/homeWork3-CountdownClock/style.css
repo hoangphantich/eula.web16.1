@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    background: url(images/maiphuongthuy.jpg) no-repeat center fixed;
+    background-size: cover;
+
+}
+
+#title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.boxBtn{
+    margin: auto;
+    width: 10%;
+}
+input{
+    text-align: center;
+}
