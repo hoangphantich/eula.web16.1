@@ -1,0 +1,48 @@
+
+table, tr, th, td {
+    margin: 0 auto;
+    border: 2px solid #000;
+    text-align: center;
+    padding: 0px 90px 10px 90px;
+    
+    
+}
+
+
+#createTable {
+    
+}
+ div#datashow tbody{
+    width: 90px;
+    height: 90px;
+    padding-left: 20px;
+     margin-left: 200px
+}
+.show {
+    float: right;
+    margin-top: 10px;
+    margin-right: 230px;
+    margin-bottom: 10px;
+}
+.create {
+   float: left;
+    margin-top: 10px;
+    margin-left: 850px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
