@@ -11,49 +11,8 @@ body{
 }
 .boxBtn{
     margin: auto;
-    width: 20%;
-}
-#boxFormInput{
-    margin-bottom: 50px;
+    width: 10%;
 }
 input{
     text-align: center;
-}
-
-h3{
-    color: rebeccapurple;
-    margin-bottom: 20px;
-}
-#boxShowTimer{
-    margin: auto;
-    width: 50%;
-}
-
-
-#clockdiv{
-	font-family: sans-serif;
-	color: #fff;
-	display: inline-block;
-	font-weight: 100;
-	text-align: center;
-	font-size: 30px;
-}
-
-#clockdiv > div{
-	padding: 10px;
-	border-radius: 3px;
-	background-color: #00816A;
-	display: inline-block;
-}
-
-#clockdiv div > span{
-	padding: 15px;
-	border-radius: 3px;
-	background: chartreuse;
-	display: inline-block;
-}
-
-.smalltext{
-	padding-top: 5px;
-	font-size: 16px;
 }
