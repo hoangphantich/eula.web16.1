@@ -1,0 +1,81 @@
+/*@import 'https://fonts.googleapis.com/css?family=Bungee+Shade';*/
+html, body{
+    margin: auto 0;
+    
+}
+.header1 {
+    width: 47px;
+    height: 45px;
+    background: #e8632c;
+    float: left;
+}
+.header1 p{
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 14px;
+    font-weight: bold;  
+}
+
+.header2 {
+    width: 1070px;
+    height: 45px;
+    background: #e8632c;
+    float: right;
+    margin-top: 0px;
+    
+}
+#count {
+    font-family: sans-serif;
+	color: #000;
+	display: inline-block;
+	font-weight: 500;;
+	text-align: center;
+	font-size: 13px;
+    margin-left: 3px;
+    
+    clear: both;
+}
+#count div {
+    display: inline-block;  
+    padding-right: 2px;
+    
+}
+#count div > span {
+    display: inline-block;
+    font-size: 25px;
+    font-stretch: expanded;
+    font-weight: 100;
+}
+.
+#clock{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 70px;
+    position: relative;
+    top: 50%;
+    margin-top: -35px;
+    text-align: center;
+}
+
+
+
+#count > div:nth-child(1) {
+    color: #e8632c;
+    border-right: 1px solid #d3d3d3;
+}
+
+#count > div:nth-child(2) {
+   border-right: 1px solid #d3d3d3;
+}
+
+#count > div:nth-child(3) {
+   border-right: 1px solid #d3d3d3;
+}
+#count > div:nth-child(4) {
+    border: none;
+}
+
+
+
+
