@@ -1,0 +1,25 @@
+
+#myTable{
+	margin: auto;
+}
+
+.showMore{
+	    position: absolute;
+    top: 15px;
+    left: 162px;
+}
+
+#ageCol{
+	width: 50px;
+	text-align: right;
+}
+
+#emailCol{
+	width: 400px;
+	text-align: left;
+}
+
+#nameCol{
+	width: 300px;
+	text-align: center;
+}
