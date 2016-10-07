@@ -1,0 +1,196 @@
+/*@import 'https://fonts.googleapis.com/css?family=Bungee+Shade';*/
+html, body{
+    margin: auto 0;
+
+}
+.header1 {
+    width: 47px;
+    height: 45px;
+    background: #e8632c;
+    float: left;
+}
+.header1 p{
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 14px;
+    font-weight: bold;
+}
+
+.header2 {
+    width: 1070px;
+    height: 45px;
+    background: #e8632c;
+    float: right;
+    margin-top: 0px;
+}
+#count {
+    font-family: sans-serif;
+	color: #000;
+	display: inline-block;
+	font-weight: 500;;
+	text-align: center;
+	font-size: 13px;
+    margin-left: 3px;
+    clear: both;
+    margin-top: -5px;
+}
+#count div {
+    display: inline-block;
+    padding-right: 2px;
+
+}
+#count div > span {
+    display: inline-block;
+    font-size: 25px;
+    font-stretch: expanded;
+    font-weight: 100;
+}
+.
+#clock{
+    color: #000;
+    font-family: sans-serif;
+    font-size: 70px;
+    position: relative;
+    top: 50%;
+    margin-top: -35px;
+    text-align: center;
+}
+
+
+
+#count > div:nth-child(1) {
+    color: #e8632c;
+    border-right: 1px solid #d3d3d3;
+}
+
+#count > div:nth-child(2) {
+   border-right: 1px solid #d3d3d3;
+}
+
+#count > div:nth-child(3) {
+   border-right: 1px solid #d3d3d3;
+}
+#count > div:nth-child(4) {
+    border: none;
+}
+
+.navBar {
+    margin-left: 350px;
+    margin-top: 8px;
+    font-size: 16px
+}
+
+.navBar li {
+    list-style: none;
+    display: inline;
+    clear: both;
+    color: #fff;
+    font-family: sans-serif;
+}
+span.vertical {
+    color: #fff;
+    line-height: 30px;
+}
+
+div#searchField {
+    margin: 0 auto;
+    width: 647px;
+    height: 51px;
+    border: 1px solid #e8632c;
+    border-radius: 5px;
+    margin-top: -70px;
+}
+#searchField .all .all1 {
+    border: none;
+    margin-left: 30px;
+    font-size: 15px;
+    text-overflow: ellipsis;
+}
+#searchField .all .all1:active{
+    color: #e8632c;
+    background: none;
+    animation: none;
+    text-shadow: none;
+    box-shadow: none;
+}
+#searchField .all .all1:visited{
+    color: #e8632c;
+    background: none;
+    animation: none;
+    text-shadow: none;
+    box-shadow: none;
+}
+#searchField .all .all1:hover{
+    background: none;
+    color: #e8632c;
+    animation: none;
+    text-shadow: none;
+    box-shadow: none;
+}
+.btn{
+    background: none;
+    color: #000;
+}
+#searchField .all .all1 .caret {
+    margin-left: 20px;
+}
+
+.yourProduct{
+    width: 70%;
+    color: #999;
+    height: 49px;
+    font: 400 16px sans-serif;
+    padding: 0 60px 0 10px;
+    border: none;
+    border-left: 1px solid #ddd;
+    margin-right: 60px;
+}
+
+.btn_send{
+    margin-top: -50px;
+    height: 50px;
+    width: 52px;
+    font-size: 25px;
+    background: #e8632c;
+    color: #fff;
+    border: none;
+    position: absolute;
+    margin-right: 10px;
+    margin-left: 593px;
+    border-top-right-radius: 4px;
+}
+
+.fridayLogo{
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 8px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
