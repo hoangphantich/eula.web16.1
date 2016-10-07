@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>CountDown Clock</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="bootstrap.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script src="bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,64 +20,87 @@
     <h1 id='title'>Countdown Clock !!!</h1>
 
     <div class="container">
-        <form class="form-vertical">
+        <form class="form-vertical" id="boxFormInput">
 
 
             <fieldset>
-                <!-- Text input-->
-                <div class="col-md-3 form-group">
 
-                    <label class="control-label" for="dateInput">Số Ngày</label>
-                    <input id="dateInput" name="dateInput" type="text" placeholder="Nhập bằng số VD: 5" class="form-control input-md">
+                <div class="col-md-2 form-group">
+
+                    <label class="control-label" for="dateInput">Ngày kết thúc:</label>
+                    <input id="dateInput" name="dateInput" type="text" placeholder="Nhập số từ 01-30" class="form-control input-md">
 
                 </div>
 
-                <!-- Text input-->
-                <div class="col-md-3 form-group">
-                    <label class="control-label" for="hourInput">Số giờ:</label>
-                    <input id="hourInput" name="hourInput" type="text" placeholder="Nhập bằng số VD: 5" class="form-control input-md">
+                <div class="col-md-2 form-group">
+
+                    <label class="control-label" for="monthInput">Tháng kết thúc:</label>
+                    <input id="monthInput" name="monthInput" type="text" placeholder="Nhập số từ 01-12" class="form-control input-md">
+
                 </div>
 
-                <!-- Text input-->
-                <div class="col-md-3 form-group">
-                    <label class="control-label" for="minuteInput">Số phút:</label>
-                    <input id="minuteInput" name="minuteInput" type="text" placeholder="Nhập bằng số VD: 25" class="form-control input-md">
+                <div class="col-md-2 form-group">
+
+                    <label class="control-label" for="yearInput">Năm kết thúc:</label>
+                    <input id="yearInput" name="yearInput" type="text" placeholder="Nhập số >= 2016" class="form-control input-md">
+
                 </div>
 
-                <!-- Text input-->
-                <div class="col-md-3 form-group">
-                    <label class="control-label" for="second">Số giây</label>
-                    <input id="second" name="second" type="text" placeholder="Nhập bằng số VD: 5" class="form-control input-md">
+                <div class="col-md-2 form-group">
+                    <label class="control-label" for="hourInput">Giờ kết thúc:</label>
+                    <input id="hourInput" name="hourInput" type="text" placeholder="Nhập số từ 00-23" class="form-control input-md">
                 </div>
 
+                <div class="col-md-2 form-group">
+                    <label class="control-label" for="minuteInput">Phút kết thúc:</label>
+                    <input id="minuteInput" name="minuteInput" type="text" placeholder="Nhập số từ 00-59" class="form-control input-md">
+                </div>
 
-
+                <div class="col-md-2 form-group">
+                    <label class="control-label" for="secondInput">Giây kết thúc:</label>
+                    <input id="secondInput" name="secondInput" type="text" placeholder="Nhập số từ 00-59" class="form-control input-md">
+                </div>
 
             </fieldset>
         </form>
 
         <div class="boxBtn">
-
-            <button id="startBtn" class="btn btn-success">Bắt đầu đếm</button>
-        </div>
-
-        <div class="contaner text-center">
-            <h3>Thời gian còn lại là:</h3>
-
-            <div class="boxTimer"></div>
-            <div class="boxTimer"></div>
-            <div class="boxTimer"></div>
-            <div class="boxTimer"></div>
-
+            <button id="startBtn" class="btn btn-success btn-lg" data-toggle="collapse" data-target="#clockdiv" onclick="startCountDown()">Bắt đầu đếm</button>
         </div>
 
 
+        <div class="contaner" id="clockdiv">
 
+            <h3>Thời gian còn lại là !!!</h3>
+            <div>
+                <span class="years"></span>
+                <div class="smalltext">Năm</div>
+            </div>
+            <div>
+                <span class="months"></span>
+                <div class="smalltext">Tháng</div>
+            </div>
+
+            <div>
+                <span class="days"></span>
+                <div class="smalltext">Ngày</div>
+            </div>
+            <div>
+                <span class="hours"></span>
+                <div class="smalltext">Giờ</div>
+            </div>
+            <div>
+                <span class="minutes"></span>
+                <div class="smalltext">Phút</div>
+            </div>
+            <div>
+                <span class="seconds"></span>
+                <div class="smalltext">Giây</div>
+            </div>
+
+        </div>
 
     </div>
-
-
-
     <script src="script.js"></script>
 </body>
 
