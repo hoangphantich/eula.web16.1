@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<title>Euroland Asia Cinema</title>
+
+	<link rel="stylesheet" href="style.css">
+
+	<script>
+        var keylist = "abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*";
+        var tmp = '';
+        //this function return the position of Charater based on keylist length.
+
+        function generatePass(plength) {
+			tmp = '';
+			for (i = 0; i < plength; i++) {
+				tmp += keylist.charAt(Math.floor(Math.random() * keylist.length))
+			}
+			return tmp;
+		}
+        function populateForm(enterLength){
+            document.passGen.output.value = generatePass(enterLength)
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<form action="" name="passGen">
+			<input type="text" size="18" name="output">
+			<input class="myBtn" type="button" value="Generate password" onclick="populateForm(this.form.length.value)"> <br>
+
+			<strong class="pass">Password length: </strong> <input type="text" name="length" size="3" value="6">
+
+
+		</form>
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script>
+	</script>
+
+</body>
+
+</html>
