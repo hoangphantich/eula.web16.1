@@ -1,0 +1,15 @@
+table{
+	width: 30%;
+}
+
+.name{
+	text-align: left;
+}
+
+.age{
+	text-align: right;
+}
+
+.email{
+	text-align: left;
+}
