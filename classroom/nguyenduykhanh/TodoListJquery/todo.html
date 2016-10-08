@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="todo.css">
+
+	<title>Minimum Bootstrap HTML Skeleton</title>
+
+	<!--  -->
+
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+
+    <div class="task-list" id="pending">
+        <h3>Pending</h3>
+    <div class="todo-task">
+        <div class="task-header">Sample Header</div>
+        <div class="task-date">25/06/1992</div>
+        <div class="task-description">Lorem Ipsum Dolor Sit Amet</div>
+    </div>
+    </div>
+
+    <div class="task-list" id="inProgress">
+        <h3>In Progress</h3>
+    </div>
+    
+    <div class="task-list" id="completed">
+        <h3>Completed</h3>
+    </div>
+    
+    <div class="task-list">
+        <h3>Add a task</h3>
+        <form id="todo-form">
+            <input type="text" placeholder="Title">
+            <textarea placeholder="Description"></textarea>
+            <input type="text" placeholder="Due Date(dd/mm/yy)" />
+            <input type="button" class="btn btn-primary" value="Add Task">
+        </form>
+        
+        <input type="button" class="btn btn-primary" value="Clear Data">
+        
+        <div id="delete-div">Drag Here to Delete</div>
+     </div>
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script src="todo.js">
+	</script>
+
+</body>
+
+</html>
