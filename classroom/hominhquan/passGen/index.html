@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<form class="form-horizontal" name="passGen">
+			<div class="col-xs-12">
+				<input type="text" name="output" class="out" disabled>
+				<button type="button" class="btn btn-success btn-block myBtn" onclick="populateform(this.form.length.value)">Generate password</button>
+				<div class="col-xs-10"><strong class="pass">Password Length: </strong></div>
+				<div class="col-xs-2"><input type="text" name="length" size="3" value="6" class="in"></div>
+			</div>
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
