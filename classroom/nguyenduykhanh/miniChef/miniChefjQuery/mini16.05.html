@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini16-03</title>
+    <style>
+        ul {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+<a href="www.w3resource.com/sqlite/" id="tut">SQLite Tutorial</a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+     // đổi link sang http://vnexpress.net và nội dung sang Xem tin lá cải.
+        var newUrl = 'http://vnexpress.net ';
+        var myP = "xem bao la cai"
+        $("a").text(myP);
+        $('a[href="www.w3resource.com/sqlite/"]').attr('href', newUrl);
+
+    </script>
+</body>
+</html>

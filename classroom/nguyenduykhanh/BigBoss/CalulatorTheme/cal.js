@@ -16,8 +16,19 @@ resultHtmlElement = document.getElementById('result');
 
 //CHANGE THEME
 $("select").change(function() {
+        var mySelect = $("select");
 
-})
+    $("select").each(function(){
+        if($("select")) {
+            $("#changeTheme").append('<link rel="stylesheet" href="dark.css" type="text/css" />');
+        } else if ($("#colors")){
+            $("#changeTheme").append('<link rel="stylesheet" href="colorful.css" type="text/css" />');
+        } else {
+            $("#changeTheme").css("color", "brown");
+        }
+
+    });
+});
 
 
 

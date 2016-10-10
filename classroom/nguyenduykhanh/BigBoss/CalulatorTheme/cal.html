@@ -6,14 +6,15 @@
     <link rel="stylesheet" href="cal.css">
     <style>
 
+
     </style>
 </head>
 <body>
 
-   <div>
+   <div id="changeTheme">
       <p>Select theme: </p>
-      <select class="themeSelect">
-          <option value="dark" id="default">Default</option>
+      <select class="themeSelect" name="calculator">
+          <option value="dark" id="default" selected="selected">Default</option>
           <option value="dark" id="darks">Dark</option>
           <option value="colorful" id="colors">Colorful</option>
       </select>
@@ -41,6 +42,7 @@
         <button onclick="add('+')">+</button>
         <br>
    </div>
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="cal.js">
