@@ -5,7 +5,7 @@ function dataTypeCalculation(myInt, myDouble, myString) {
     
      
     var resultInt = i + parseInt(myInt);
-    var resultDouble = (d + parseFloat(myDouble))/10;
+    var resultDouble = (d + parseFloat(myDouble)).toFixed(1);
     var resultString = s.concat(String(myString));
     
     console.log(resultInt);
