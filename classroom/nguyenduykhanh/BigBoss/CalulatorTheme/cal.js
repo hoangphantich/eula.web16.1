@@ -1,4 +1,4 @@
-resultHtmlElement = document.getElementById('result')
+resultHtmlElement = document.getElementById('result');
         result = resultHtmlElement.innerHTML;
         function add(number){
             result += number;
@@ -12,3 +12,25 @@ resultHtmlElement = document.getElementById('result')
             result = 0;
             resultHtmlElement.innerHTML = result;
         }
+
+
+//CHANGE THEME
+$("select").change(function() {
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

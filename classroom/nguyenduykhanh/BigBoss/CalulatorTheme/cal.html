@@ -13,13 +13,13 @@
    <div>
       <p>Select theme: </p>
       <select class="themeSelect">
-          <option value="dark">Default</option>
-          <option value="dark">Dark</option>
-          <option value="colorful">Colorful</option>
+          <option value="dark" id="default">Default</option>
+          <option value="dark" id="darks">Dark</option>
+          <option value="colorful" id="colors">Colorful</option>
       </select>
 
 
-        <button onclick="clearResult()">CA</button><span id="result">0</span><br>
+       <button onclick="clearResult()">CA</button> <label type="text" id="result"></label><br>
         <button onclick="add('7')">7</button>
         <button onclick="add('8')">8</button>
         <button onclick="add('9')">9</button>
@@ -41,6 +41,8 @@
         <button onclick="add('+')">+</button>
         <br>
    </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="cal.js">
 
     </script>
