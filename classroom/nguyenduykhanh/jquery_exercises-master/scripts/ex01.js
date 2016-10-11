@@ -11,13 +11,13 @@ $(document).ready(function(){  // do not delete
 
 
 // first line sets the item to a faded state immediately
-$('.fadeitem').css('opacity', '0.25');
+$('.vancouver').css('opacity', '0.25');
 
-$('.fadeitem').mouseenter(function() {
+$('.vancouver').mouseenter(function() {
 	$(this).fadeTo('fast', 1)
 });
 
-$('.fadeitem').mouseleave(function() {
+$('.vancouver').mouseleave(function() {
 	$(this).fadeTo('fast', 0.25);
 });
 

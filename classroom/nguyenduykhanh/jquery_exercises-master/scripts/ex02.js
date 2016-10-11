@@ -18,7 +18,10 @@ $(document).ready(function(){  // do not delete
 
 
 $('.fadeitem').on('click', function() {
-	$(this).fadeOut('slow');
+	$(this).fadeOut('slow', function() {
+         $("#photos").text( "'" + $( this ).text() + "' thanks for viewing' " );
+        $(this).remove();
+    });
 });
 
 
