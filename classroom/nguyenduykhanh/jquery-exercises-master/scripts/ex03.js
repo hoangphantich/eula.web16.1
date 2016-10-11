@@ -12,6 +12,7 @@ $(document).ready(function(){  // do not delete
 
 
 var rama = $('#rama');
+
 var sita = $('#sita');
 var hanuman = $('#hanuman');
 var ravana = $('#ravana');
@@ -19,6 +20,26 @@ var lakshmana = $('#lakshmana');
 
 $('.character').hide();
 $('.right').prepend("<p>Roll over a character's name to learn more.</p>");
+
+$("span:first-child").hover(function() {
+  $( rama ).toggle( "fold", 1000 );
+});
+
+    $("span:nth-child(2)").hover(function() {
+  $( hanuman ).toggle( "fold", 1000 );
+});
+
+    $("span:nth-child(3)").hover(function() {
+  $( lakshmana ).toggle( "fold", 1000 );
+});
+
+    $("span:nth-child(4)").hover(function() {
+  $( ravana ).toggle( "fold", 1000 );
+});
+
+    $("span:nth-child(5)").hover(function() {
+  $( ravana ).toggle( "fold", 1000 );
+});
 
 
 
