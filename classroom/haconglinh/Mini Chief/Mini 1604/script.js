@@ -1,1 +1,4 @@
-$('#result').text($("option:eq(1)").text());
+$('li').each(function (i) {
+    var indexBold = $("<b></b>").text(i + ": ");
+    $(this).prepend(indexBold);
+});
