@@ -1,0 +1,22 @@
+body{
+    background: rgba(73,155,234,1);
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 3em;
+}
+
+.myBtn{
+    margin-top: 10px;
+    color: #ffffff;
+    background: limegreen;
+}
+
+.pass{
+    width: 400px;
+    background-color: orange;
+    margin-right: 10px;
+}

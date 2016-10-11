@@ -28,3 +28,39 @@
 [submodule "classroom/nguyenmanhcuong/Test01"]
 	path = classroom/nguyenmanhcuong/Test01
 	url = https://github.com/cuongcau93/demo1_register.git
+[submodule "classroom/vodinhdong/Exercise"]
+	path = classroom/vodinhdong/Exercise
+	url = https://github.com/dongvo/FrontEnd.git
+[submodule "classroom/hoangvanhung/Lab15"]
+	path = classroom/hoangvanhung/Lab15
+	url = https://github.com/VanHungHoang/Table-Showmore.git
+[submodule "classroom/hoangvanhung/Test02"]
+	path = classroom/hoangvanhung/Test02
+	url = https://github.com/VanHungHoang/Test02.git
+[submodule "classroom/nguyenmanhcuong/demo3_onlineFriday"]
+	path = classroom/nguyenmanhcuong/demo3_onlineFriday
+	url = https://github.com/cuongcau93/demo3_onlineFriday.git
+[submodule "classroom/nguyenmanhcuong/demo4_dom_table"]
+	path = classroom/nguyenmanhcuong/demo4_dom_table
+	url = https://github.com/cuongcau93/demo4_dom_table.git
+[submodule "classroom/nguyenmanhcuong/demo2_udemyClone"]
+	path = classroom/nguyenmanhcuong/demo2_udemyClone
+	url = https://github.com/cuongcau93/demo2_udemyClone.git
+[submodule "classroom/nguyenvanthuan/Exe"]
+	path = classroom/nguyenvanthuan/Exe
+	url = https://github.com/nguyenvanthuan1993/Homework-EA.git
+[submodule "classroom/hominhquan/Euroland-Asia"]
+	path = classroom/hominhquan/Euroland-Asia
+	url = https://github.com/kiemhon555/Euroland-Asia.git
+[submodule "classroom/hoangvancuong/DataTableNoPagize"]
+	path = classroom/hoangvancuong/DataTableNoPagize
+	url = https://github.com/cuonghv91/DataTableNoPagize.git
+[submodule "classroom/hoangvancuong/watchExercise"]
+	path = classroom/hoangvancuong/watchExercise
+	url = https://github.com/cuonghv91/watchExercise.git
+[submodule "classroom/hoangvancuong/bai2"]
+	path = classroom/hoangvancuong/bai2
+	url = https://github.com/cuonghv91/bai2.git
+[submodule "classroom/hoangvancuong/homeWork1"]
+	path = classroom/hoangvancuong/homeWork1
+	url = https://github.com/cuonghv91/homeWork1.git

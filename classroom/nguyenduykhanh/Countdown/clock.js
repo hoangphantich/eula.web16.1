@@ -23,7 +23,7 @@ function initializeClock(id, endtime) {
   var minutesSpan = clock.querySelector('.minutes');
   var secondsSpan = clock.querySelector('.seconds');
 
-    
+
     function updateClock() {
     var t = getTimeRemaining(endtime);
 
