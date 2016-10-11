@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script   src="http://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
+</head>
+<body>
+<select id="myselect">
+	<option value="1">Option-1</option>
+	<option value="2">Option-2</option>
+	<option value="3">Option-3</option>
+</select>
+
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+    $("#myselect").val("2").change();
+});
+</script>
+</body>
+</html>
+
+
