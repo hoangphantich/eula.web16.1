@@ -49,6 +49,7 @@ function savings() {
             passInput.focus();
     } else {
         $("#Register").css("color", "cyan");
+        $("#mailError").text("");
         var saveText = "processing...";
         var successText = "success!!!"
         $(regisBtn).val(saveText);
@@ -76,10 +77,11 @@ $.ajax({
         .append("<p>We will be in touch soon.</p>")
         .hide()
         .fadeIn(1500, function() {
-          $('#message').append("
+          $('#message').append("user.txt");
+    });
     }
 });
-return false;
+
 
 
 
