@@ -1,1 +1,3 @@
-$('#result').text($("option:eq(1)").text());
+var txt = $("<div><h1></h1></div>").text("JQuery Core"); 
+$("body").append(txt);
+
