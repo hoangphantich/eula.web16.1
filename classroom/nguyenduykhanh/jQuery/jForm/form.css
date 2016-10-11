@@ -1,0 +1,111 @@
+body {
+    background: url(background.jpg) no-repeat;
+    background-size: 1300px 800px;
+}
+
+#myForm {
+    width: 600px;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 140px;
+    background: url(backform.jpg) no-repeat;
+    background-position: left;
+    background-size: 700px;
+    border: 3px solid #000;
+    color: #fff;
+}
+h2 {
+    text-align: center;
+    color: burlywood;
+    font-family: 'Nova Flat', cursive;
+    font-size: 35px
+}
+.ePass{
+    margin-left: 60px;
+    margin-top: 50px;
+
+}
+#email{
+   float: right;
+   margin-top: -30px;
+   margin-right: 170px;
+    width: 250px;
+    background: #25262a;
+    font-family: 'Nova Flat', cursive;;
+}
+#password, #rePassword {
+    float: right;
+    margin-top: -27px;
+    margin-right: 170px;
+    width: 250px;
+    background: #25262a;
+}
+#autoGen{
+    float: right;
+    margin-top: -28px;
+    color: #000;
+    background: #25262a;
+    color:burlywood;
+    font-family: 'Nova Flat', cursive;
+    margin-right: 7px
+}
+#rePassword{
+    margin-top: -25px;
+    background-color: #25262a;
+    color: #fff;
+}
+.rePasswords {
+    margin-top: 20px;
+}
+.emailSection{
+    padding-bottom: 20px;
+}
+.passwords{
+    padding-top:
+}
+
+#autoGen{
+
+}
+.RegisSection {
+    color: #000;
+    margin-left: 335px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #25262a;
+}
+
+#Register {
+    background: url(regis.jpg) no-repeat;
+    background-size: 100px 100px;
+    font-family: 'Nova Flat', cursive;
+    font-weight: bold;
+    color: cyan;
+}
+
+.invalid {
+    font-family: 'Nova Flat', cursive;;
+    font-size: 10px;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

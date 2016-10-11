@@ -16,7 +16,7 @@ resultHtmlElement = document.getElementById('result');
 
 //CHANGE THEME
 $("select").change(function() {
-        var mySelect = $("select");
+         var mySelect = $("select");
 
     $("select").each(function(){
         if($("select")) {

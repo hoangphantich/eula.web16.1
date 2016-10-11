@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Nova+Flat" rel="stylesheet">
+
+    <link rel="stylesheet" href="form.css">
+	<title>Minimum Bootstrap HTML Skeleton</title>
+
+	<!--  -->
+
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+
+	<div class="container">
+        <form action="" id="myForm" name="mainForm">
+
+          <h2>Your jouney starts from here</h2>
+        <div class="ePass">
+                    <!--     THIS IS EMAIL       -->
+           <div class="emailSection">
+             <label class="emails">EMAIL:</label>
+                <div>
+                  <input type="email" id="email" placeholder="" name="email">
+                  <p class="pull-right" id="mailError"></p>
+               </div>
+           </div>
+        <!--     THIS IS PASSWORD       -->
+
+             <div class="passwordSection">
+            <label class="passwords">PASSWORD:</label>
+               <div>
+                   <input type="password"  id="password" placeholder="" name="output">
+                    <p class="pull-right" id="passError"></p>
+               </div>
+
+                   <input type="button" id="autoGen" value="LAZY? GENERATE IT" onclick="populateForm(8)">
+                    <p class="pull-right" id="againError"></p>
+
+        </div>
+
+
+
+        <!--   THIS IS REPASSS     -->
+        <div class="passwordSection">
+            <label class="rePasswords">RE PASS:</label>
+               <div>
+                   <input type="password"  id="rePassword" placeholder="" name="rePass">
+               </div>
+        </div>
+     </div>
+
+        <!--   THIS IS BUTTON -->
+           <div class="RegisSection">
+               <input type="button" class="button" id="Register" value="Let's rock it" onclick="savings()">
+           </div>
+
+        </form>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/jquery.formvalidation/0.6.1/js/formValidation.min.js"></script>
+
+	<script src="form.js">
+	</script>
+
+</body>
+
+</html>
