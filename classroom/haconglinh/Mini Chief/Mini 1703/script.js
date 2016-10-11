@@ -1,0 +1,1 @@
+$('#result').text($("option:eq(1)").text());

@@ -57,7 +57,7 @@ function initializeClock(id, endTime) {
         }
     }
 
-    updateClock();
+    supdateClock();
     var timeinterval = setInterval(updateClock, 1000);
 }
 
