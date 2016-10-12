@@ -1,0 +1,57 @@
+
+table, tr, th, td {
+    margin: 0 auto;
+    border: 2px solid #000;
+    text-align: center;
+}
+
+tbody {
+
+}
+div#createTables{
+    padding-left: 200px
+}
+div#createTables th{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+
+ div#datashow {
+    margin-left: 314px;
+    text-align: center;
+     padding-left: 100px
+
+}
+div#datashow td:nth-child(1){
+    padding-left: 60px;
+    border-right: none;
+    border-top: none;
+    text-align: left;
+    padding-right: 66px
+}
+div#datashow td:nth-child(2){
+    padding-left: 131px;
+    border-right: none;
+    border-top: none;
+    text-align: left;
+    padding-right: 60px;
+}
+div#datashow td:nth-child(3) {
+    padding-left: 9px;
+    text-align: left;
+    border-top: none;
+
+}
+.show {
+    float: right;
+    margin-top: 10px;
+    margin-right: 230px;
+    margin-bottom: 10px;
+}
+.create {
+   float: left;
+    margin-top: 10px;
+    margin-left: 850px;
+    margin-bottom: 10px;
+}
