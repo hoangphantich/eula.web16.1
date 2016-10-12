@@ -7,6 +7,7 @@ height: 100%;
 .header {
     height: 80px;
     background-color: #c00010;
+    border-top-left-radius: 20px;
 }
 h1 {
     color: #fff;
@@ -79,6 +80,18 @@ h1 {
     border-left: 1px solid antiquewhite;
     padding-left: 15px;
 }
+
+h3 {
+    color: #c00010;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+
 
 
 
