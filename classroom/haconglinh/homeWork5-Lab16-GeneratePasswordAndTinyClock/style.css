@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    background: url(images/maiphuongthuy.jpg) no-repeat center fixed;
+    background-size: cover;
+
+}
+
+#title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.boxBtn{
+    margin: auto;
+    margin-top: 50px;
+    width: 20%;
+}
+#boxFormInput{
+    margin-bottom: 50px;
+}
+input{
+    text-align: center;
+}
+
+h3{
+    color: rebeccapurple;
+    margin-bottom: 20px;
+}
+#boxShowTimer{
+    margin: auto;
+    width: 50%;
+}
+
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #00816A;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: chartreuse;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+
+
+p{
+    color: crimson;
+    font-size: 16px;
+}

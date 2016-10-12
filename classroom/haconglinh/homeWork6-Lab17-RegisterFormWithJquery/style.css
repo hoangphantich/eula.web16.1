@@ -1,0 +1,38 @@
+table{
+	width: 30%;
+}
+
+th{
+    text-align: center;
+    color: red;
+}
+.name{
+	text-align: left;
+}
+
+.age{
+	text-align: right;
+}
+
+.email{
+	text-align: left;
+}
+
+#title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    color: red
+}
+
+body{
+    text-align: center;
+    background: url(images/maiphuongthuy.jpg) no-repeat center fixed;
+    background-size: cover;
+
+}
+
+.boxBtn{
+    margin: auto;
+    width: 20%;
+}

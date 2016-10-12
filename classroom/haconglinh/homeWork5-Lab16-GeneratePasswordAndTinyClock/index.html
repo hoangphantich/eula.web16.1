@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CountDown Clock</title>
+
+    <!--    Link Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!--    Link Style CSS-->
+    <link rel="stylesheet" href="style.css">
+  
+     
+</head>
+
+<body>
+
+
+    <h1 id='title'>Two Project Clone From Udemy - Ha Cong Linh!!!</h1>
+
+    <div class="container">
+        <div class="contaner" id="clockdiv">
+
+            <h3>Tiny Clock !!!</h3>
+            <div>
+                <span id="hours"></span>
+                <div class="smalltext">Giờ</div>
+            </div>
+            <div>
+                <span id="minutes"></span>
+                <div class="smalltext">Phút</div>
+            </div>
+            <div>
+                <span id="seconds"></span>
+                <div class="smalltext">Giây</div>
+            </div>
+            <div>
+                <span id="days"></span>
+                <div class="smalltext">Ngày</div>
+            </div>
+            <div>
+                <span id="months"></span>
+                <div class="smalltext">Tháng</div>
+            </div>
+
+            <div>
+                <span id="years"></span>
+                <div class="smalltext">Năm</div>
+            </div>
+            
+        </div>
+        
+        <div class="boxBtn">
+            <button id="startBtn" class="btn btn-success btn-lg" onclick="generatePassword()">Generate Password</button>
+        </div>
+        
+        <h1 id="password"></h1>
+        <p>Password có độ dài từ 8-16 ký tự, ít nhất 1 ký tự viết hoa, 1 ký tự viết thường, 1 ký tự số, 1 ký tự đặc biệt</p>
+        
+        
+
+    </div>
+    
+    <!--    Link Java Script-->
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
