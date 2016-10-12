@@ -1,42 +1,28 @@
-var userArray = JSON.parse(users);
+function login(){
 
-function showData(index) {
-    var tr = document.createElement("tr");
-    for (j = 0; j < 3; j++) {
-        var td = document.createElement("td");
+	var email = document.getElementById("userEmail").value;
+	var password = document.getElementById("userPassword").value;
+    var passHash = md5(password);
 
-        switch (j) {
-            case 0:
-                td.innerHTML = userArray[index].name;
-                td.style.textAlign = "left";
-                break;
-            case 1:
-                td.innerHTML = userArray[index].age;
-                td.style.textAlign = "right";
-                break;
-            case 2:
-                td.innerHTML = userArray[index].email;
-                td.style.textAlign = "left";
-                break;
-        }
-        tr.appendChild(td);
-    }
-    document.getElementById("tbody").appendChild(tr);
-}
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			var obj = JSON.parse(this.responseText);
 
-function createTable() {
-    var i, j;
-    for (i = 0; i < 3; i++) {
-        showData(i);
-    }
-}
 
-createTable();
 
-function lazyLoad() {
-    var i, j;
-    for (i = 0; i < 3; i++) {
-        var randomIndex = parseInt(Math.random() * userArray.length);
-        showData(randomIndex);
-    }
+			var n = obj.users.length;
+
+
+			for (var i = 0; i < n; i++) {
+				if (email === obj.users[i].email && passHash === obj.users[i].password) {
+					alert("Login success");
+                    console.log(obj.users[i].email);
+            console.log(obj.users[i].password);
+				}
+			}
+		}
+	};
+	xhttp.open("POST", "user.json", true);
+	xhttp.send();
 }
