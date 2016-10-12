@@ -1,27 +1,27 @@
 $("#Register").css("color", "lightgray");
 //Generate password
- var keylist = "abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*";
- var tmp = '';
+var keylist = "abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*";
+var tmp = '';
 
 function generatePass(plength) {
     tmp = '';
-    for(i = 0; i < plength; i++){
+    for (i = 0; i < plength; i++) {
         tmp += keylist.charAt(Math.floor(Math.random() * keylist.length))
     }
     return tmp;
 }
 
 function populateForm(enterLength) {
-    if(document.mainForm.output.value = generatePass(enterLength)) {
+    if (document.mainForm.output.value = generatePass(enterLength)) {
         $("#rePassword").attr("disabled", "disabled");
         $("#rePassword").css("background", "gray");
     }
 }
 
-if ($("#password").keydown(function(event){
-     $("#rePassword").removeAttr("disabled");
-     $("#rePassword").css("background", "black");
-}));
+if ($("#password").keydown(function(event) {
+        $("#rePassword").removeAttr("disabled");
+        $("#rePassword").css("background", "black");
+    }));
 
 
 
@@ -43,23 +43,22 @@ $("#myForm").submit(function(e) {
 
 
 
-    if(emailField.length == 0 || passwordField.length == 0) {
-         $("#mailError").text(errList[0]);
+    if (emailField.length == 0 || passwordField.length == 0) {
+        $("#mailError").text(errList[0]);
         $("#mailError").addClass("invalid");
         emailInput.focus();
 
     } else if (!emailRex.test(emailField)) {
         $("#mailError").text(errList[1]);
-         $("#mailError").addClass("invalid");
-            passInput.focus();
+        $("#mailError").addClass("invalid");
+        passInput.focus();
     } else if (rePassField !== passwordField) {
         $("#mailError").text(errList[3])
-         $("#mailError").addClass("invalid");
+        $("#mailError").addClass("invalid");
+        rePassInput.focus();
     } else {
         messege = $('input[name=email]').val();
         console.log('You put: ' + messege);
-
-
 
         $("#Register").css("color", "cyan");
         $("#mailError").text("");
@@ -67,24 +66,13 @@ $("#myForm").submit(function(e) {
         var successText = "success!!!"
         $(regisBtn).val(saveText);
 
-    setTimeout(function() {
-           $(regisBtn).val(successText);
+        setTimeout(function() {
+            $(regisBtn).val(successText);
 
-    }, 1800);
+        }, 1800);
 
         setTimeout(function() {
-             window.location.href= "form.html";
+            window.location.href = "form.html";
         }, 2000);
- }
+    }
 });
-
-
-
-
-
-
-
-
-
-
-
