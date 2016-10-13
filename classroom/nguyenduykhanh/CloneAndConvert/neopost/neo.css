@@ -1,9 +1,9 @@
 body {
-width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
 }
-
 /* header */
+
 .header {
     height: 80px;
     background-color: #c00010;
@@ -17,43 +17,46 @@ h1 {
     margin-left: 20px;
     padding-top: 15px;
 }
-.header > p:nth-child(2){
-     color: #fff;;
+.header > p:nth-child(2) {
+    color: #fff;
+    ;
     font-family: sans-serif;
     font-size: 14px;
     width: 160px;
     margin-top: 18px;
     margin-left: 20px;
 }
-.header > p:nth-child(3){
-    color: #fff;;
+.header > p:nth-child(3) {
+    color: #fff;
+    ;
     font-family: sans-serif;
     margin-left: 300px;
     margin-top: -18px;
-     width: 80px;
+    width: 80px;
     font-size: 22px
 }
-.header > p:nth-child(5){
-    color: #fff;;
+.header > p:nth-child(5) {
+    color: #fff;
+    ;
     font-family: sans-serif;
     margin-top: -40px;
     font-size: 14px;
     margin-left: 990px;
     font-weight: 100;
     color: antiquewhite;
-
 }
-.logoff{
+.logoff {
     margin-left: 30px;
     font-weight: 700;
 }
 .line {
     width: 830px;
-     margin-top: -5px;
+    margin-top: -5px;
     margin-left: 375px;
     border: 1px solid antiquewhite;
 }
 /*NAVING*/
+
 .myNav {
     float: right;
     font-family: sans-serif;
@@ -61,26 +64,24 @@ h1 {
     font-size: 13px;
     margin-top: -53px;
     padding-right: 180px;
-    background:  -webkit-gradient(linear, 0% 49%, 0% 100%, from(#C00010), to(#c00020), color-stop(.8,#8A0007));
+    background: -webkit-gradient(linear, 0% 49%, 0% 100%, from(#C00010), to(#c00020), color-stop(.8, #8A0007));
     height: 27px;
 }
 .myNav ul {
-     list-style: none;
+    list-style: none;
     padding-left: 40px;
     padding-right: 50px;
-     line-height: 22px;
+    line-height: 22px;
 }
 .myNav ul li {
-   display: inline;
+    display: inline;
 }
-
-.myNav ul li a{
+.myNav ul li a {
     text-decoration: none;
     color: antiquewhite;
     border-left: 1px solid antiquewhite;
     padding-left: 15px;
 }
-
 h3 {
     color: #c00010;
     font-family: sans-serif;
@@ -90,12 +91,8 @@ h3 {
     margin-bottom: 10px;
     font-size: 22px;
 }
-
-
-
-
-
 /* filter */
+
 .filter {
     height: 60px;
     background-color: #4b4b4b;
@@ -110,20 +107,15 @@ h3 {
     width: 170px;
     padding-top: 13px;
     margin-left: 15px;
-
 }
-.country label {
-
-}
-.country select {
-      background: #ddd;
+.country label {} .country select {
+    background: #ddd;
     width: 150px;
 }
 .code {
     float: right;
     margin-right: 905px;
     margin-top: -24px;
-
 }
 .code input {
     width: 170px;
@@ -136,7 +128,10 @@ h3 {
 .name input {
     width: 170px;
 }
-.filterBtn, .createBtn, .importBtn, .exportBtn {
+.filterBtn,
+.createBtn,
+.importBtn,
+.exportBtn {
     float: right;
     margin-right: 630px;
     margin-top: -21px;
@@ -152,7 +147,6 @@ h3 {
     cursor: pointer;
     border: none;
 }
-
 .filter .leftBlock {
     width: 190px;
     height: 78px;
@@ -162,21 +156,20 @@ h3 {
     background-color: #4b4b4b
 }
 .filter p {
-   margin-top: -5px
+    margin-top: -5px
 }
-.filter p a{
+.filter p a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     margin-left: 28px;
-
 }
-.filter p i{
+.filter p i {
     margin-left: 60px;
     color: #000;
     background: #fff;
     font-size: 18px;
-    padding-right:2px;
+    padding-right: 2px;
     padding-left: 2px;
     margin-top: 6px;
 }
@@ -185,19 +178,20 @@ h3 {
     margin-left: 20px;
     font-weight: 100;
 }
-.reset a{
+.reset a {
     margin-right: -40px;
     padding-left: 40px;
     cursor: pointer;
 }
-
 /* mainTable contains mainData */
+
 .mainTable {
     height: 250px;
     background-color: whitesmoke;
-     border: 1px solid #ddd;
+    border: 1px solid #ddd;
 }
 /* Create */
+
 .creation {
     height: 80px;
     background-color: #fff;
@@ -210,7 +204,7 @@ h3 {
     margin: 0 auto;
     margin-top: -11px;
     background-color: #f5f5f7;
-     border: 1px solid #ddd;
+    border: 1px solid #ddd;
 }
 .create select {
     background: #ddd;
@@ -226,16 +220,17 @@ h3 {
     margin-left: 10px;
 }
 /* import data */
+
 .import {
     margin: 0 auto;
     height: 120px;
     background-color: #f5f5f7;
-     width: 1260px;
+    width: 1260px;
     font-family: sans-serif;
     font-size: 12px;
-     border: 1px solid #ddd;
+    border: 1px solid #ddd;
 }
-.importFile{
+.importFile {
     margin-left: 9px;
     padding-top: 10px;
 }
@@ -252,6 +247,7 @@ h3 {
     margin-top: 5px;
 }
 /* export data*/
+
 .export {
     height: 40px;
     background-color: whitesmoke;
@@ -263,8 +259,8 @@ h3 {
     margin-right: 1180px;
     margin-top: 10px;
 }
-
 /* the footer */
+
 footer {
     height: 40px;
     background-color: #c00010;

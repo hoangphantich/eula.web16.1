@@ -2,25 +2,24 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 
-	<link rel="stylesheet" href="cssreset.css">
-	<link rel="stylesheet" href="neo.css">
-	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.css">
-
-
+    <link rel="stylesheet" href="cssreset.css">
+    <link rel="stylesheet" href="neo.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.css">
 
 
-	<title>Neo Post</title>
 
-	<!--  -->
 
-	<style>
+    <title>Neo Post</title>
 
-	</style>
+    <!--  -->
+
+    <style>
+    </style>
 
 </head>
 
@@ -28,160 +27,170 @@
 
 
     <!-- HEADER -->
-        <div class="header">
-            <h1>neopost</h1>
-            <p>Online Shipping Service</p>
-            <p>States</p>
-            <div class="line"></div>
-            <p>You are logged as: <span style="font-weight: 700;">NissAdmin</span> <span class="logoff">Log off</span></p>
+    <div class="header">
+        <h1>neopost</h1>
+        <p>Online Shipping Service</p>
+        <p>States</p>
+        <div class="line"></div>
+        <p>You are logged as: <span style="font-weight: 700;">NissAdmin</span> <span class="logoff">Log off</span>
+        </p>
 
 
-    <!-- NAV-->
-              <div class="myNav">
-                <ul>
-                    <li><a href="#">Customer <i class="fa fa-caret-down" aria-hidden="true"></i>
-</a></li>
-                    <li><a href="#">Repositories <i class="fa fa-caret-down" aria-hidden="true"></i>
-</a></li>
-                    <li><a href="#">Shipping <i class="fa fa-caret-down" aria-hidden="true"></i>
-</a></li>
-                    <li><a href="#">Shipment <i class="fa fa-caret-down" aria-hidden="true"></i>
-</a></li>
-                    <li><a href="#">Carrier <i class="fa fa-caret-down" aria-hidden="true"></i>
-</a></li>
-                    <li><a href="#">Admin <i class="fa fa-caret-down" aria-hidden="true"></i>
-</a></li>
-                </ul>
-           </div>
+        <!-- NAV-->
+        <div class="myNav">
+            <ul>
+                <li><a href="#">Customer <i class="fa fa-caret-down" aria-hidden="true"></i>
+</a>
+                </li>
+                <li><a href="#">Repositories <i class="fa fa-caret-down" aria-hidden="true"></i>
+</a>
+                </li>
+                <li><a href="#">Shipping <i class="fa fa-caret-down" aria-hidden="true"></i>
+</a>
+                </li>
+                <li><a href="#">Shipment <i class="fa fa-caret-down" aria-hidden="true"></i>
+</a>
+                </li>
+                <li><a href="#">Carrier <i class="fa fa-caret-down" aria-hidden="true"></i>
+</a>
+                </li>
+                <li><a href="#">Admin <i class="fa fa-caret-down" aria-hidden="true"></i>
+</a>
+                </li>
+            </ul>
         </div>
+    </div>
 
 
     <h3>Manage States</h3>
     <!-- FILTERING -->
-        <div class="filter">
-            <form action="">
-               <div class="country">
-                   <label for="">Country</label><br>
+    <div class="filter">
+        <form action="">
+            <div class="country">
+                <label for="">Country</label>
+                <br>
                 <select name="" id="">
                     <option value="">England</option>
                     <option value="">Sweden</option>
                     <option value="">Singapore</option>
                 </select>
-               </div>
-
-                <div class="code">
-                   <p>Code</p>
-                    <input type="text">
-                </div>
-
-                <div class="name">
-                       <p>Name</p>
-                        <input type="text">
-                </div>
-                <input class="filterBtn" type="button" value="Filter">
-            </form>
-
-            <div class="leftBlock">
-                <p><a href="#">Filtering criteria</a><i class="fa fa-caret-up" aria-hidden="true"></i></p>
-                <p class="reset"><a href="#">Reset form</a><i class="fa fa-trash" aria-hidden="true"></i>
-</p>
             </div>
+
+            <div class="code">
+                <p>Code</p>
+                <input type="text">
+            </div>
+
+            <div class="name">
+                <p>Name</p>
+                <input type="text">
+            </div>
+            <input class="filterBtn" type="button" value="Filter">
+        </form>
+
+        <div class="leftBlock">
+            <p><a href="#">Filtering criteria</a><i class="fa fa-caret-up" aria-hidden="true"></i>
+            </p>
+            <p class="reset"><a href="#">Reset form</a><i class="fa fa-trash" aria-hidden="true"></i>
+            </p>
         </div>
+    </div>
 
     <!-- TABLE    -->
 
-                   <table id="table_id" class="display mainTable">
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>country</th>
-                        <th>State Code</th>
-                        <th>State name</th>
-                        <th>Modify</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>u</td>
-                        <td>France Eu</td>
-                        <td>EU</td>
-                        <td>France EU</td>
-                        <td>can</td>
-                    </tr>
-                    <tr>
-                        <td>u</td>
-                        <td>FranceEu</td>
-                    </tr>
-                </tbody>
-                </table>
+    <table id="table_id" class="display mainTable">
+        <thead>
+            <tr>
+                <th></th>
+                <th>country</th>
+                <th>State Code</th>
+                <th>State name</th>
+                <th>Modify</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>u</td>
+                <td>France Eu</td>
+                <td>EU</td>
+                <td>France EU</td>
+                <td>can</td>
+            </tr>
+            <tr>
+                <td>u</td>
+                <td>FranceEu</td>
+            </tr>
+        </tbody>
+    </table>
 
 
     <!-- CREATE    -->
-        <div class="creation">
-            <h3 class="nextH3">Create</h3>
-            <div class="create">
-                <form action="">
-                   <div class="country">
-                       <label for="">Country</label><br>
+    <div class="creation">
+        <h3 class="nextH3">Create</h3>
+        <div class="create">
+            <form action="">
+                <div class="country">
+                    <label for="">Country</label>
+                    <br>
                     <select name="" id="">
                         <option value="">England</option>
                         <option value="">Sweden</option>
                         <option value="">Singapore</option>
                     </select>
-                   </div>
+                </div>
 
-                    <div class="code">
-                       <p>Code</p>
-                        <input type="text">
-                    </div>
+                <div class="code">
+                    <p>Code</p>
+                    <input type="text">
+                </div>
 
-                    <div class="name">
-                           <p>Name</p>
-                            <input type="text">
-                    </div>
-                    <input class="createBtn" type="button" value="Create">
-                </form>
-            </div>
+                <div class="name">
+                    <p>Name</p>
+                    <input type="text">
+                </div>
+                <input class="createBtn" type="button" value="Create">
+            </form>
         </div>
+    </div>
 
     <!-- IMPORT-->
-        <h3 class="nextH3">Import</h3>
-        <div class="import">
+    <h3 class="nextH3">Import</h3>
+    <div class="import">
 
-                <div class="importFile">
-                    <p>File</p>
-                    <input class="choose " type="file" value="Choose File">
+        <div class="importFile">
+            <p>File</p>
+            <input class="choose " type="file" value="Choose File">
 
-                </div>
-                <div class="radios">
-
-                     <input type="radio" name="pick" value="update" checked="true"> Update<br>
-                     <input type="radio" name="pick" value="replace"> Replace
-                </div>
-                  <input class="importBtn" type="button" value="Import">
         </div>
+        <div class="radios">
+
+            <input type="radio" name="pick" value="update" checked="true"> Update
+            <br>
+            <input type="radio" name="pick" value="replace"> Replace
+        </div>
+        <input class="importBtn" type="button" value="Import">
+    </div>
     <!-- EXPORT   -->
-       <h3 class="nextH3">Export</h3>
-        <div class="export">
-              <input class="exportBtn" type="button" value="Export">
-        </div>
+    <h3 class="nextH3">Export</h3>
+    <div class="export">
+        <input class="exportBtn" type="button" value="Export">
+    </div>
 
     <!-- FOOTER -->
 
-           <footer>
-                <p>	&copy; Neopost All rights reserved</p>
-           </footer>
+    <footer>
+        <p> &copy; Neopost All rights reserved</p>
+    </footer>
 
 
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.js"></script>
     <script type="text/javascript" src="jQuery-File-Upload-9.12.5/js/jquery.fileupload.js"></script>
     <script type="text/javascript" src="fine-uploader/fine-uploader.js"></script>
-	<script src="neo.js">
-
-	</script>
+    <script src="neo.js">
+    </script>
 
 </body>
 
