@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Udemy</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+
+    <!--   Slide background-->
+
+    <div class="carousel container slide">
+
+        <div class="carousel-inner" role="listbox">
+
+            <div class="active item one"></div>
+
+            <div class="item two"></div>
+
+
+        </div>
+
+    </div>
+
+    <!--navbar-->
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <!-- sr: screen reader only !veryImportant -->
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="udemy.html">Udemy</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Udemy for business</a></li>
+                <li><a href="#">Become an Instructor</a></li>
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#myModal" class="loginBtn">Login</a>
+                </li>
+                <li><a href="#">Sign up</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Bootstrap modal-->
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <div id="login-overlay" class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Login your Udemy account!</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="well">
+                                    <ul class="list-unstyled list-social">
+                                        <li>
+                                            <a href="#" class="btn btn-lg btn-default btn-block facebook">
+                                                <i class="fa fa-facebook-official iconface" aria-hidden="true"></i>
+                                                <span class="fg">Continue with Facebook</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="btn btn-lg btn-primary btn-block google">
+                                                <i class="fa fa-google-plus"></i>
+                                                <span class="fg">Continue with Google</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-6">
+                                <div class="well">
+                                    <form role="form" action="">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="username" class="control-label">Login with your email</label>
+                                                    <input id="userEmail" type="text" class="form-control" name="email" value="" required placeholder="E-mail">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input id="userPassword" type="password" class="form-control" name="password" placeholder="Password" value="" required>
+                                                    <span class="help-block"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <button id="btnLogin" type="button" value="login" name="submit" class="btn btn-success btn-block" >Login</button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <p>or<a href="">  Forgot Password</a></p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <p class="modal-account">Don't have an account? <a href="">Sign up</a></p>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/eb1e7b643e.js"></script>
+
+    <script src="md5.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

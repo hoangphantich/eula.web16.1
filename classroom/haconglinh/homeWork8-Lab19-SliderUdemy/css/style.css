@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    background: url(../images/beach_bg.jpg) no-repeat center fixed;
+    background-size: cover;
+
+}
+
+#title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.col-xs-12 img{
+    width: 100%;
+}
