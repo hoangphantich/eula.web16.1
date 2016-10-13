@@ -9,6 +9,10 @@
 
 	<link rel="stylesheet" href="cssreset.css">
 	<link rel="stylesheet" href="neo.css">
+	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.css">
+
+
+
 
 	<title>Neo Post</title>
 
@@ -55,39 +59,128 @@
     <h3>Manage States</h3>
     <!-- FILTERING -->
         <div class="filter">
+            <form action="">
+               <div class="country">
+                   <label for="">Country</label><br>
+                <select name="" id="">
+                    <option value="">England</option>
+                    <option value="">Sweden</option>
+                    <option value="">Singapore</option>
+                </select>
+               </div>
 
+                <div class="code">
+                   <p>Code</p>
+                    <input type="text">
+                </div>
+
+                <div class="name">
+                       <p>Name</p>
+                        <input type="text">
+                </div>
+                <input class="filterBtn" type="button" value="Filter">
+            </form>
+
+            <div class="leftBlock">
+                <p><a href="#">Filtering criteria</a><i class="fa fa-caret-up" aria-hidden="true"></i></p>
+                <p class="reset"><a href="#">Reset form</a><i class="fa fa-trash" aria-hidden="true"></i>
+</p>
+            </div>
         </div>
 
     <!-- TABLE    -->
-        <div class="mainTable">
 
-        </div>
+                   <table id="table_id" class="display mainTable">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>country</th>
+                        <th>State Code</th>
+                        <th>State name</th>
+                        <th>Modify</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>u</td>
+                        <td>France Eu</td>
+                        <td>EU</td>
+                        <td>France EU</td>
+                        <td>can</td>
+                    </tr>
+                    <tr>
+                        <td>u</td>
+                        <td>FranceEu</td>
+                    </tr>
+                </tbody>
+                </table>
+
+
     <!-- CREATE    -->
         <div class="creation">
+            <h3 class="nextH3">Create</h3>
+            <div class="create">
+                <form action="">
+                   <div class="country">
+                       <label for="">Country</label><br>
+                    <select name="" id="">
+                        <option value="">England</option>
+                        <option value="">Sweden</option>
+                        <option value="">Singapore</option>
+                    </select>
+                   </div>
 
+                    <div class="code">
+                       <p>Code</p>
+                        <input type="text">
+                    </div>
+
+                    <div class="name">
+                           <p>Name</p>
+                            <input type="text">
+                    </div>
+                    <input class="createBtn" type="button" value="Create">
+                </form>
+            </div>
         </div>
 
     <!-- IMPORT-->
+        <h3 class="nextH3">Import</h3>
         <div class="import">
 
+                <div class="importFile">
+                    <p>File</p>
+                    <input class="choose " type="file" value="Choose File">
+
+                </div>
+                <div class="radios">
+
+                     <input type="radio" name="pick" value="update" checked="true"> Update<br>
+                     <input type="radio" name="pick" value="replace"> Replace
+                </div>
+                  <input class="importBtn" type="button" value="Import">
         </div>
     <!-- EXPORT   -->
+       <h3 class="nextH3">Export</h3>
         <div class="export">
-
+              <input class="exportBtn" type="button" value="Export">
         </div>
 
     <!-- FOOTER -->
 
            <footer>
-
+                <p>	&copy; Neopost All rights reserved</p>
            </footer>
 
 
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="jQuery-File-Upload-9.12.5/js/jquery.fileupload.js"></script>
+    <script type="text/javascript" src="fine-uploader/fine-uploader.js"></script>
 	<script src="neo.js">
+
 	</script>
 
 </body>

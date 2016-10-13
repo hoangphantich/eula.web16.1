@@ -38,7 +38,7 @@ h1 {
     font-family: sans-serif;
     margin-top: -40px;
     font-size: 14px;
-    margin-left: 950px;
+    margin-left: 990px;
     font-weight: 100;
     color: antiquewhite;
 
@@ -85,7 +85,7 @@ h3 {
     color: #c00010;
     font-family: sans-serif;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 25px;
     margin-top: 5px;
     margin-bottom: 10px;
     font-size: 22px;
@@ -99,29 +99,181 @@ h3 {
 .filter {
     height: 60px;
     background-color: #4b4b4b;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 11px;
+    margin: 0 auto;
+    width: 1260px;
+    margin-bottom: 10px;
 }
+.country {
+    width: 170px;
+    padding-top: 13px;
+    margin-left: 15px;
+
+}
+.country label {
+
+}
+.country select {
+    width: 150px;
+}
+.code {
+    float: right;
+    margin-right: 905px;
+    margin-top: -24px;
+
+}
+.code input {
+    width: 170px;
+}
+.name {
+    float: right;
+    margin-right: 710px;
+    margin-top: -24px
+}
+.name input {
+    width: 170px;
+}
+.filterBtn, .createBtn, .importBtn, .exportBtn {
+    float: right;
+    margin-right: 630px;
+    margin-top: -21px;
+    text-align: center;
+    width: 70px;
+    font-weight: bold;
+    color: #fff;
+    background: #c00010;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.filter .leftBlock {
+    width: 190px;
+    height: 78px;
+    float: right;
+    margin-left: 500px;
+    margin-top: -64px;
+    background-color: #4b4b4b
+}
+.filter p {
+   margin-top: -5px
+}
+.filter p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 28px;
+
+}
+.filter p i{
+    margin-left: 60px;
+    color: #000;
+    background: #fff;
+    font-size: 18px;
+    padding-right:2px;
+    padding-left: 2px;
+    margin-top: 6px;
+}
+.reset {
+    padding-top: 35px;
+    margin-left: 20px;
+    font-weight: 100;
+}
+.reset a{
+    margin-right: -40px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
 /* mainTable contains mainData */
 .mainTable {
     height: 250px;
     background-color: whitesmoke;
+     border: 1px solid #ddd;
 }
 /* Create */
 .creation {
     height: 80px;
-    background-color: lightgray;
+    background-color: #fff;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.create {
+    padding-bottom: 16px;
+    width: 1260px;
+    margin: 0 auto;
+    margin-top: -11px;
+    background-color: #f5f5f7;
+     border: 1px solid #ddd;
+}
+.create select {
+    background: #ddd;
+    border-radius: square;
+}
+.create .code {
+    margin-top: -30px;
+}
+.create .name {
+    margin-top: -31px
+}
+.nextH3 {
+    margin-left: 10px;
 }
 /* import data */
 .import {
-    height: 130px;
-    background-color: gray;
+    margin: 0 auto;
+    height: 120px;
+    background-color: #f5f5f7;
+     width: 1260px;
+    font-family: sans-serif;
+    font-size: 12px;
+     border: 1px solid #ddd;
+}
+.importFile{
+    margin-left: 9px;
+    padding-top: 10px;
+}
+.importFile p:nth-child(3) {
+    float: right;
+    margin-right: 1095px;
+    margin-top: 3px;
+}
+.radios {
+    margin-left: 9px;
+}
+.importBtn {
+    margin-right: 1180px;
+    margin-top: 5px;
 }
 /* export data*/
 .export {
     height: 40px;
     background-color: whitesmoke;
+    margin: 0 auto;
+    width: 1260px;
+    border: 1px solid #ddd;
 }
+.exportBtn {
+    margin-right: 1180px;
+    margin-top: 10px;
+}
+
 /* the footer */
 footer {
-     height: 40px;
+    height: 40px;
     background-color: #c00010;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 10px;
 }
