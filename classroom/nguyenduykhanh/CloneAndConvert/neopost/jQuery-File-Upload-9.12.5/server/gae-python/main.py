@@ -177,8 +177,7 @@ class FileHandler(CORSHandler):
             content_type = 'image/png'
         self.response.headers['Content-Type'] = content_type
         # Cache for the expiration time:
-        self.response.headers['Cache-Control'] = 'public,max-age=%d' \
-            % EXPIRATION_TIME
+        self.response.headers['Cache-Control'] = 'public,max-age={0:d}'.format(EXPIRATION_TIME)
         self.response.write(data)
 
     def delete(self, content_type, data_hash, file_name):
