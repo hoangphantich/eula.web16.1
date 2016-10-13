@@ -116,6 +116,7 @@ h3 {
 
 }
 .country select {
+      background: #ddd;
     width: 150px;
 }
 .code {
