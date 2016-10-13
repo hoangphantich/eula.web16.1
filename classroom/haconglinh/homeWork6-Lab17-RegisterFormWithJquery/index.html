@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register Form With Jquery</title>
+
+    <!--    Link Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--    Link Style CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="text-center">Register Form With JQuery - Ha Cong Linh</h1>
+
+        <form class="form-horizontal">
+            <fieldset>
+
+
+                <!-- Text input-->
+                <div class="form-group" id="formUserName">
+                    <label class="col-md-4 control-label" for="userName">User Name</label>
+                    <div class="col-md-4">
+                        <input id="userName" name="userName" type="text" placeholder="User Name must have more than 6 character !!!" class="form-control input-md" required="" onblur="validUserName(this)">
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group" id="formEmail">
+                    <label class="col-md-4 control-label" for="email">Email</label>
+                    <div class="col-md-4">
+                        <input id="email" name="email" type="text" placeholder="Email must have nomal character, &quot;@&quot; and &quot;.&quot; key word !!!" class="form-control input-md" required="" onblur="validEmail(this)">
+
+                    </div>
+                </div>
+
+                <!-- Password input-->
+                <div class="form-group" id="formPassword">
+                    <label class="col-md-4 control-label" for="password">Password</label>
+                    <div class="col-md-4">
+                        <input id="password" name="password" type="password" placeholder="Password must have at least 1 digit, 1 special character, 1 lower case and 1 upper case !!!" class="form-control input-md" required="" onblur="validPassword(this)">
+                    </div>
+                </div>
+
+                <!-- Password input-->
+                <div class="form-group" id="formRePassword">
+                    <label class="col-md-4 control-label" for="rePassword">Re-Password</label>
+                    <div class="col-md-4">
+                        <input id="rePassword" name="rePassword" type="password" placeholder="Two password must the same !!!" class="form-control input-md" required="" onblur="validRePassword(this)">
+                    </div>
+                </div>
+
+                <!-- Multiple Radios (inline) -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="radios">Gender</label>
+                    <div class="col-md-4">
+                        <label class="radio-inline" for="radios-0">
+                            <input type="radio" name="radios" id="radios-0" value="Man" checked="checked"> Man
+                        </label>
+                        <label class="radio-inline" for="radios-1">
+                            <input type="radio" name="radios" id="radios-1" value="Woman"> Woman
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Select Basic -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="country">Country</label>
+                    <div class="col-md-4">
+                        <select id="country" name="country" class="form-control">
+                            <option value="Afghanistan">Afghanistan</option>
+                            <option value="Albania">Albania</option>
+                            <option value="Algeria">Algeria</option>
+                            <option value="Andorra">Andorra</option>
+                            <option value="Angola">Angola</option>
+                            <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Armenia">Armenia</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Austria">Austria</option>
+                            <option value="Azerbaijan">Azerbaijan</option>
+                            <option value="Bahamas">Bahamas</option>
+                            <option value="Bahrain">Bahrain</option>
+                            <option value="Bangladesh">Bangladesh</option>
+                            <option value="Barbados">Barbados</option>
+                            <option value="Belarus">Belarus</option>
+                            <option value="Belgium">Belgium</option>
+                            <option value="Belize">Belize</option>
+                            <option value="Benin">Benin</option>
+                            <option value="Bhutan">Bhutan</option>
+                            <option value="Bolivia">Bolivia</option>
+                            <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                            <option value="Botswana">Botswana</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="Brunei">Brunei</option>
+                            <option value="Bulgaria">Bulgaria</option>
+                            <option value="Burkina Faso">Burkina Faso</option>
+                            <option value="Burundi">Burundi</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Button -->
+                <div class="boxBtn col-sm-offset-5 col-sm-2 ">
+                    <button id="register" name="register" type="submit" class="btn btn-success btn-lg btn-block " onclick="register()"> Register </button>
+                </div>
+
+
+            </fieldset>
+        </form>
+
+    </div>
+
+
+    <!--    Link Java Script-->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+body{
+    background: url(../images/maiphuongthuy.jpg) no-repeat center fixed;
+    background-size: cover;
+
+}
+
+.container h1{
+    margin: 50px;
+    color: red;
+    
+}
+
+.container{
+    border: 1px solid red;
+}
+
+.boxBtn{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@-webkit-keyframes vibrate {
+    0% {
+        border: 3px solid red;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        border: 2px solid red;
+        left: 3px;
+        top: 0px;
+    }
+    50% {
+        border: 2px solid red;
+        left: 6px;
+        top: 0px;
+    }
+    75% {
+        border: 2px solid red;
+        left: 3px;
+        top: 0px;
+    }
+    100% {
+        border: 2px solid red;
+        left: 0px;
+        top: 0px;
+    }
+}
+@keyframes vibrate {
+     0% {
+        border: 3px solid red;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        border: 2px solid red;
+        left: 3px;
+        top: 0px;
+    }
+    50% {
+        border: 2px solid red;
+        left: 6px;
+        top: 0px;
+    }
+    75% {
+        border: 2px solid red;
+        left: 3px;
+        top: 0px;
+    }
+    100% {
+        border: 2px solid red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.vibrate{
+    position: relative;
+    -webkit-animation-name: vibrate; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
+    animation-name: vibrate;
+    animation-duration: 0.25s;
+}
