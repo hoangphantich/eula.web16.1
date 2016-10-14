@@ -1,0 +1,26 @@
+.col-xs-12 img{
+	width: 100%;
+
+}
+
+.image--fixed img{
+	width: 100%;
+}
+
+#the-basics{
+	font-size: 20px;
+}
+
+#the-basics input{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.testok{
+	height: 200px;
+}
+
+
+.btn-toggle{
+	margin-bottom: 15px;
+}
