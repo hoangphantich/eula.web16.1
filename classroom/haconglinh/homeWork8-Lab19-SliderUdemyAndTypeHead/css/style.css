@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background: url(../images/beach_bg.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+#title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.col-xs-12 img {
+    max-width: 100%;
+    max-height: 700px;
+}
+
+
+#the-basics{
+    float: right;
+    margin-top: 20px;
+    font-size: 1em;
+    
+}
+#the-basics input{
+    margin-left: 50px;
+}
+.tt-suggestion .tt-selectable {
+    margin-left: 100px;
+
+}
