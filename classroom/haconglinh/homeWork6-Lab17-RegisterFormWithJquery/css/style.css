@@ -81,3 +81,8 @@ body{
     animation-name: vibrate;
     animation-duration: 0.25s;
 }
+
+.alert{
+    color: red;
+}
+
