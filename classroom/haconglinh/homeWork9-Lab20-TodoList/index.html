@@ -1,10 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Todo List</title>
+
+    <!--    Link Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--    Link JQueryUI CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.structure.min.css">
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--    Link Materialize CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+    <!--    Link Style CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
-    
+
+    <div class="container">
+        <h1 class="red-text text-center">Todo List</h1>
+        <div class="row">
+            <div class="col l3">
+                <div class="card-medium white task-container" id="pending">
+                    <h4 class="red-text text-lighten-3 text-center">Pending</h4>
+                    <div class="divider"></div>
+                </div>
+            </div>
+
+            <div class="col l3">
+                <div class="card-medium white task-container" id="inProgress">
+                    <h4 class="blue-text text-darken-2 text-center">In Progress</h4>
+                    <div class="divider"></div>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="col l3">
+                <div class="card-medium white task-container" id="completed">
+                    <h4 class="green-text text-darken-2 text-center">Completed</h4>
+                    <div class="divider"></div>
+                </div>
+            </div>
+
+            <div class="col l3">
+                <div class="card-medium white" id="pending">
+                    <h4 class="teal-text text-lighten-2 text-center">Add a task</h4>
+                    <div class="divider"></div>
+                    <div class="card darken-1" id="cardContent">
+                        <form id="todo-form">
+                            <div class="input-field white">
+                                <input id="taskTitle" type="text" class="validate">
+                                <label for="taskTitle">Title</label>
+                            </div>
+                            <div class="input-field">
+                                <input id="taskDate" type="text" class="validate">
+                                <label for="taskTitle">Due Date (dd/mm/yyyy)</label>
+                            </div>
+                            <div class="input-field">
+                                <textarea id="taskDes" class="materialize-textarea"></textarea>
+                                <label for="taskDes">Description</label>
+                            </div>
+                            
+                            <button id="btnAdd" class="btn-floating btn-large waves-effect waves-light red" value="Add Task" onclick="todo.add();"><i class="material-icons">add</i></button>
+                        </form>
+                    </div>
+                    <div class="divider"></div>
+                    
+                    <div class="input-field center">
+                        <button id="btnClear" class="waves-effect waves-light btn" value="Clear Data" onclick="todo.clear();">Clear Data</button>
+                    </div>
+                    
+                    <div id="delete-div">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--    Link Java Script-->
+    <script src="js/script.js"></script>
+
 </body>
+
 </html>

@@ -1,28 +1,74 @@
-body {
-    text-align: center;
-    background: url(../images/beach_bg.jpg) no-repeat center fixed;
+body{
+    background: url(../images/maiphuongthuy.jpg) no-repeat center fixed;
     background-size: cover;
-}
-#title {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.col-xs-12 img {
-    max-width: 100%;
-    max-height: 700px;
+
 }
 
+.container{
+    border: 1px solid red;
+}
 
-#the-basics{
+.card-medium{
+    border-radius: 5px;
+    height: 500px;
+    padding: 1px;
+}
+#cardContent{
+    margin: 20px;
+}
+
+.input-field{
+    margin: 0 15px;
+}
+
+.btn-floating{
+    margin-bottom: 5px;
+}
+
+#btnClear{
+    margin: 5px
+}
+#btnAdd{
     float: right;
-    margin-top: 20px;
-    font-size: 1em;
-    
+    position: relative;
+    margin-right: -10px;
+    margin-top: -48px;
+    z-index: 666;
 }
-#the-basics input{
-    margin-left: 50px;
-}
-.tt-suggestion .tt-selectable {
-    margin-left: 100px;
 
+.todo-task{
+    border-radius: 5px;
+    background-color: beige;
+    margin: 10px;
+    padding: 10px;
 }
+
+
+.todo-task > .task-header{
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+.todo-task > .task-date{
+    font-size: small;
+    font-style: italic;
+}
+
+.todo-task > .task-description{
+    font-size: smaller;
+}
+
+/*
+
+#delete-div{
+    display: none;
+    background-color: #fff;
+    border: 3px dotted #000;
+    margin: 10px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+}
+*/
