@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h3 id="result"></h3>
+	<script>
+		
+		function sum(array){
+			var i, n;
+			var result = 0;
+
+			n = array.length;
+
+			for (i = 0; i < n; i++) {
+				if (!isNaN(array[i])) {
+					result += array[i];
+				}
+			}
+
+			document.getElementById('result').innerHTML = result;
+		}
+
+		sum([1, 123, 500, 115, 44, 88]);
+	</script>
+</body>
+</html>

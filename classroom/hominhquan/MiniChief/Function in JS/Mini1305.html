@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="charInput">
+	<button onclick="isVowel()">Check vowel</button>
+	<h3 id="result"></h3>
+
+	<script>
+
+		function isVowel(){
+
+			var c = document.getElementById('charInput').value;
+			var result = document.getElementById('result');
+
+			var vowel_list = 'aeiouAEIOU';
+
+			if (c.length == 1) {
+				if (vowel_list.indexOf(c) !== -1) {
+					result.innerHTML = "Yes";
+				} else {
+					result.innerHTML = "No";
+				}
+			}
+		}
+	</script>
+</body>
+</html>

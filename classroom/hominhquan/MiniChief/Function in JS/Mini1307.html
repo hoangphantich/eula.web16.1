@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div>
+		<label for="strInput">String Input</label>
+		<input type="text" id="strInput">
+	</div>
+
+	<br>
+
+	<div>
+		<label for="charLen">Char Length</label>
+		<input type="text" id="charLen">
+	</div>
+
+	<br>
+
+	<button onclick="filterLongWords()">Filter String</button>
+	<h3 id="result"></h3>
+
+	<script>
+		function filterLongWords(){
+
+			var str = document.getElementById('strInput').value;
+			var result = document.getElementById('result');
+			var filteredStr = "";
+
+			var charlen = parseInt(document.getElementById('charLen').value);
+
+			var strArray = str.split(" ");
+
+			var strArrayLen = strArray.length;
+
+			for (var i = 0; i < strArrayLen; i++) {
+				if (strArray[i].length <= charlen) {
+					filteredStr += strArray[i] + " ";
+				}
+			}
+
+			result.innerHTML = filteredStr.trim();
+		}
+	</script>
+</body>
+</html>

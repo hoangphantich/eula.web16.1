@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="numA">
+	<input type="text" id="numB">
+	<input type="text" id="numC">
+	<button onclick="maxThree()">Max</button>
+	<h3 id="result"></h3>
+	<script>
+		
+		function maxThree(){
+
+			var result = 0;
+
+			var a = parseInt(document.getElementById('numA').value);
+			var b = parseInt(document.getElementById('numB').value);
+			var c = parseInt(document.getElementById('numC').value);
+
+			if (!isNaN(a) && !isNaN(b) && !isNaN(c)) {
+				result = a;
+
+				if (b > result) {
+					result = b;
+				}
+
+				if (c > result) {
+					result = c;
+				}
+			}
+
+			document.getElementById('result').innerHTML = result;
+		}
+	</script>
+</body>
+</html>

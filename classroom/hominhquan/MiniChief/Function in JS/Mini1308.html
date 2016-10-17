@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="strInput">
+	<button onclick="charFreg()">Counting String Occurrences</button>
+	<h3 id="result"></h3>
+
+	<script>
+		function charFreg(){
+
+			var str = document.getElementById('strInput').value;
+			var letters = new Object;
+
+			var newStr = str.replace(/\s/g, '');
+
+			var strlen = newStr.length;
+
+			for (var x = 0; x < strlen; x++) {
+				var l = newStr.charAt(x);
+				letters[l] = (isNaN(letters[l]) ? 1 : letters[l] + 1);
+			}
+
+			var resultStr = "";
+
+			for (key in letters) {
+				resultStr += key + ' :: ' + letters[key] + '<br>';
+			}
+
+			document.getElementById('result').innerHTML = resultStr;
+
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="strInput">
+	<button onclick="simpleEncrypt()">Encrypt</button>
+	<h3 id="result"></h3>
+
+	<script>
+
+		function simpleEncrypt(){
+			var str = document.getElementById('strInput').value;
+			var result = document.getElementById('result');
+			var encryptedStr = "";
+
+			var strlen = str.length;
+
+			for (var i = 0; i < strlen; i++) {
+				if (isConsonant(str[i])) {
+					encryptedStr += str[i] + "o" + str[i];
+				} else {
+					encryptedStr += str[i];
+				}
+			}
+
+			result.innerHTML = encryptedStr;
+		}
+
+		function isConsonant(c){
+
+			var consonant_list = 'bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ';
+
+			if (c.length == 1) {
+				if (consonant_list.indexOf(c) !== -1) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+		}
+	</script>
+</body>
+</html>
