@@ -58,6 +58,7 @@ body{
 
 .todo-task > .task-description{
     font-size: smaller;
+    text-align: right;
 }
 
 /*
