@@ -1,0 +1,15 @@
+.col-xs-12 img{
+    width: 100%;
+}
+
+#the-basics{
+    font-size: 3em;
+    
+}
+#the-basics input{
+    margin-left: 50px;
+}
+.tt-suggestion .tt-selectable {
+    margin-left: 100px;
+
+}
