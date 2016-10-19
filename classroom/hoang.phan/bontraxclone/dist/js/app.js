@@ -762,14 +762,14 @@ function _init() {
   };
 }(jQuery));
 
-$(document).ready(() => {
-  $(".html-embeded").each(() => {
+$(document).ready(function() {
+  $(".html-embeded").each(function() {
     let url = $(this).attr("data");
-    let self = $(this); console.log(url);
-//    $.get(url, (result) => {
-//      let content = $(result);
-//      self.html(content);
-//    })
+    let self = $(this);
+    $.get(url, function(result) {
+      let content = $(result);
+      self.html(content);
+    })
   })
 });
 
