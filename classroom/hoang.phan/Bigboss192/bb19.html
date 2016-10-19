@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Document</title>
+	<meta charset="utf-8">
+</head>    
+    
+<body>
+    <h1>Heading1</h1>
+    <div>
+        <a href="#test1">Test1</a>
+        <a href="#test2">Test2</a>
+        <a href="#test3">Test3</a>
+    </div>
+    
+    <div id="main-content">
+        Holder
+    </div>
+    <div href="#test1">Test1</div>
+    <div href="#test2">Test2</div>
+    <div href="#test3">Test3</div>
+    
+	<script src="jquery-1.10.2.js"></script>
+    <script>
+        $(document).ready(function(){
+            //click a
+            /*$('a').click(function(e){
+                //default browser
+                e.preventDefault();
+                
+                //get ajax url
+                var urlCall = $(this).attr('href');
+                
+                //ajax -> success, get content, bind id holder
+                $.ajax({
+                    url: urlCall,
+                    success: function(result){ //result is text
+                        var ajaxContent = $(result).find('#content');
+                        $('#main-content').html(ajaxContent);
+                    
+                        console.log('baba');
+                    }
+                });
+                
+                console.log('mama');
+                
+                return false;
+            })*/
+        });
+    </script>
+</body>    
+</html>    

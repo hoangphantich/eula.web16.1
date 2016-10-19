@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Document</title>
+	<meta charset="utf-8">
+    
+    <link rel="stylesheet" type="text/css" href="jquery-ui-1.10.4/themes/base/jquery.ui.all.css" />
+    
+    <style>
+        .redBorder {
+           border: 1px solid blue; 
+        }
+    </style>    
+</head>    
+    
+<body>
+    <h1>Heading1</h1>
+    <div>
+        <h1>Heading2</h1>
+        <h1>Heading3</h1>
+        <h1>Heading4</h1>
+    </div>
+    <h1>Heading5</h1>
+    
+    <a href="http://w3school.org" id="tut">W3school</a>
+    
+    <form id="register_form" action="http://vnexpress.net" method="get">
+        <input type="text" name="name" value="Hoang Phan" />
+        <input type="text" name="email" />
+        
+        <input type="submit" value="Register" />
+        <br/>
+        <input type="button" value="Test" />
+      
+    </form>
+    
+    <p>Date: <input type="text" id="choose_date"></p>
+    <p>File: <input type="file" id="choose_file"></p>
+    
+
+	<script src="jquery-ui-1.10.4/jquery-1.10.2.js"></script>
+    <script src="jquery-ui-1.10.4/ui/jquery.ui.core.js"></script>
+    <script src="jquery-ui-1.10.4/ui/jquery.ui.datepicker.js"></script>
+    <script src="my.js"></script>
+    
+    <script>
+      
+      var arrays = [1, 23, 45, 67, 98];
+      for(let a of arrays){
+        console.log(a);
+      }
+      
+      //ES5
+      for(var i in arrays){
+        var a = arrays[i];
+        console.log(a);
+      }
+      
+      for (var i=0; i<=arrays.length; i++){
+        var a = arrays[i];
+        console.log(a);
+      }
+      
+      
+      
+      var person = 'Addy Osmani';
+      console.log("My name is "+person+".");
+      console.log(`Yo! My name is ${person}!`);
+      
+        $(document).ready(function(){
+            $("#choose_file").change(function() {
+                // will log a FileList object, view gifs below
+                console.log(this.files[0].size);
+            $('[name="email"]').val(this.files[0].size);    
+            });            
+            
+            
+            $('#choose_date').datepicker();
+            
+            //using plugin 
+            var option = {color: 'blue'};
+            $('[name="name"]')
+                .greenify(option)
+                .css('background-color', 'red');
+          
+            //test button=
+            $('[type="button"]').click((event)=>{
+              console.log('Click button');
+              
+              $.get('mini1.html', 
+                    (result)=>{
+                      console.log(result);
+                      }
+                    );
+            });
+        });
+        
+        function submitData(e){
+            //remove browser control
+            e.preventDefault();
+            
+            //get all value of form
+            let name = $('input[name="name"]').val();
+            let email = $('input[name="email"]').val();
+            
+            //validate
+            console.log(name);
+            
+            //submit form
+            $('#register_form').submit();
+        }
+
+        $('input[type="submit"]').click(submitData);
+        
+        $(document).ready(function(){
+            //select h1 inside div -> traverse
+            //$('div > h1').css('background-color', 'red');
+            //$('div > h1').css('border', '1px solid red');
+            
+            //atribute
+            //$('div > h1').attr('style', 'border: 1px solid red;');
+            $('div > h1').addClass('redBorder');
+        });
+        
+        
+        $(document).ready(function(){
+            //click a
+            var data = ['Toi la Hoang Coho'];
+            $('#tut').click(function(event, data){
+                //event.preventDefault();
+                $(this).attr('href', 'http://vnexpress.net').text('La cai VN');
+                
+                //default click browser
+                console.log(data);
+                return false;
+            })
+        })
+    </script>
+</body>    
+</html>    
