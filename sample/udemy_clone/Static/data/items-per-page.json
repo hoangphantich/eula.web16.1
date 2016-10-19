@@ -1,0 +1,22 @@
+﻿{
+    "items": {
+        "isRequired": false,
+        "id": "pageSize",
+        "name": "pageSize",
+        "options": [
+            {
+                "text": "10",
+                "value": "10",
+                "selected": true
+            },
+            {
+                "text": "15",
+                "value": "15"
+            },
+            {
+                "text": "20",
+                "value": "20"
+            }
+        ]
+    }
+}

@@ -1,0 +1,97 @@
+﻿{
+    "items": [
+        {
+            "largeImage": "/img/event-slide1.jpg",
+            "desktopImage": "/img/event-slide1.jpg",
+            "tabletImage": "/img/event-slide1.jpg",
+            "mobileImage": "/img/event-slide1.jpg",
+            "videoWebm": "/videos/niteco.webm",
+            "videoMp4": "/videos/niteco.mp4",
+            "videoOgg": "/videos/niteco.ogg"
+        },
+        {
+            "largeImage": "/img/event-img2.jpg",
+            "desktopImage": "/img/event-img2.jpg",
+            "tabletImage": "/img/event-img2.jpg",
+            "mobileImage": "/img/event-img2.jpg",
+            "videoWebm": "/videos/niteco.webm",
+            "videoMp4": "/videos/niteco.mp4",
+            "videoOgg": "/videos/niteco.ogg"
+        },
+        {
+            "largeImage": "/img/event-img3.jpg",
+            "desktopImage": "/img/event-img3.jpg",
+            "tabletImage": "/img/event-img3.jpg",
+            "mobileImage": "/img/event-img3.jpg",
+            "videoWebm": "/videos/niteco.webm",
+            "videoMp4": "/videos/niteco.mp4",
+            "videoOgg": "/videos/niteco.ogg"
+        },
+        {
+            "largeImage": "/img/event-slide1.jpg",
+            "desktopImage": "/img/event-slide1.jpg",
+            "tabletImage": "/img/event-slide1.jpg",
+            "mobileImage": "/img/event-slide1.jpg",
+            "videoWebm": "/videos/niteco.webm",
+            "videoMp4": "/videos/niteco.mp4",
+            "videoOgg": "/videos/niteco.ogg"
+        },
+        {
+            "largeImage": "/img/event-img2.jpg",
+            "desktopImage": "/img/event-img2.jpg",
+            "tabletImage": "/img/event-img2.jpg",
+            "mobileImage": "/img/event-img2.jpg",
+            "videoWebm": "/videos/niteco.webm",
+            "videoMp4": "/videos/niteco.mp4",
+            "videoOgg": "/videos/niteco.ogg"
+        },
+        {
+            "largeImage": "/img/event-img3.jpg",
+            "desktopImage": "/img/event-img3.jpg",
+            "tabletImage": "/img/event-img3.jpg",
+            "mobileImage": "/img/event-img3.jpg",
+            "videoWebm": "/videos/niteco.webm",
+            "videoMp4": "/videos/niteco.mp4",
+            "videoOgg": "/videos/niteco.ogg"
+        },
+        {
+            "largeImage": "/img/event-slide1.jpg",
+            "desktopImage": "/img/event-slide1.jpg",
+            "tabletImage": "/img/event-slide1.jpg",
+            "mobileImage": "/img/event-slide1.jpg",
+            "videoWebm": "/videos/niteco.webm",
+            "videoMp4": "/videos/niteco.mp4",
+            "videoOgg": "/videos/niteco.ogg"
+        },
+        {
+            "largeImage": "/img/event-img2.jpg",
+            "desktopImage": "/img/event-img2.jpg",
+            "tabletImage": "/img/event-img2.jpg",
+            "mobileImage": "/img/event-img2.jpg",
+            "videoWebm": "/videos/niteco.webm",
+            "videoMp4": "/videos/niteco.mp4",
+            "videoOgg": "/videos/niteco.ogg"
+        },
+        {
+            "largeImage": "/img/event-img3.jpg",
+            "desktopImage": "/img/event-img3.jpg",
+            "tabletImage": "/img/event-img3.jpg",
+            "mobileImage": "/img/event-img3.jpg",
+            "videoWebm": "/videos/niteco.webm",
+            "videoMp4": "/videos/niteco.mp4",
+            "videoOgg": "/videos/niteco.ogg"
+        }
+    ],
+
+    "thumbnails": [
+        "/img/slider-thumbnail1.jpg",
+        "/img/slider-thumbnail2.jpg",
+        "/img/slider-thumbnail3.jpg",
+        "/img/slider-thumbnail1.jpg",
+        "/img/slider-thumbnail2.jpg",
+        "/img/slider-thumbnail3.jpg",
+        "/img/slider-thumbnail1.jpg",
+        "/img/slider-thumbnail2.jpg",
+        "/img/slider-thumbnail3.jpg"
+    ]
+}

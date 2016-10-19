@@ -1,0 +1,23 @@
+﻿.header-landing-page {
+    .header-container {
+        .header-left-right-container {
+            .header-left {
+                .browse-container {
+                    position: static;
+                    background-color: #f4f4f4;
+
+                    @media(max-width:992px) {
+                        background-color: white;
+                    }
+
+                    @media(min-width:993px) {
+                        #menu {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

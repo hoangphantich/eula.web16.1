@@ -1,0 +1,39 @@
+﻿{
+    "home-page": {
+        "title": "why choose us",
+        "background": "/img/img-block-bg.jpg",
+        "target-url": "#",
+        "link-text": "",
+        "descriptions": "Our goal is to provide immense pleasure and satisfaction to our vehicle owners and add value by ensuring the joy is uninterrupted."
+    },
+    "brand-page-block-1": {
+        "ford": {
+            "title": "ford MERCHANDISE",
+            "background": "/img/img-block-bg1.jpg",
+            "target-url": "#",
+            "link-text": "",
+            "descriptions": "Get clothing, accessories and collectibles at your nearest Al Tayer Motors showroom."
+        },
+        "ferrari": { 
+            "title": "Ferrari MERCHANDISE",
+            "background": "/img/img-block-bg1.jpg",
+            "target-url": "#",
+            "link-text": "",
+            "descriptions": "Get clothing, accessories and collectibles at your nearest Al Tayer Motors showroom."
+        },
+        "landrover": { 
+            "title": "Landrover MERCHANDISE",
+            "background": "/img/img-block-bg1.jpg",
+            "target-url": "#",
+            "link-text": "",
+            "descriptions": "Get clothing, accessories and collectibles at your nearest Al Tayer Motors showroom."
+        }
+    },
+    "brand-page-block-2": {
+        "title": "finance",
+        "background": "/img/img-block-bg2.jpg",
+        "target-url": "#",
+        "link-text":  "know your options",
+        "descriptions": "Do you want the best financing and insurance for your car that won't burn a hole in your pocket?"
+    }
+}

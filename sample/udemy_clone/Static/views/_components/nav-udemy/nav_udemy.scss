@@ -1,0 +1,162 @@
+﻿.smalltext{
+        padding-top:5px;
+        font-size: 9px;
+        text-align:center;
+    
+}
+.input-group{
+    input{
+      margin-top:-3px;
+    }
+}
+.col-md-6{
+    >a{
+    margin: auto 5px;
+}  } 
+#SignUpModal{
+    .modal-dialog{
+        width: 400px;
+        @media(max-width: $BIG_PHONE){
+            width:100%;
+        }
+    }
+    .modal-content{
+    padding-right:20px;
+    padding-left:20px;
+    }
+}
+.navbar-right{
+    a{
+        font-size: 12px;
+    }
+    
+}
+ #sideNav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#edeaea;
+    overflow-x: hidden;
+    transition: 500ms;
+    padding-top: 20px;  
+    z-index:10;
+    &:hover,  &:focus {
+      background-color: #f1f1f1;
+    }
+    a:hover, .offcanvas a:focus{
+    color: #b1aeae;
+}
+    >a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #100f0f;
+    display: block;
+    transition: 500ms;
+ 
+}
+    @media(min-width: $BIG_PHONE){
+        display:none;
+    }
+ }
+
+    .closebtn {
+        position: absolute;
+        top: 0;
+        right: 75px;
+        font-size: 32px !important;
+        margin-left: 50px;
+   
+    }
+
+
+.navbar-default {
+  background: -webkit-linear-gradient(black, transparent);
+  background: linear-gradient(black, transparent);
+  border-color: #e7e7e7;
+  @media(max-width:$BIG_TABLET){
+      background-color:transparent;
+      background:none;
+  }
+}
+.navbar-default .navbar-brand {
+  color: white;
+ 
+}
+#navright{
+    a{
+        color:white;
+    }
+}
+    @media (min-width: $BIG_PHONE) {
+
+            .udemy-navbar{
+                position: absolute;
+                top: 0;
+
+                background-color: transparent;
+                width: 100%;
+                z-index: 1002;
+                color: white;
+            }
+
+      }
+
+.navbar-toggle{
+    float:left;
+    border:none;
+   
+}
+
+.modal .glyphicon{
+    display: none !important;
+}
+
+
+.udemy-navbar{
+    position: absolute;
+   top: 0;
+    background-color: transparent;
+   width: 100%;
+   z-index: 1002;
+   color: white;
+}
+.logo{
+    >img{
+        height:56px;
+        width:56px;
+        float:left;
+         @media(max-width:$BIG_PHONE - 1) {
+                margin-right:40%;
+                float: right;
+                text-align:center;
+                width:78px;
+            }
+           
+    }
+     
+}
+.closenav{
+    display:none;
+     position: fixed;
+        width: 100%;
+        height: 100%;
+        right: 0px;
+        top: 0px;
+        z-index: 9;
+        background-color: #000;
+        opacity: 0.1;
+        display: none;
+        cursor: pointer;
+}
+.modal-content .signup{
+    @media(max-width:$BIG_PHONE)
+    {
+        margin-left:50%;
+        width:100%;
+    }
+    
+}    

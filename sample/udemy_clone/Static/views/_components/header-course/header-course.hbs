@@ -1,0 +1,219 @@
+<div class="static-block">
+</div>
+<div class="header-container clearfix" data-require="base/views/header-course">
+    <div class="logo-container">
+        <!--humberger for responsive -->
+        <div class="menu-mobile-container">
+            <div class="humberger">
+                <div class="humberger-icon">
+                    <img src="http://i.imgur.com/vKRaKDX.png" />
+                </div>
+            </div>
+            <div class="pollSlider">
+                <ul class="list-menu">
+                    <li><a href="#" class="btn-browse-mobile">Browse <i class="fa fa-chevron-right" id="chevron-right" aria-hidden="true" style="line-height:40px;font-size:15px"></i></a></li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#SignUpModal">
+                            <div class="sign-up-inner">
+                                Sign Up
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#LogInModal">
+                            <span class="login-inner">
+                                Login
+                            </span>
+                        </a>
+                    </li>
+                    <li><a href="#">Become an Instructor</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <div class="browse-mobile">
+                    <div class="head-menu-moblie">
+                        <div class="btn-exit"><i class="fa fa-chevron-left" aria-hidden="true"></i> &nbsp;&nbsp;  Menu<span class="Browse">Browse</span></div>
+
+                    </div>
+                    <div id="menu">
+                        <ul>
+                            {{#each header-course.items}}
+                            <li><a href="{{this.url}}"><i class="{{this.icon-menu}}" id="icon-menu" aria-hidden="true"></i>&nbsp;&nbsp;{{this.text}} </a></li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="close-menu"></div>
+            <div class="search-mobile">
+                <div class="search-mobile-button">
+                    <button>
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- logo udemy -->
+        <a href="#">
+            <div class="logo-inner">
+                <img class="udemy-logo" src="/Static/images/logo-udemy.png"/>
+            </div>
+        </a>
+    </div>
+    <div class="header-left-right-container">
+        <div class="header-left">
+            <div class="browse-container">
+                <div class="browse-inner">
+                    <span class="browse">Browse &nbsp;<i class="fa fa-sort-desc" aria-hidden="true"></i></span>
+                </div>
+                <div id="menu">
+                    <ul>
+                        {{#each header-course.items}}
+                        <li>
+                            <a href="{{this.url}}"><i class="{{this.icon-menu}}" id="icon-menu" aria-hidden="true"></i>&nbsp;&nbsp;{{this.text}} <i class="fa fa-chevron-right" id="chevron-right" aria-hidden="true"></i></a>
+                            <ul class="sub-menu" style="background-color: {{this.color}}">
+                                {{#each submenu}}
+                                <li><a href="{{this.url}}">&nbsp;<i class="{{this.icon-menu}}" id="icon-menu" aria-hidden="true"></i>&nbsp;&nbsp;{{this.text}}</a></li>
+                                {{/each}}
+                            </ul>
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+            <!-- search -->
+            <div class="search-container" data-require="base/views/search-box">
+                <div class="search-inner">
+                    <div type="submit" class="search-button">
+                        <button>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <!--<input type="text" class="search-input" placeholder="Search for Courses" autocomplete="off"/>-->
+                    {{> search-box}}
+                </div>
+            </div>
+            <div class="btn-cancel-search-mobile"><div class="btn-cancel-content">Cancel</div></div>
+        </div>
+
+        <!-- header right -->
+        <div class="header-right">
+            <!-- become an instructor -->
+            <div class="become-instructor-container">
+                <a href="#" style="color:black">
+                    <div class="become-instructor-inner">
+                        Become an Instructor
+                    </div>
+                </a>
+            </div>
+            <!-- cart shopping -->
+            <div class="cart-container">
+                <a href="#" style="color:black">
+                    <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+                    <div class="cart-dropdown">
+                        <div class="shopping-cart"><span style="">Shopping Cart</span></div>
+                        <div class="direction"><span>Your cart is empty.<strong><a href="#"> Keep Shopping</a></strong></span></div>
+                    </div>
+                </a>
+            </div>
+            <!-- login -->
+            <a href="#" data-toggle="modal" data-target="#LogInModal">
+                <div class="login-container" style="color:black">
+                    <span class="login-inner">
+                        Login
+                    </span>
+                </div>
+            </a>
+            <!--sign up-->
+            <a href="#" data-toggle="modal" data-target="#SignUpModal">
+                <div class="sign-up-container" style="color:black">
+                    <div class="sign-up-inner">
+                        Sign Up
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="SignUpLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+        <div class="modal-content signup">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="SignUpLabel" style="text-align:center">Sign Up And Start Learning</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div>
+                        <input type="text" class="form-control" placeholder="Full Name">
+                    </div>
+                    <br />
+                    <div>
+
+                        <input type="email" class="form-control" placeholder="E-Mail">
+                    </div>
+                    <br />
+                    <div>
+
+                        <input type="email" class="form-control" placeholder="Password">
+                    </div>
+                    <br />
+                </form>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="" style="text-align:center; font-size:1px" />Be the first informed about new courses as well as the best deals!</label>
+                </div>
+                <input type="submit" value="Sign Up" class="form-control btn btn-primary btn-success" />
+                <p class="smalltext">By registering you agree to our<a class="smalltext"> Terms of Service</a> and <a class="smalltext">Privacy Policy.</a></p>
+            </div>
+            <div class="modal-footer">
+                <p style="text-align:center">Already have an account? <a href="" data-toggle="modal" data-target="#LogInModal" data-dismiss="modal">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Login Modal-->
+<div class="modal fade" id="LogInModal" tabindex="-1" role="dialog" aria-labelledby="LogInModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="LogInModal" style="text-align:center">Log in to your accout Udemy</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a class="btn btn-block btn-social btn-facebook">
+                            <span class="fa fa-facebook"></span> Sign in with Facebook
+                        </a>
+                        <br />
+                        <a class="btn btn-block btn-social btn-google">
+                            <span class="fa fa-google"></span> Sign in with Google
+                        </a>
+                        <br />
+                    </div>
+                    <div class="col-md-6">
+                        <form>
+                            <div>
+
+                                <input type="email" class="form-control" placeholder="E-Mail">
+                            </div>
+                            <br />
+                            <div>
+
+                                <input type="email" class="form-control" placeholder="Password">
+                            </div>
+                            <br />
+                            <input type="submit" class="form-control btn btn-success" value="Log In" />
+                            <p style="text-align:center">or <a> Forgot your password?</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <p style="text-align:center">Do not have an account? <a href="#" data-toggle="modal" data-target="#SignUpModal" data-dismiss="modal">Sign Up</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+

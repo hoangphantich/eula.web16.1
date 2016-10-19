@@ -1,0 +1,32 @@
+.scroll-top-container {
+        width: rem(115px);
+        border-radius: rem(10px);
+        text-align: center;
+        text-transform: uppercase;
+        padding: rem(15px 0);
+        background-color: #8f9598;
+        cursor: pointer;
+
+        position: absolute;
+        z-index: 10;
+        bottom: 100%;
+        margin-bottom: rem(20px);
+        @include horizontal-center(absolute);
+        display: none;
+        font-size: 0;
+
+        @include respond-to-min($laptopSize) {
+            display: block;
+        }
+
+        span{
+            @include latoNormal();
+            letter-spacing: rem(0.5px);
+            color: #fff;
+            font-size: rem(10px);
+            line-height: rem(7px);
+            padding: rem(11px 0);
+            display: block;
+            text-align: center;
+        }
+    }

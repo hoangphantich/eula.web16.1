@@ -1,0 +1,377 @@
+﻿{
+  "main-color": "#540768",
+  "items": [
+    {
+      "title_category1": "Best Sellers",
+      "title_category2": "Design",
+      "list_course": [
+        {
+          "img": "/img/java_spring.jpg",
+          "title": "3D Animation: Basics To Full Body and Creature Mechanics. This is text overflow in line",
+          "instructor": "Mr. Jame Son",
+          "job": "Technical Instructor",
+          "average-rating": 4.6,
+          "reviews_count": 324,
+          "newprice": 50,
+          "oldprice": 100,
+          "number-lecture": 87,
+          "time-video": 20.5,
+          "img-bio": [
+            {
+              "bio-avatar": "/img/bio-avatar1.jpg"
+            }
+          ],
+          "level": "All level"
+        },
+        {
+          "img": "/img/java_spring.jpg",
+          "title": "3D Animation: Basics To Full Body and Creature Mechanics",
+          "instructor": "Mr. Jame Son",
+          "job": "Technical Instructor",
+          "average-rating": 4.6,
+          "reviews_count": 324,
+          "newprice": 50,
+          "oldprice": 100,
+          "number-lecture": 87,
+          "time-video": 20.5,
+          "img-bio": [
+            {
+              "bio-avatar": "/img/bio-avatar1.jpg"
+            },
+            {
+              "bio-avatar": "/img/bio-avatar2.jpg"
+            }
+          ],
+          "level": "All level"
+        },
+        {
+          "img": "/img/java_spring.jpg",
+          "title": "3D Animation: Basics To Full Body and Creature Mechanics",
+          "instructor": "Mr. Jame Son",
+          "job": "Technical Instructor",
+          "average-rating": 4.6,
+          "reviews_count": 324,
+          "newprice": 50,
+          "oldprice": 100,
+          "number-lecture": 87,
+          "time-video": 20.5,
+          "img-bio": [
+            {
+              "bio-avatar": "/img/bio-avatar1.jpg"
+            },
+            { "bio-avatar": "/img/bio-avatar2.jpg" },
+            {
+              "bio-avatar": "/img/bio-avatar2.jpg"
+            }
+          ],
+          "level": "All level"
+        },
+        {
+          "img": "/img/java_spring.jpg",
+          "title": "3D Animation: Basics To Full Body and Creature Mechanics",
+          "instructor": "Mr. Jame Son",
+          "job": "Technical Instructor",
+          "average-rating": 4.6,
+          "reviews_count": 324,
+          "newprice": 50,
+          "oldprice": 100,
+          "number-lecture": 87,
+          "time-video": 20.5,
+          "img-bio": [
+            {
+              "bio-avatar": "/img/bio-avatar1.jpg"
+            },
+            {
+              "bio-avatar": "/img/bio-avatar2.jpg"
+            }
+          ],
+          "level": "All level"
+        },
+        {
+          "img": "/img/java_spring.jpg",
+          "title": "3D Animation: Basics To Full Body and Creature Mechanics",
+          "instructor": "Mr. Jame Son",
+          "job": "Technical Instructor",
+          "average-rating": 4.6,
+          "reviews_count": 324,
+          "newprice": 50,
+          "oldprice": 100,
+          "number-lecture": 87,
+          "time-video": 20.5,
+          "img-bio": [
+            {
+              "bio-avatar": "/img/bio-avatar1.jpg"
+            },
+            {
+              "bio-avatar": "/img/bio-avatar2.jpg"
+            }
+          ],
+          "level": "All level"
+        },
+        {
+          "img": "/img/java_spring.jpg",
+          "title": "3D Animation: Basics To Full Body and Creature Mechanics",
+          "instructor": "Mr. Jame Son",
+          "job": "Technical Instructor",
+          "average-rating": 4.6,
+          "reviews_count": 324,
+          "newprice": 50,
+          "oldprice": "",
+          "number-lecture": 87,
+          "time-video": 20.5,
+          "img-bio": [
+            {
+              "bio-avatar": "/img/bio-avatar1.jpg"
+            },
+            {
+              "bio-avatar": "/img/bio-avatar2.jpg"
+            }
+          ],
+          "level": "All level"
+        },
+        {
+          "img": "/img/java_spring.jpg",
+          "title": "3D Animation: Basics To Full Body and Creature Mechanics",
+          "instructor": "Mr. Jame Son",
+          "job": "Technical Instructor",
+          "average-rating": 4.6,
+          "reviews_count": 324,
+          "newprice": 50,
+          "oldprice": 100,
+          "number-lecture": 87,
+          "time-video": 20.5,
+          "img-bio": [
+            {
+              "bio-avatar": "/img/bio-avatar1.jpg"
+            },
+            {
+              "bio-avatar": "/img/bio-avatar2.jpg"
+            }
+          ],
+          "level": "All level"
+        },
+        {
+          "img": "/img/java_spring.jpg",
+          "title": "3D Animation: Basics To Full Body and Creature Mechanics",
+          "instructor": "Mr. Jame Son",
+          "job": "Technical Instructor",
+          "average-rating": 4.6,
+          "reviews_count": 324,
+          "newprice": 50,
+          "number-lecture": 87,
+          "time-video": 20.5,
+          "img-bio": [
+            {
+              "bio-avatar": "/img/bio-avatar1.jpg"
+            },
+            {
+              "bio-avatar": "/img/bio-avatar2.jpg"
+            }
+          ],
+          "level": "All level"
+        },
+        {
+          "img": "/img/java_spring.jpg",
+          "title": "3D Animation: Basics To Full Body and Creature Mechanics",
+          "instructor": "Mr. Jame Son",
+          "job": "Technical Instructor",
+          "average-rating": 4.6,
+          "reviews_count": 324,
+          "newprice": 50,
+          "number-lecture": 87,
+          "time-video": 20.5,
+          "img-bio": [
+            {
+              "bio-avatar": "/img/bio-avatar1.jpg"
+            },
+            { "bio-avatar": "/img/bio-avatar2.jpg" },
+            {
+              "bio-avatar": "/img/bio-avatar2.jpg"
+            }
+          ],
+          "level": "All level"
+        },
+        {
+          "img": "/img/java_spring.jpg",
+          "title": "3D Animation: Basics To Full Body and Creature Mechanics",
+          "instructor": "Mr. Jame Son",
+          "job": "Technical Instructor",
+          "average-rating": 4.6,
+          "reviews_count": 324,
+          "newprice": 50,
+          "number-lecture": 87,
+          "time-video": 20.5,
+          "img-bio": [
+            {
+              "bio-avatar": "/img/bio-avatar1.jpg"
+            },
+            {
+              "bio-avatar": "/img/bio-avatar2.jpg"
+            }
+          ],
+          "level": "All level"
+        },
+        {
+          "img": "/img/java_spring.jpg",
+          "title": "3D Animation: Basics To Full Body and Creature Mechanics",
+          "instructor": "Mr. Jame Son",
+          "job": "Technical Instructor",
+          "average-rating": 4.6,
+          "reviews_count": 324,
+          "newprice": 50,
+          "number-lecture": 87,
+          "time-video": 20.5,
+          "img-bio": [
+            {
+              "bio-avatar": "/img/bio-avatar1.jpg"
+            },
+            {
+              "bio-avatar": "/img/bio-avatar2.jpg"
+            }
+          ],
+          "level": "All level"
+        },
+        {
+          "img": "/img/java_spring.jpg",
+          "title": "3D Animation: Basics To Full Body and Creature Mechanics",
+          "instructor": "Mr. Jame Son",
+          "job": "Technical Instructor",
+          "average-rating": 4.6,
+          "reviews_count": 324,
+          "newprice": 50,
+          "number-lecture": 87,
+          "time-video": 20.5,
+          "img-bio": [
+            {
+              "bio-avatar": "/img/bio-avatar1.jpg"
+            },
+            {
+              "bio-avatar": "/img/bio-avatar2.jpg"
+            }
+          ]
+        }
+      ],
+      "level": "All level"
+    }
+  ],
+
+  "filter-checked": [
+    {
+      "title": "Price",
+      "list-checked": [
+        {
+          "checked": "Paid",
+          "number": "63"
+
+        },
+        {
+          "checked": "Free",
+          "number": "9"
+        }
+      ]
+    },
+    {
+      "title": "Level",
+      "list-checked": [
+        {
+          "checked": "All levels",
+          "number": "63"
+        },
+        {
+          "checked": "Beginers",
+          "number": "63"
+        },
+        {
+          "checked": "Intermediate",
+          "number": "63"
+        }
+      ]
+    },
+    {
+      "title": "Features",
+      "list-checked": [
+        {
+          "checked": "Closed Captions",
+          "number": "63"
+        },
+        {
+          "checked": "Quizzes",
+          "number": "63"
+        }
+      ]
+    },
+    {
+      "title": "Language",
+      "list-checked": [
+        {
+          "checked": "English",
+          "number": "63"
+        },
+        {
+          "checked": "Español",
+          "number": "63"
+        },
+        {
+          "checked": "Dansk",
+          "number": "63"
+        },
+        {
+          "checked": "Tiếng Việt",
+          "number": "63"
+        }
+      ]
+    }
+  ],
+  "related-topic": [
+    {
+      "icon": "fa-music",
+      "category-name": "Web Developer",
+      "color": "#540768"
+    },
+    {
+      "icon": "fa-music",
+      "category-name": "Social Media Marketing",
+      "color": "#540768"
+    },
+    {
+      "icon": "fa-music",
+      "category-name": "Media",
+      "color": "#540768"
+    },
+    {
+      "icon": "fa-music",
+      "category-name": "Comunications",
+      "color": "#540768"
+    },
+    {
+      "icon": "fa-music",
+      "category-name": "Microsoft",
+      "color": "#540768"
+    },
+    {
+      "icon": "fa-music",
+      "category-name": "Mobile Apps",
+      "color": "#540768"
+    },
+    {
+      "icon": "fa-music",
+      "category-name": "Productivity",
+      "color": "#540768"
+    },
+    {
+      "icon": "fa-music",
+      "category-name": "Design Tools",
+      "color": "#540768"
+    },
+    {
+      "icon": "fa-music",
+      "category-name": "Web Developer",
+      "color": "#540768"
+    },
+    {
+      "icon": "fa-music",
+      "category-name": "Web Developer",
+      "color": "#540768"
+    }
+  ]
+}

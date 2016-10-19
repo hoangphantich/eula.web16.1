@@ -1,0 +1,26 @@
+﻿{
+   "items": [
+ 
+    {
+      "category": "Graphic Design"
+    },
+    {
+      "category": "Design Tools"
+    },
+        {
+      "category": "User Experience"
+    },
+    {
+      "category": "Game Design"
+    },
+    {
+      "category": "Design Thinking"
+    },
+    {
+      "category": "Web Design"
+    },
+    {
+      "category": "Fashion"
+    }
+  ]
+}

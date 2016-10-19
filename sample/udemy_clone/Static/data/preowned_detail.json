@@ -1,0 +1,53 @@
+﻿{
+    "features": [
+        {
+            "icon": "/img/icon_model.png",
+            "normalText": "Model Year",
+            "boldText": "Escape 2005"
+        },
+        {
+            "icon": "/img/icon_seat.png",
+            "normalText": "Seats",
+            "boldText": "5"
+        },
+        {
+            "icon": "/img/icon_engine.png",
+            "normalText": "Engine",
+            "boldText": "2.5L 1-4"
+        },
+        {
+            "icon": "/img/icon_horse_power.png",
+            "normalText": "Horsepower",
+            "boldText": "168 HP"
+        },
+        {
+            "icon": "/img/icon_estimate_mpg.png",
+            "normalText": "Estimated MPG",
+            "boldText": "22 City/ 31 HWY"
+        }
+    ],
+
+    "header": "Specifications",
+    "tab": [
+        {
+            "text": "Detail & description",
+            "data": "detail-tab",
+            "isActive": true
+        },
+        {
+            "text": "Fitted Options",
+            "data": "fitted-tab"
+        }
+    ],
+    "list": [
+        {
+            "data": "detail-tab",
+            "description": "The Escape's 2015 sleek, muscular shape contributes to improved fuel efficiency and cargo handling, while it's modern, kinetic design creates a sense of movement even when Escape is stading still. Up front, the large trapezoidal lower grille Escape a signature Ford look with styling cues carried all the way to the back, where the liftgate flows into the lower fascia for a finished, sculpted look.",
+            "isActive": true
+        },
+        {
+            "data": "fitted-tab",
+            "description": "The Escape's 2015 sleek, muscular shape contributes to improved fuel efficiency and cargo handling, while it's modern, kinetic design creates a sense of movement even when Escape is stading still. Up front, the large trapezoidal lower grille Escape a signature Ford look with styling cues carried all the way to the back, where the liftgate flows into the lower fascia for a finished, sculpted look. The Escape's 2015 sleek, muscular shape contributes to improved fuel efficiency and cargo handling, while it's modern, kinetic design creates a sense of movement even when Escape is stading still. Up front, the large trapezoidal lower grille Escape a signature Ford look with styling cues carried all the way to the back, where the liftgate flows into the lower fascia for a finished, sculpted look."
+        }
+    ]
+}

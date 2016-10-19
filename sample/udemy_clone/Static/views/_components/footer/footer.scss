@@ -1,0 +1,548 @@
+@import "_footer_ar";
+
+.thankyou-message-at-forms{
+    line-height: 3.125rem;
+    margin-bottom: 0;
+    text-transform: none;
+    font-size: 2.25rem;
+    margin: 0 0 0.625rem;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    padding: 0
+}
+
+/*-- footer-top-block --*/
+.top-footer-block {
+    position: relative;
+    .top-footer-col {
+        &.store-market-col {
+            float: right;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b4043+0,363b3e+4,363b3e+7,313639+11,262b2f+26,1b2024+50,1b2026+77,1e2329+80,1f2428+87,272c30+100 */
+            background: rgb(59,64,67); /* Old browsers */
+            /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+            background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNiNDA0MyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQlIiBzdG9wLWNvbG9yPSIjMzYzYjNlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNyUiIHN0b3AtY29sb3I9IiMzNjNiM2UiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMSUiIHN0b3AtY29sb3I9IiMzMTM2MzkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIyNiUiIHN0b3AtY29sb3I9IiMyNjJiMmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMxYjIwMjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI3NyUiIHN0b3AtY29sb3I9IiMxYjIwMjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI4MCUiIHN0b3AtY29sb3I9IiMxZTIzMjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI4NyUiIHN0b3AtY29sb3I9IiMxZjI0MjgiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMjcyYzMwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+            background: -moz-linear-gradient(left, rgba(59,64,67,1) 0%, rgba(54,59,62,1) 4%, rgba(54,59,62,1) 7%, rgba(49,54,57,1) 11%, rgba(38,43,47,1) 26%, rgba(27,32,36,1) 50%, rgba(27,32,38,1) 77%, rgba(30,35,41,1) 80%, rgba(31,36,40,1) 87%, rgba(39,44,48,1) 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(59,64,67,1)), color-stop(4%,rgba(54,59,62,1)), color-stop(7%,rgba(54,59,62,1)), color-stop(11%,rgba(49,54,57,1)), color-stop(26%,rgba(38,43,47,1)), color-stop(50%,rgba(27,32,36,1)), color-stop(77%,rgba(27,32,38,1)), color-stop(80%,rgba(30,35,41,1)), color-stop(87%,rgba(31,36,40,1)), color-stop(100%,rgba(39,44,48,1))); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(left, rgba(59,64,67,1) 0%,rgba(54,59,62,1) 4%,rgba(54,59,62,1) 7%,rgba(49,54,57,1) 11%,rgba(38,43,47,1) 26%,rgba(27,32,36,1) 50%,rgba(27,32,38,1) 77%,rgba(30,35,41,1) 80%,rgba(31,36,40,1) 87%,rgba(39,44,48,1) 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(left, rgba(59,64,67,1) 0%,rgba(54,59,62,1) 4%,rgba(54,59,62,1) 7%,rgba(49,54,57,1) 11%,rgba(38,43,47,1) 26%,rgba(27,32,36,1) 50%,rgba(27,32,38,1) 77%,rgba(30,35,41,1) 80%,rgba(31,36,40,1) 87%,rgba(39,44,48,1) 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(left, rgba(59,64,67,1) 0%,rgba(54,59,62,1) 4%,rgba(54,59,62,1) 7%,rgba(49,54,57,1) 11%,rgba(38,43,47,1) 26%,rgba(27,32,36,1) 50%,rgba(27,32,38,1) 77%,rgba(30,35,41,1) 80%,rgba(31,36,40,1) 87%,rgba(39,44,48,1) 100%); /* IE10+ */
+            background: linear-gradient(to right, rgba(59,64,67,1) 0%,rgba(54,59,62,1) 4%,rgba(54,59,62,1) 7%,rgba(49,54,57,1) 11%,rgba(38,43,47,1) 26%,rgba(27,32,36,1) 50%,rgba(27,32,38,1) 77%,rgba(30,35,41,1) 80%,rgba(31,36,40,1) 87%,rgba(39,44,48,1) 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b4043', endColorstr='#272c30',GradientType=1 ); /* IE6-8 */
+            padding-top: rem(25px);
+            padding-bottom: rem(20px);
+            font-size: 0;
+            @include verticle-middle();
+
+            @include respond-to-min($tabletSize) {
+                padding-top: rem(25px);
+                padding-bottom: rem(33px);
+                /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3c4546+0,262b2e+46,1c2126+80,1a2024+100 */
+                background: rgb(60,69,70); /* Old browsers */
+                background: -moz-linear-gradient(left, rgba(60,69,70,1) 0%, rgba(38,43,46,1) 46%, rgba(28,33,38,1) 80%, rgba(26,32,36,1) 100%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(60,69,70,1)), color-stop(46%,rgba(38,43,46,1)), color-stop(80%,rgba(28,33,38,1)), color-stop(100%,rgba(26,32,36,1))); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(left, rgba(60,69,70,1) 0%,rgba(38,43,46,1) 46%,rgba(28,33,38,1) 80%,rgba(26,32,36,1) 100%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(left, rgba(60,69,70,1) 0%,rgba(38,43,46,1) 46%,rgba(28,33,38,1) 80%,rgba(26,32,36,1) 100%); /* Opera 11.10+ */
+                background: -ms-linear-gradient(left, rgba(60,69,70,1) 0%,rgba(38,43,46,1) 46%,rgba(28,33,38,1) 80%,rgba(26,32,36,1) 100%); /* IE10+ */
+                background: linear-gradient(to right, rgba(60,69,70,1) 0%,rgba(38,43,46,1) 46%,rgba(28,33,38,1) 80%,rgba(26,32,36,1) 100%); /* W3C */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c4546', endColorstr='#1a2024',GradientType=1 ); /* IE6-9 */
+            }
+
+            @include respond-to-min($laptopSize) {
+                text-align: right;
+                padding-top: rem(29px);
+                padding-bottom: rem(24px);
+
+                .row {
+                    @include verticle-middle();
+                    font-size: 0;
+                    position: relative;
+                }
+            }
+
+            .row {
+                display: inline-block;
+                width: 100%;
+                margin: 0;
+            }
+
+            .short-descriptions {
+                padding-left: 0;
+
+                p {
+                    @include latoBold();
+                    font-size: rem(14px);
+                    line-height: rem(18px);
+                    color: #fff;
+                    text-align: left;
+                    margin: rem(0 0 8px);
+                    letter-spacing: rem(0.5px);
+
+                    @include respond-to-min($tabletSize) {
+                        margin: rem(0 0 20px);
+                        font-size: rem(17px);
+                        line-height: rem(24px);
+                    }
+
+                    @include respond-to-min($laptopSize) {
+                        font-size: rem(22px);
+                        line-height: rem(30px);
+                        margin: rem(0);
+                    }
+                }
+
+                @include respond-to-min($laptopSize) {
+                    display: inline-block;
+                    vertical-align: middle;
+                    float: none;
+                }
+            }
+
+            .market-buttons {
+                font-size: 0;
+                padding-right: 0;
+                padding-left: 0;
+
+                @include respond-to-min($laptopSize) {
+                    display: inline-block;
+                    vertical-align: middle;
+                    float: none;
+                    padding-left: rem(15px);
+                }
+
+                a {
+                    margin-right: rem(12px);
+                    display: inline-block;
+                    text-decoration: none;
+
+                    img {
+                        max-width: rem(132px);
+                        @include respond-to-max(360px) {
+                            max-width: rem(99px);
+                        }
+                        @include respond-to-min($tabletSize) {
+                            max-width: 100%;
+                        }
+                    }
+
+                    @include respond-to-min($tabletSize) {
+                        margin-right: rem(17px);
+                    }
+
+                    @include respond-to-min($laptopSize) {
+                        display: block;
+                        margin-right: rem(0);
+
+                        &:nth-child(1):nth-last-child(2) {
+                            margin-bottom: rem(9px);
+                        }
+                    }
+                }
+
+                @include respond-to-min($laptopSize) {
+                    display: inline-block;
+                    vertical-align: middle;
+                    float: none;
+                }
+            }
+        }
+
+        &.signup-col {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#586a6c+0,556467+0,556769+1,505e61+12,4e5c5f+19,4e595b+22,485254+28,41494c+34,3b4346+43,2e3639+56,2e3337+58,2e3337+58,2d3236+60,292e32+66,282d33+69,272c32+70,252a30+74,1c2329+86,1f242a+100,252a2e+100,1a2127+100 */
+            background: rgb(88,106,108); /* Old browsers */
+            /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+            background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU4NmE2YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjNTU2NDY3IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMSUiIHN0b3AtY29sb3I9IiM1NTY3NjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMiUiIHN0b3AtY29sb3I9IiM1MDVlNjEiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxOSUiIHN0b3AtY29sb3I9IiM0ZTVjNWYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIyMiUiIHN0b3AtY29sb3I9IiM0ZTU5NWIiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIyOCUiIHN0b3AtY29sb3I9IiM0ODUyNTQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIzNCUiIHN0b3AtY29sb3I9IiM0MTQ5NGMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI0MyUiIHN0b3AtY29sb3I9IiMzYjQzNDYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1NiUiIHN0b3AtY29sb3I9IiMyZTM2MzkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1OCUiIHN0b3AtY29sb3I9IiMyZTMzMzciIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1OCUiIHN0b3AtY29sb3I9IiMyZTMzMzciIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI2MCUiIHN0b3AtY29sb3I9IiMyZDMyMzYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI2NiUiIHN0b3AtY29sb3I9IiMyOTJlMzIiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI2OSUiIHN0b3AtY29sb3I9IiMyODJkMzMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiMyNzJjMzIiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI3NCUiIHN0b3AtY29sb3I9IiMyNTJhMzAiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI4NiUiIHN0b3AtY29sb3I9IiMxYzIzMjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMWYyNDJhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI1MmEyZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxYTIxMjciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+            background: -moz-linear-gradient(left, rgba(88,106,108,1) 0%, rgba(85,100,103,1) 0%, rgba(85,103,105,1) 1%, rgba(80,94,97,1) 12%, rgba(78,92,95,1) 19%, rgba(78,89,91,1) 22%, rgba(72,82,84,1) 28%, rgba(65,73,76,1) 34%, rgba(59,67,70,1) 43%, rgba(46,54,57,1) 56%, rgba(46,51,55,1) 58%, rgba(46,51,55,1) 58%, rgba(45,50,54,1) 60%, rgba(41,46,50,1) 66%, rgba(40,45,51,1) 69%, rgba(39,44,50,1) 70%, rgba(37,42,48,1) 74%, rgba(28,35,41,1) 86%, rgba(31,36,42,1) 100%, rgba(37,42,46,1) 100%, rgba(26,33,39,1) 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(88,106,108,1)), color-stop(0%,rgba(85,100,103,1)), color-stop(1%,rgba(85,103,105,1)), color-stop(12%,rgba(80,94,97,1)), color-stop(19%,rgba(78,92,95,1)), color-stop(22%,rgba(78,89,91,1)), color-stop(28%,rgba(72,82,84,1)), color-stop(34%,rgba(65,73,76,1)), color-stop(43%,rgba(59,67,70,1)), color-stop(56%,rgba(46,54,57,1)), color-stop(58%,rgba(46,51,55,1)), color-stop(58%,rgba(46,51,55,1)), color-stop(60%,rgba(45,50,54,1)), color-stop(66%,rgba(41,46,50,1)), color-stop(69%,rgba(40,45,51,1)), color-stop(70%,rgba(39,44,50,1)), color-stop(74%,rgba(37,42,48,1)), color-stop(86%,rgba(28,35,41,1)), color-stop(100%,rgba(31,36,42,1)), color-stop(100%,rgba(37,42,46,1)), color-stop(100%,rgba(26,33,39,1))); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(left, rgba(88,106,108,1) 0%,rgba(85,100,103,1) 0%,rgba(85,103,105,1) 1%,rgba(80,94,97,1) 12%,rgba(78,92,95,1) 19%,rgba(78,89,91,1) 22%,rgba(72,82,84,1) 28%,rgba(65,73,76,1) 34%,rgba(59,67,70,1) 43%,rgba(46,54,57,1) 56%,rgba(46,51,55,1) 58%,rgba(46,51,55,1) 58%,rgba(45,50,54,1) 60%,rgba(41,46,50,1) 66%,rgba(40,45,51,1) 69%,rgba(39,44,50,1) 70%,rgba(37,42,48,1) 74%,rgba(28,35,41,1) 86%,rgba(31,36,42,1) 100%,rgba(37,42,46,1) 100%,rgba(26,33,39,1) 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(left, rgba(88,106,108,1) 0%,rgba(85,100,103,1) 0%,rgba(85,103,105,1) 1%,rgba(80,94,97,1) 12%,rgba(78,92,95,1) 19%,rgba(78,89,91,1) 22%,rgba(72,82,84,1) 28%,rgba(65,73,76,1) 34%,rgba(59,67,70,1) 43%,rgba(46,54,57,1) 56%,rgba(46,51,55,1) 58%,rgba(46,51,55,1) 58%,rgba(45,50,54,1) 60%,rgba(41,46,50,1) 66%,rgba(40,45,51,1) 69%,rgba(39,44,50,1) 70%,rgba(37,42,48,1) 74%,rgba(28,35,41,1) 86%,rgba(31,36,42,1) 100%,rgba(37,42,46,1) 100%,rgba(26,33,39,1) 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(left, rgba(88,106,108,1) 0%,rgba(85,100,103,1) 0%,rgba(85,103,105,1) 1%,rgba(80,94,97,1) 12%,rgba(78,92,95,1) 19%,rgba(78,89,91,1) 22%,rgba(72,82,84,1) 28%,rgba(65,73,76,1) 34%,rgba(59,67,70,1) 43%,rgba(46,54,57,1) 56%,rgba(46,51,55,1) 58%,rgba(46,51,55,1) 58%,rgba(45,50,54,1) 60%,rgba(41,46,50,1) 66%,rgba(40,45,51,1) 69%,rgba(39,44,50,1) 70%,rgba(37,42,48,1) 74%,rgba(28,35,41,1) 86%,rgba(31,36,42,1) 100%,rgba(37,42,46,1) 100%,rgba(26,33,39,1) 100%); /* IE10+ */
+            background: linear-gradient(to right, rgba(88,106,108,1) 0%,rgba(85,100,103,1) 0%,rgba(85,103,105,1) 1%,rgba(80,94,97,1) 12%,rgba(78,92,95,1) 19%,rgba(78,89,91,1) 22%,rgba(72,82,84,1) 28%,rgba(65,73,76,1) 34%,rgba(59,67,70,1) 43%,rgba(46,54,57,1) 56%,rgba(46,51,55,1) 58%,rgba(46,51,55,1) 58%,rgba(45,50,54,1) 60%,rgba(41,46,50,1) 66%,rgba(40,45,51,1) 69%,rgba(39,44,50,1) 70%,rgba(37,42,48,1) 74%,rgba(28,35,41,1) 86%,rgba(31,36,42,1) 100%,rgba(37,42,46,1) 100%,rgba(26,33,39,1) 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#586a6c', endColorstr='#1a2127',GradientType=1 ); /* IE6-8 */
+            padding-top: rem(22px);
+            padding-bottom: rem(24px);
+            font-size: 0;
+            @include verticle-middle();
+
+            @include respond-to-min($tabletSize) {
+                padding-top: rem(24px);
+                padding-bottom: rem(30px);
+            }
+
+            @include respond-to-min($laptopSize) {
+                padding-top: rem(30px);
+                padding-bottom: rem(32px);
+            }
+
+            .footer-signup-content {
+                display: inline-block;
+                width: 100%;
+                vertical-align: middle;
+            }
+
+            p {
+                @include latoBold();
+                font-size: rem(14px);
+                line-height: rem(18px);
+                color: #fff;
+                margin-bottom: rem(15px);
+                margin-top: 0;
+                letter-spacing: rem(0.5px);
+
+                @include respond-to-min($tabletSize) {
+                    font-size: rem(17px);
+                    line-height: rem(24px);
+                }
+
+                @include respond-to-min($desktopSize) {
+                    font-size: rem(18px);
+                    line-height: rem(24px);
+                }
+            }
+
+            .thankyou-message {
+                @include latoBold();
+                font-size: rem(14px);
+                line-height: rem(18px);
+                color: #fff;
+                margin-bottom: rem(15px);
+                margin-top: 0;
+                letter-spacing: rem(0.5px);
+                display: none;
+
+                @include respond-to-min($tabletSize) {
+                    font-size: rem(17px);
+                    line-height: rem(24px);
+                }
+
+                @include respond-to-min($desktopSize) {
+                    font-size: rem(18px);
+                    line-height: rem(24px);
+                }
+            }
+
+            form {
+                //  @include vertical-align();
+                position: relative;
+            }
+
+            input[type="text"] {
+                height: rem(50px);
+                width: 100%;
+                padding: rem(0 115px 0 20px);
+                @include arial();
+                font-size: rem(14px);
+                color: #848484;
+                border: 0;
+                border-radius: rem(5px);
+
+                &:focus, &:active {
+                    outline: none;
+                }
+
+                @include respond-to-max(767px) {
+                    padding-left: rem(10px);
+                }
+
+                &.invalid {
+                    border: solid 1px red;
+                }
+            }
+
+            button[type="submit"], input[type="submit"] {
+                border: none;
+                border-radius: rem(0 5px 5px 0);
+                position: absolute;
+                right: rem(0px);
+                top: 0;
+                width: rem(110px);
+                height: rem(50px);
+                font-size: rem(12px);
+                line-height: 50px;
+                background: #666a6c;
+                @include latoBlack();
+                color: #fff;
+                text-transform: uppercase;
+
+                &:hover {
+                    background: #353637;
+                }
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            @include respond-to-min($tabletSize) {
+                /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3c4546+0,262b2e+46,1c2126+80,1a2024+100 */
+                background: rgb(60,69,70); /* Old browsers */
+                background: -moz-linear-gradient(left, rgba(60,69,70,1) 0%, rgba(38,43,46,1) 46%, rgba(28,33,38,1) 80%, rgba(26,32,36,1) 100%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(60,69,70,1)), color-stop(46%,rgba(38,43,46,1)), color-stop(80%,rgba(28,33,38,1)), color-stop(100%,rgba(26,32,36,1))); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(left, rgba(60,69,70,1) 0%,rgba(38,43,46,1) 46%,rgba(28,33,38,1) 80%,rgba(26,32,36,1) 100%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(left, rgba(60,69,70,1) 0%,rgba(38,43,46,1) 46%,rgba(28,33,38,1) 80%,rgba(26,32,36,1) 100%); /* Opera 11.10+ */
+                background: -ms-linear-gradient(left, rgba(60,69,70,1) 0%,rgba(38,43,46,1) 46%,rgba(28,33,38,1) 80%,rgba(26,32,36,1) 100%); /* IE10+ */
+                background: linear-gradient(to right, rgba(60,69,70,1) 0%,rgba(38,43,46,1) 46%,rgba(28,33,38,1) 80%,rgba(26,32,36,1) 100%); /* W3C */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c4546', endColorstr='#1a2024',GradientType=1 ); /* IE6-9 */
+            }
+        }
+
+        &.column-same-height {
+            @include respond-to-max(767px) {
+                height: auto !important;
+            }
+        }
+
+        padding-left: rem(20px);
+        padding-right: rem(20px);
+
+        @include respond-to-min($tabletSize) {
+            padding: 29px 20px 15px;
+        }
+
+        @include respond-to-min($desktopSize) {
+        }
+
+        @include respond-to-min($laptopSize) {
+            padding: rem(29px 40px 15px);
+        }
+    }
+}
+/*-- footer-bottom-block --*/
+.bottom-footer-block {
+    background: #8f9598;
+
+    .no-gutter-right {
+        include respond-to-min($tabletSize) {
+        }
+
+        @include respond-to-min($desktopSize) {
+            padding-right: 0;
+        }
+
+        @include respond-to-min($laptopSize) {
+        }
+    }
+
+    .no-gutter {
+        padding: 0;
+    }
+
+    .footer-navigation {
+        padding: rem(30px 15px 0);
+        margin-bottom: rem(30px);
+        font-size: 0;
+
+        .footer-link {
+            display: inline-block;
+            vertical-align: top;
+            overflow: hidden;
+
+            h3 {
+                a {
+                    @include arial();
+                    font-size: rem(14px);
+                    font-weight: bold;
+                    color: #fff;
+                    margin-bottom: rem(5px);
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    display: inline-block;
+                }
+            }
+
+            .footer-menu {
+                margin-bottom: rem(30px);
+                padding: 0;
+                margin-top: 0;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        @include arial();
+                        font-size: rem(14px);
+                        color: #d4d4d4;
+                        text-decoration: none;
+
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+
+            .footer-external-links {
+                padding: 0;
+
+                li {
+                    margin-bottom: rem(12px);
+                    list-style: none;
+
+                    a {
+                        @include arial();
+                        font-size: rem(14px);
+                        line-height: rem(16px);
+                        font-weight: bold;
+                        color: #fff;
+                        text-decoration: none;
+                        text-transform: uppercase;
+
+                        &:hover {
+                            color: #d4d4d4;
+                        }
+                    }
+                }
+            }
+
+            @include respond-to-min($tabletSize) {
+                padding-right: rem(35px);
+                max-width: none;
+
+                &:last-child {
+                    padding-right: 0;
+                }
+            }
+
+            @include respond-to-min($desktopSize) {
+                margin-bottom: 0;
+                max-width: none;
+                padding-right: 5.43%;
+
+                &:last-child {
+                    padding-right: 0;
+                }
+            }
+
+            @include respond-to-min($laptopSize) {
+                padding-right: 4%;
+
+                &:last-child {
+                    padding-right: 0;
+                }
+            }
+
+            @include respond-to-min($largeSize) {
+                padding-right: 6.8%;
+
+                &:last-child {
+                    padding-right: 0;
+                }
+            }
+        }
+
+        @include respond-to-min($tabletSize) {
+            padding: rem(30px 5px 0);
+        }
+
+        @include respond-to-min($desktopSize) {
+        }
+
+        @include respond-to-min($laptopSize) {
+            padding: rem(30px 25px 0);
+            margin-bottom: 0;
+            border-right: rem(1px solid #a5aaad);
+            min-height: rem(210px);
+        }
+    }
+
+    .social-sharing {
+        border-top: rem(1px solid #a5aaad);
+        font-size: 0;
+
+        a {
+            display: inline-block;
+            vertical-align: middle;
+            height: rem(50px);
+            width: 25%;
+            text-align: center;
+            color: #fff;
+            font-size: rem(30px);
+
+            @include respond-to-min($tabletSize) {
+                height: rem(95px);
+            }
+
+            i {
+                line-height: rem(50px);
+                width: 100%;
+                border-right: rem(1px solid #a5aaad);
+                display: block;
+
+                @include respond-to-min($tabletSize) {
+                    line-height: rem(95px);
+                }
+            }
+
+            &:hover {
+                color: #d4d4d4;
+            }
+        }
+
+        @include respond-to-min($desktopSize) {
+        }
+
+        @include respond-to-min($laptopSize) {
+            border-bottom: rem(1px solid #a5aaad);
+        }
+    }
+
+    .copyright-section {
+        border-top: rem(1px solid #a5aaad);
+        padding: rem(25px 15px);
+        text-align: center;
+
+        .policy-menu, .external-footer-menu {
+            padding: 0;
+            margin: 0;
+
+            li {
+                @include inline-block();
+                margin-left: rem(20px);
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    @include arial();
+                    font-size: rem(14px);
+
+                    &:hover {
+                        color: #d4d4d4;
+                    }
+                }
+
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+
+        .policy-menu {
+            margin-bottom: rem(25px);
+
+            @include respond-to-min($tabletSize) {
+                margin: 0;
+            }
+        }
+
+        p {
+            color: #d4d4d4;
+            @include arial();
+            font-size: rem(14px);
+            margin: 0;
+        }
+
+        @include respond-to-min($tabletSize) {
+            padding: rem(25px 30px 20px 15px);
+            text-align: right;
+        }
+
+        @include respond-to-min($desktopSize) {
+        }
+
+        @include respond-to-min($laptopSize) {
+            padding: rem(45px 40px 25px);
+            border-top: 0;
+            border-left: 0;
+        }
+    }
+}

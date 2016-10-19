@@ -1,0 +1,29 @@
+
+.cookies-container {
+    @include rtl() {
+        padding: rem(10px 10px 10px 50px);
+
+        @include respond-to-min($tabletSize) {
+            padding: rem(20px 20px 20px 150px);
+        }
+
+        @include respond-to-min($desktopSize) {
+            padding: rem(20px 36px 20px 270px);
+        }
+
+        .cookies-close {
+            right: auto;
+            left: rem(10px);
+
+            @include respond-to-min($tabletSize) {
+                right: auto;
+                left: rem(20px);
+            }
+
+            @include respond-to-min($desktopSize) {
+                right: auto;
+                left: rem(30px);
+            }
+        }
+    }
+}

@@ -1,0 +1,108 @@
+﻿$base-font-size: 16px;
+@function rem($values) {
+
+	@if type-of($values) == "list" {
+
+		$rems: ();
+
+		@each $value in $values {
+			$rems: append($rems, rem($value));
+		}
+
+		@return $rems;
+	}
+
+	@if type-of($values) == "number" {
+
+		@if $values == 0 {
+			@return $values;
+		}
+
+		@if unit($values) == px {
+			@return ($values / $base-font-size) * 1rem;
+		}
+	}
+
+	@return $values;
+}
+@mixin vertical-align($position: relative) {
+    position: $position;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+@mixin inline-block() {
+    display: inline-block;
+    vertical-align: middle;
+}
+@mixin image-cover-center-top(){
+    position: absolute;
+    width: 101%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 0;
+}
+
+@mixin image-cover-center-center(){
+    position: absolute;
+    width: 101%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 0;
+}
+
+@mixin verticle-middle() {
+    vertical-align: middle;
+
+    &::before {
+        content: '';
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 0;
+    }
+}
+
+@mixin horizontal-center($position: relative) {
+    position: $position;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+@mixin horizontal-center-rtl($position: relative) {
+    position: $position;
+    right: 50%;
+    left: auto;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+}
+
+@mixin both-center($position: relative) {
+    position: $position;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+@mixin both-center-rtl($position: relative) {
+    position: $position;
+    top: 50%;
+    right: 50%;
+    left: auto;
+    -webkit-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+}
+
+@mixin rtl(){
+    html[dir=rtl] &{
+        @content;
+    }
+}

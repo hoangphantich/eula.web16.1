@@ -1,0 +1,864 @@
+﻿{
+  "items": [
+    {
+      "text": "Development",
+      "url": "#",
+      "icon-menu": "fa fa-file-code-o",
+      "color": "#660066",
+      "submenu": [
+        {
+          "text": "All Development",
+          "url": "#"
+        },
+        {
+          "text": "Web Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Mobile Apps",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Programing Languages",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Game Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Database",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Testing",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Engineering",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Development Tools",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "E-commerce",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        }
+      ]
+    },
+    {
+      "text": "Business",
+      "url": "#",
+      "icon-menu": "fa fa-file-code-o",
+      "color": "#4080bf",
+      "submenu": [
+        {
+          "text": "All Development",
+          "url": "#"
+        },
+        {
+          "text": "Web Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Mobile Apps",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Programing Languages",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Game Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Database",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Testing",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Engineering",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Development Tools",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "E-commerce",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        }
+      ]
+    },
+    {
+      "text": "IT & Sofware",
+      "url": "#",
+      "icon-menu": "fa fa-file-code-o",
+      "color": "#4080bf",
+      "submenu": [
+        {
+          "text": "All Development",
+          "url": "#"
+        },
+        {
+          "text": "Web Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Mobile Apps",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Programing Languages",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Game Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Database",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Testing",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Engineering",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Development Tools",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "E-commerce",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        }
+      ]
+    },
+    {
+      "text": "Office Productivity",
+      "url": "#",
+      "icon-menu": "fa fa-file-code-o",
+      "color": "#4080bf",
+      "submenu": [
+        {
+          "text": "All Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Web Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Mobile Apps",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Programing Languages",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Game Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Database",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Testing",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Engineering",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Development Tools",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "E-commerce",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        }
+      ]
+    },
+    {
+      "text": "Personal Development",
+      "url": "#",
+      "icon-menu": "fa fa-file-code-o",
+      "color": "#4080bf",
+      "submenu": [
+        {
+          "text": "All Development",
+          "url": "#"
+        },
+        {
+          "text": "Web Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Mobile Apps",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Programing Languages",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Game Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Database",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Testing",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Engineering",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Development Tools",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "E-commerce",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        }
+      ]
+    },
+    {
+      "text": "Office Productivity",
+      "url": "#",
+      "icon-menu": "fa fa-file-code-o",
+      "color": "#4080bf",
+      "submenu": [
+        {
+          "text": "All Development",
+          "url": "#"
+        },
+        {
+          "text": "Web Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Mobile Apps",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Programing Languages",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Game Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Database",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Testing",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Engineering",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Development Tools",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "E-commerce",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        }
+      ]
+    },
+    {
+      "text": "Design",
+      "url": "#",
+      "icon-menu": "fa fa-file-code-o",
+      "color": "#4080bf",
+      "submenu": [
+        {
+          "text": "All Development",
+          "url": "#"
+        },
+        {
+          "text": "Web Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Mobile Apps",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Programing Languages",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Game Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Database",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Testing",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Engineering",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Development Tools",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "E-commerce",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        }
+      ]
+    },
+    {
+      "text": "Marketing",
+      "url": "#",
+      "icon-menu": "fa fa-file-code-o",
+      "color": "#4080bf",
+      "submenu": [
+        {
+          "text": "All Development",
+          "url": "#"
+        },
+        {
+          "text": "Web Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Mobile Apps",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Programing Languages",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Game Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Database",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Testing",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Engineering",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Development Tools",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "E-commerce",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        }
+      ]
+    },
+    {
+      "text": "Lifestyle",
+      "url": "#",
+      "icon-menu": "fa fa-file-code-o",
+      "color": "#4080bf",
+      "submenu": [
+        {
+          "text": "All Development",
+          "url": "#"
+        },
+        {
+          "text": "Web Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Mobile Apps",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Programing Languages",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Game Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Database",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Testing",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Engineering",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Development Tools",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "E-commerce",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        }
+      ]
+    },
+    {
+      "text": "Healthy & Fitness",
+      "url": "#",
+      "icon-menu": "fa fa-file-code-o",
+      "color": "#4080bf",
+      "submenu": [
+        {
+          "text": "All Development",
+          "url": "#"
+        },
+        {
+          "text": "Web Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Mobile Apps",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Programing Languages",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Game Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Database",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Testing",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Engineering",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Development Tools",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "E-commerce",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        }
+      ]
+    },
+    {
+      "text": "Teacher Training",
+      "url": "#",
+      "icon-menu": "fa fa-file-code-o",
+      "color": "#4080bf",
+      "submenu": [
+        {
+          "text": "All Development",
+          "url": "#"
+        },
+        {
+          "text": "Web Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Mobile Apps",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Programing Languages",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Game Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Database",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Testing",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Engineering",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Development Tools",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "E-commerce",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        }
+      ]
+    },
+    {
+      "text": "Music",
+      "url": "#",
+      "icon-menu": "fa fa-file-code-o",
+      "color": "#4080bf",
+      "submenu": [
+        {
+          "text": "All Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Web Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Mobile Apps",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Programing Languages",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Game Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Database",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Testing",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Engineering",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Development Tools",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "E-commerce",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        }
+      ]
+    },
+    {
+      "text": "Academics",
+      "url": "#",
+      "icon-menu": "fa fa-file-code-o",
+      "color": "#4080bf",
+      "submenu": [
+        {
+          "text": "All Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Web Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Mobile Apps",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Programing Languages",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Game Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Database",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Testing",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Engineering",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Development Tools",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "E-commerce",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        }
+      ]
+    },
+    {
+      "text": "Language",
+      "url": "#",
+      "color": "#4080bf",
+      "icon-menu": "fa fa-file-code-o",
+      "submenu": [
+        {
+          "text": "All Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Web Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Mobile Apps",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Programing Languages",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Game Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Database",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Testing",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Engineering",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Development Tools",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "E-commerce",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        }
+      ]
+    },
+    {
+      "text": "Test Prep",
+      "url": "#",
+      "icon-menu": "fa fa-file-code-o",
+      "color": "#4080bf",
+      "submenu": [
+        {
+          "text": "All Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Web Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Mobile Apps",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Programing Languages",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Game Development",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Database",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Testing",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Software Engineering",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "Development Tools",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        },
+        {
+          "text": "E-commerce",
+          "url": "#",
+          "icon-menu": "fa fa-file-code-o"
+        }
+      ]
+    }
+  ]
+}

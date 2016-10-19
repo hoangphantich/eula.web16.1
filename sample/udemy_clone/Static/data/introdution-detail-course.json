@@ -1,0 +1,41 @@
+﻿{
+  "course": [
+    {
+      "title": "The Complete Financial Analyst Course 2016",
+      "subtitle": "Excel, Accounting, Financial Statement Analysis, Business Analysis, Financial Math, PowerPoint: Everything is Included!",
+      "rating": 4.3,
+      "rating-count": 683,
+      "enrolled-number": 8602,
+      "instructor": {
+        "name": "Bloomberg LP",
+        "avatar": "/img/instructor-avatar.jpg",
+        "job":  "World leader in financial data and media"
+      },
+      "cate-lv1": "Business",
+      "cate-lv2": "Finance",
+      "video-link":  "/videos/niteco.mp4",
+      "poster": "/img/batman.jpg",
+      "current-price": 24,
+      "old-price": 35,
+      "lectures-count": 143,
+      "video-length": 8,
+      "skill-level" : "All Levels",
+      "languages": "English",
+      "includes": [
+            {
+              "feature": "Lifetime access"
+            },
+            {
+              "feature": "30 day money back guarantee!"
+            },
+            {
+              "feature": "Available on iOS and Android"
+            },
+            {
+              "feature": "Certificate of Completion"
+            }
+      ]
+    }
+  ]
+  
+}

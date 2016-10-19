@@ -1,0 +1,90 @@
+﻿{
+  "items": [
+    {
+      "list_course": [
+        {
+          "img": "/img/java_spring.jpg",
+          "title": "3D Animation: Basics To Full Body and Creature Mechanics",
+          "instructor": "Mr. Jame Son",
+          "job": "Technical Instructor",
+          "average-rating": 4.6,
+          "reviews_count": 324,
+          "newprice": 50,
+          "oldprice": 100,
+          "number-lecture": 87,
+          "time-video": 20.5,
+          "img-bio": [
+            {
+              "bio-avatar": "/img/bio-avatar1.jpg"
+            },
+            {
+              "bio-avatar": "/img/bio-avatar2.jpg"
+            }
+          ]
+        },
+        {
+          "img": "/img/img-landing.jpg",
+          "title": "3D Animation: Basics To Full Body and Creature Mechanics",
+          "instructor": "Mr. Jame Son",
+          "job": "Technical Instructor",
+          "average-rating": 4.6,
+          "reviews_count": 324,
+          "newprice": 50,
+          "oldprice": 100,
+          "number-lecture": 87,
+          "time-video": 20.5,
+          "img-bio": [
+            {
+              "bio-avatar": "/img/bio-avatar1.jpg"
+            },
+            { "bio-avatar": "/img/bio-avatar2.jpg" },
+            {
+              "bio-avatar": "/img/bio-avatar2.jpg"
+            }
+          ]
+        },
+        {
+          "img": "/img/img-landing2.jpg",
+          "title": "3D Animation: Basics To Full Body and Creature Mechanics",
+          "instructor": "Mr. Jame Son",
+          "job": "Technical Instructor",
+          "average-rating": 4.6,
+          "reviews_count": 324,
+          "newprice": 50,
+          "oldprice": 100,
+          "number-lecture": 87,
+          "time-video": 20.5,
+          "img-bio": [
+            {
+              "bio-avatar": "/img/bio-avatar1.jpg"
+            },
+            {
+              "bio-avatar": "/img/bio-avatar2.jpg"
+            }
+          ]
+        },
+        {
+          "img": "/img/java_spring.jpg",
+          "title": "3D Animation: Basics To Full Body and Creature Mechanics",
+          "instructor": "Mr. Jame Son",
+          "job": "Technical Instructor",
+          "average-rating": 4.6,
+          "reviews_count": 324,
+          "newprice": 50,
+          "oldprice": 100,
+          "number-lecture": 87,
+          "time-video": 20.5,
+          "img-bio": [
+            {
+              "bio-avatar": "/img/bio-avatar1.jpg"
+            },
+            {
+              "bio-avatar": "/img/bio-avatar2.jpg"
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

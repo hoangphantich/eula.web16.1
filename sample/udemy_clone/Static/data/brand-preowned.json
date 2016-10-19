@@ -1,0 +1,94 @@
+﻿{
+    "items": [
+        {
+            "image": "/img/car_escape.jpg",
+            "name": "Escape E202 XLS CLTH",
+            "mileage": "47806",
+            "model_year": "2012",
+            "fuel_type": "Petrol",
+            "trim": "Stone",
+            "color": "Lime Squee",
+            "price": "60,000"
+        },
+        {
+            "image": "/img/car_f150.jpg",
+            "name": "F150 LX153 FX4 S/CAB LUX",
+            "mileage": "11487",
+            "model_year": "2013",
+            "fuel_type": "Petrol",
+            "trim": "Black",
+            "color": "Sterling Grey",
+            "price": "143,000"
+        },
+        {
+            "image": "/img/car_fiesta.jpg",
+            "name": "FIESTA FT242 TITANIUM L",
+            "mileage": "48900",
+            "model_year": "2012",
+            "fuel_type": "Petrol",
+            "trim": "Napoli Syracuse",
+            "color": "Midnight Silver",
+            "price": "51,000"
+        },
+        {
+            "image": "/img/car_f150.jpg",
+            "name": "F150 LX153 FX4 S/CAB LUX",
+            "mileage": "11487",
+            "model_year": "2013",
+            "fuel_type": "Petrol",
+            "trim": "Black",
+            "color": "Sterling Grey",
+            "price": "143,000"
+        },
+        {
+            "image": "/img/car_fiesta.jpg",
+            "name": "FIESTA FT242 TITANIUM L",
+            "mileage": "48900",
+            "model_year": "2012",
+            "fuel_type": "Petrol",
+            "trim": "Napoli Syracuse",
+            "color": "Midnight Silver",
+            "price": "51,000"
+        },
+        {
+            "image": "/img/car_escape.jpg",
+            "name": "Escape E202 XLS CLTH",
+            "mileage": "47806",
+            "model_year": "2012",
+            "fuel_type": "Petrol",
+            "trim": "Stone",
+            "color": "Lime Squee",
+            "price": "60,000"
+        },
+        {
+            "image": "/img/car_fiesta.jpg",
+            "name": "FIESTA FT242 TITANIUM L",
+            "mileage": "48900",
+            "model_year": "2012",
+            "fuel_type": "Petrol",
+            "trim": "Napoli Syracuse",
+            "color": "Midnight Silver",
+            "price": "51,000"
+        },
+        {
+            "image": "/img/car_escape.jpg",
+            "name": "Escape E202 XLS CLTH",
+            "mileage": "47806",
+            "model_year": "2012",
+            "fuel_type": "Petrol",
+            "trim": "Stone",
+            "color": "Lime Squee",
+            "price": "60,000"
+        },
+        {
+            "image": "/img/car_f150.jpg",
+            "name": "F150 LX153 FX4 S/CAB LUX",
+            "mileage": "11487",
+            "model_year": "2013",
+            "fuel_type": "Petrol",
+            "trim": "Black",
+            "color": "Sterling Grey",
+            "price": "143,000"
+        }
+    ]
+}

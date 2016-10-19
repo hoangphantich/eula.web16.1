@@ -1,0 +1,210 @@
+﻿{
+    "features": [
+        {
+            "normalText": "Starting at",
+            "boldText": "AED 115,000"
+        },
+        {
+            "icon": "/img/icon_seat.png",
+            "normalText": "Seats",
+            "boldText": "5"
+        },
+        {
+            "icon": "/img/icon_engine.png",
+            "normalText": "Engine",
+            "boldText": "2.5L 1-4"
+        },
+        {
+            "icon": "/img/icon_horse_power.png",
+            "normalText": "Horsepower",
+            "boldText": "168 HP"
+        },
+        {
+            "icon": "/img/icon_estimate_mpg.png",
+            "normalText": "Estimated MPG",
+            "boldText": "22 City / 31 HWY"
+        }
+    ],
+    "seeItYourself": {
+        "title": "Go see it for yourself",
+        "description": "The Escape's 2015 sleek, muscular shape contributes to improved fuel efficiency and cargo handling, while it's modern, kinetic design creates a sense of movement even when Escape is standing still. Up front, the large trapezoidal lower grille gives Escape a signature Ford look with styling cues carried all the way to the back, where the liftgate flows into the lower fascia for a finished, sculpted look.",
+        "youtube": "https://youtu.be/zIdRacb0lew",
+        "youtubePreview": "/img/vehicle_detail_preview_video.jpg"
+    },
+    "quicklink": [
+        {
+            "icon": "/img/vehicle_detail_quicklink_icon_download.png",
+            "lineOne": "Download",
+            "lineTwo": "Brochure",
+            "isLightBox": true
+        },
+        {
+            "icon": "/img/vehicle_detail_quicklink_icon_book_test.png",
+            "lineOne": "Book a",
+            "lineTwo": "Test drive"
+        },
+        {
+            "icon": "/img/vehicle_detail_quicklink_icon_book_locate.png",
+            "lineOne": "Locate",
+            "lineTwo": "Dealer"
+        },
+        {
+            "icon": "/img/vehicle_detail_quicklink_icon_rate.png",
+            "lineOne": "Ratings &",
+            "lineTwo": "Reviews"
+        },
+        {
+            "icon": "/img/vehicle_detail_quicklink_icon_finance.png",
+            "lineOne": "Finance &",
+            "lineTwo": "Insurance"
+        }
+    ],
+
+    "slider": [
+        {
+            "largeImage": "/img/car_slider_image.jpg",
+            "desktopImage": "/img/car_slider_image.jpg",
+            "tabletImage": "/img/car_slider_image.jpg",
+            "mobileImage": "/img/car_slider_image.jpg"
+        },
+        {
+            "largeImage": "/img/car_slider_image.jpg",
+            "desktopImage": "/img/car_slider_image.jpg",
+            "tabletImage": "/img/car_slider_image.jpg",
+            "mobileImage": "/img/car_slider_image.jpg"
+        },
+        {
+            "largeImage": "/img/car_slider_image.jpg",
+            "desktopImage": "/img/car_slider_image.jpg",
+            "tabletImage": "/img/car_slider_image.jpg",
+            "mobileImage": "/img/car_slider_image.jpg"
+        }
+    ],
+
+    "specification": {
+        "header": "Specifications",
+        "tab": [
+            {
+                "text": "Feature highlights",
+                "data": "feature-tab",
+                "isActive":  true
+            },
+            {
+                "text": "Exterior",
+                "data": "exterior-tab"
+            },
+            {
+                "text": "Interior",
+                "data": "interior-tab"
+            },
+            {
+                "text": "Safety & security",
+                "data": "safety-security-tab"
+            }
+        ],
+
+        "list": [
+            {
+                "data": "feature-tab",
+                "isActive": true,
+                "items": [
+                    {
+                        "title": "Performance",
+                        "description": "The Escape is equipped to keep up with you. It has a 168- horsepower, 2.5L Duratec engine, or you have your choice of two available EcoBoost engines. They're paired with a 6-speed SelectShift automatic transmission, providing the sportiness and control of a manual.",
+                        "image": "/img/vehicle-detail-specification_performance.jpg"
+                    },
+                    {
+                        "title": "Technology",
+                        "description": "The available technology features in the Escape can do everything from alerting you to vehicles in your blind spot to opening the available class-exclusive hands-free, footactivated liftgate with a kick under the rear bumper. Available SYNC with MyFord Touch features voice activated technology.",
+                        "image": "/img/vehicle-detail-specification_technology.jpg"
+                    },
+                    {
+                        "title": "Capabilities",
+                        "description": "Whether it's towing a 3,500-lb trailer, accommodating passengers and their cargo or helping provide control on rain or snow-stick roads, the Escape is up to the task. Features include rear seats that fold for cargo on demand, and available Intelligent 4WD System that adjusts torque distribution.",
+                        "image": "/img/vehicle-detail-specification_capabilities.jpg"
+                    },
+                    {
+                        "title": "Design",
+                        "description": "The Escape, with its smartly placed lines and sleek silhouette, appears to be in motion even when parked. Available HID headlamps, optional wheel choices and the SE Chrome Package complement that look. Step inside. The interior combines sophisticated style and comfort with versatility.",
+                        "image": "/img/vehicle-detail-specification_design.jpg"
+                    }
+                ]
+            },
+            {
+                "data": "exterior-tab",
+                "items": [
+                    {
+                        "title": "Performance 2",
+                        "description": "The Escape is equipped to keep up with you. It has a 168- horsepower, 2.5L Duratec engine, or you have your choice of two available EcoBoost engines. They're paired with a 6-speed SelectShift automatic transmission, providing the sportiness and control of a manual.",
+                        "image": "/img/vehicle-detail-specification_performance.jpg"
+                    },
+                    {
+                        "title": "Technology 2",
+                        "description": "The available technology features in the Escape can do everything from alerting you to vehicles in your blind spot to opening the available class-exclusive hands-free, footactivated liftgate with a kick under the rear bumper. Available SYNC with MyFord Touch features voice activated technology.",
+                        "image": "/img/vehicle-detail-specification_technology.jpg"
+                    },
+                    {
+                        "title": "Capabilities 2",
+                        "description": "Whether it's towing a 3,500-lb trailer, accommodating passengers and their cargo or helping provide control on rain or snow-stick roads, the Escape is up to the task. Features include rear seats that fold for cargo on demand, and available Intelligent 4WD System that adjusts torque distribution.",
+                        "image": "/img/vehicle-detail-specification_capabilities.jpg"
+                    },
+                    {
+                        "title": "Design 2",
+                        "description": "The Escape, with its smartly placed lines and sleek silhouette, appears to be in motion even when parked. Available HID headlamps, optional wheel choices and the SE Chrome Package complement that look. Step inside. The interior combines sophisticated style and comfort with versatility.",
+                        "image": "/img/vehicle-detail-specification_design.jpg"
+                    }
+                ]
+            },
+            {
+                "data": "interior-tab",
+                "items": [
+                    {
+                        "title": "Performance 3",
+                        "description": "The Escape is equipped to keep up with you. It has a 168- horsepower, 2.5L Duratec engine, or you have your choice of two available EcoBoost engines. They're paired with a 6-speed SelectShift automatic transmission, providing the sportiness and control of a manual.",
+                        "image": "/img/vehicle-detail-specification_performance.jpg"
+                    },
+                    {
+                        "title": "Technology 3",
+                        "description": "The available technology features in the Escape can do everything from alerting you to vehicles in your blind spot to opening the available class-exclusive hands-free, footactivated liftgate with a kick under the rear bumper. Available SYNC with MyFord Touch features voice activated technology.",
+                        "image": "/img/vehicle-detail-specification_technology.jpg"
+                    },
+                    {
+                        "title": "Capabilities 3",
+                        "description": "Whether it's towing a 3,500-lb trailer, accommodating passengers and their cargo or helping provide control on rain or snow-stick roads, the Escape is up to the task. Features include rear seats that fold for cargo on demand, and available Intelligent 4WD System that adjusts torque distribution.",
+                        "image": "/img/vehicle-detail-specification_capabilities.jpg"
+                    },
+                    {
+                        "title": "Design 3",
+                        "description": "The Escape, with its smartly placed lines and sleek silhouette, appears to be in motion even when parked. Available HID headlamps, optional wheel choices and the SE Chrome Package complement that look. Step inside. The interior combines sophisticated style and comfort with versatility.",
+                        "image": "/img/vehicle-detail-specification_design.jpg"
+                    }
+                ]
+            },
+            {
+                "data": "safety-security-tab",
+                "items": [
+                    {
+                        "title": "Performance 4",
+                        "description": "The Escape is equipped to keep up with you. It has a 168- horsepower, 2.5L Duratec engine, or you have your choice of two available EcoBoost engines. They're paired with a 6-speed SelectShift automatic transmission, providing the sportiness and control of a manual.",
+                        "image": "/img/vehicle-detail-specification_performance.jpg"
+                    },
+                    {
+                        "title": "Technology 4",
+                        "description": "The available technology features in the Escape can do everything from alerting you to vehicles in your blind spot to opening the available class-exclusive hands-free, footactivated liftgate with a kick under the rear bumper. Available SYNC with MyFord Touch features voice activated technology.",
+                        "image": "/img/vehicle-detail-specification_technology.jpg"
+                    },
+                    {
+                        "title": "Capabilities 4",
+                        "description": "Whether it's towing a 3,500-lb trailer, accommodating passengers and their cargo or helping provide control on rain or snow-stick roads, the Escape is up to the task. Features include rear seats that fold for cargo on demand, and available Intelligent 4WD System that adjusts torque distribution.",
+                        "image": "/img/vehicle-detail-specification_capabilities.jpg"
+                    },
+                    {
+                        "title": "Design 4",
+                        "description": "The Escape, with its smartly placed lines and sleek silhouette, appears to be in motion even when parked. Available HID headlamps, optional wheel choices and the SE Chrome Package complement that look. Step inside. The interior combines sophisticated style and comfort with versatility.",
+                        "image": "/img/vehicle-detail-specification_design.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+}

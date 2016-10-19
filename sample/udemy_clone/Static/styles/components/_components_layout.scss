@@ -1,0 +1,355 @@
+@import "_components_layout_ar";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    position: relative;
+}
+
+body {
+    padding-top: rem(100px / 2);
+
+    @include respond-to-min($tabletSize) {
+        padding-top: 0;
+    }
+
+    &.search-focus {
+        padding-top: 0;
+    }
+}
+
+.page-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.page-wrapper-content {
+    position: relative;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+
+    &.show-menu {
+        left: -86%;
+    }
+}
+
+a, img {
+    border: none;
+    outline: none;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.position-relative {
+    position: relative;
+}
+
+$layoutSpaceDesktop: 25px;
+$defaultSpace: 20px;
+
+.featured-container {
+    /*&.double-container-gutter {
+        .double-row-gutter {
+            max-width: rem(1400px);
+            margin: auto;
+        }
+    }*/
+    .double-gutter {
+        &.haft-gutter-left {
+            @include respond-to-min($tabletSize) {
+                padding-left: rem(10px);
+            }
+        }
+
+        &.haft-gutter-right {
+            @include respond-to-min($tabletSize) {
+                padding-right: rem(10px);
+            }
+        }
+    }
+}
+
+.brand-container {
+    .double-column-gutter {
+        &.haft-gutter-left {
+            @include respond-to-min($tabletSize) {
+                padding-left: rem(10px);
+            }
+
+            @include respond-to-min($laptopSize) {
+                padding-left: rem(25px);
+            }
+        }
+
+        &.haft-gutter-right {
+            @include respond-to-min($tabletSize) {
+                padding-right: rem(10px);
+            }
+
+            @include respond-to-min($laptopSize) {
+                padding-right: rem(25px);
+            }
+        }
+
+        @include respond-to-min($laptopSize) {
+            padding-left: rem(25px);
+            padding-right: rem(25px);
+        }
+    }
+}
+
+.double-container-gutter {
+    padding-left: rem($defaultSpace);
+    padding-right: rem($defaultSpace);
+
+    .double-row-gutter {
+        margin-left: rem($defaultSpace * -1);
+        margin-right: rem($defaultSpace * -1);
+
+        @include respond-to-min($tabletSize) {
+            margin-left: rem($defaultSpace * -1);
+            margin-right: rem($defaultSpace * -1);
+        }
+
+        @include respond-to-min($desktopSize) {
+            margin-left: rem($layoutSpaceDesktop * -1);
+            margin-right: rem($layoutSpaceDesktop * -1);
+        }
+    }
+
+    .double-column-gutter {
+        padding-left: rem($defaultSpace);
+        padding-right: rem($defaultSpace);
+
+        @include respond-to-min($tabletSize) {
+            padding-left: rem($defaultSpace);
+            padding-right: rem($defaultSpace);
+        }
+
+        @include respond-to-min($desktopSize) {
+            padding-left: rem($layoutSpaceDesktop);
+            padding-right: rem($layoutSpaceDesktop);
+
+            &.tab-column {
+                padding: 0;
+
+                &:first-child {
+                    padding-left: rem($layoutSpaceDesktop);
+                }
+
+                &:last-child {
+                    padding-right: rem($layoutSpaceDesktop);
+                }
+            }
+        }
+    }
+
+    @include respond-to-min($tabletSize) {
+        padding-left: rem($defaultSpace);
+        padding-right: rem($defaultSpace);
+    }
+
+    @include respond-to-min($desktopSize) {
+        padding-left: rem($layoutSpaceDesktop * 2);
+        padding-right: rem($layoutSpaceDesktop * 2);
+    }
+}
+
+
+.no-slider-padding {
+    padding-top: rem(30px) !important;
+
+    @include respond-to-min($tabletSize) {
+        padding-top: rem(45px) !important;
+    }
+
+    @include respond-to-min($desktopSize) {
+        padding-top: rem(135px) !important;
+    }
+}
+
+.col-without-padding-horizontal {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.big-heading-group {
+    color: #000;
+    @include latoBold();
+    padding: 0;
+    text-transform: uppercase;
+    line-height: rem(30px);
+    font-size: rem(24px);
+    margin: rem(0 0 8px);
+
+    @include respond-to-min($tabletSize) {
+        line-height: rem(60px);
+        font-size: rem(36px);
+        margin: rem(0 0 10px);
+    }
+}
+
+.text-paragraph {
+    color: $grayText;
+    margin: 0;
+    padding: 0;
+    @include latoNormal();
+    font-size: rem(14px);
+    line-height: rem(20px);
+    letter-spacing: rem(0.5px);
+
+    @include respond-to-min($tabletSize) {
+        font-size: rem(18px);
+        line-height: rem(30px);
+    }
+}
+
+.tab-row {
+    margin: rem(0 0 30px);
+
+    @include respond-to-min($tabletSize) {
+        margin: rem(0 0 20px);
+    }
+
+    @include respond-to-min($desktopSize) {
+        margin: rem(0 0 30px);
+    }
+}
+
+.tab-column {
+    padding: 0;
+    border-left: rem(1px solid #dbdbe2);
+
+    &:nth-child(1) {
+        border: none;
+    }
+}
+
+.tab-item {
+    background-color: #fff;
+    display: inline-block;
+    width: 100%;
+    float: left;
+    color: $blueTextColor;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: rem(13px);
+    line-height: rem(15px);
+    @include latoBold();
+    position: relative;
+
+    &:hover {
+        color: #65686a;
+    }
+
+    @include respond-to-max($tabletSize) {
+        font-size: rem(12px);
+        height: rem(60px);
+    }
+
+    @include respond-to-min($tabletSize) {
+        height: rem(70px);
+        @include verticle-middle();
+    }
+
+    &.active {
+        @include respond-to-min($tabletSize) {
+            color: #65686a;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: rem(5px);
+            background-color: $orangeBorder;
+        }
+    }
+
+    span {
+        display: inline-block;
+        vertical-align: middle;
+        max-width: 100%;
+        padding: rem(0 20px);
+        letter-spacing: rem(1px);
+        word-spacing: rem(2px);
+        text-align: left;
+
+        @include respond-to-max($tabletSize) {
+            @include vertical-align(relative);
+        }
+
+        @include respond-to-min($tabletSize) {
+            padding: rem(0 10px);
+            max-width: 70%;
+            @include both-center(absolute);
+        }
+
+        @include respond-to-min($desktopSize) {
+            position: relative;
+            top: auto;
+            left: auto;
+            transform: none;
+            max-width: 96%;
+        }
+    }
+}
+
+
+// for editting mode
+.epi-editContainer {
+    &::after {
+        content: '';
+        height: rem(1px);
+        display: block;
+        clear: both;
+    }
+}
+
+.row.preview {
+    margin: 0;
+    padding: 0;
+}
+
+.no-gutter {
+    padding: 0;
+}
+
+.orange-top-border {
+    border-top: 5px solid $orangeBorder;
+}
+
+.row-eq-height {
+    display: block;
+    margin-top: rem(50px);
+
+    @include respond-to-min($desktopSize) {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+
+%normal_button_hover_state{
+    background: #fff;
+    color: $blueTextColor;
+}
+%white_button_hover_state{
+    background: $blueTextColor;
+    color: #fff;
+    border-color: $blueTextColor;
+}
+%blue_button_hover_state{
+    background: none;
+    border-color: $blueTextColor;
+    border-width: 1px;
+    border-style: solid;
+    color: $blueTextColor;
+}

@@ -1,0 +1,12 @@
+---
+title: "Home events block"
+---
+<div class="common-block img-background-block column-same-height" style="background-image: url('{{ background }}');">
+    <h4 class="common-block-title">{{title}}</h4>
+    <div class="img-background-contents orange-top-border">
+        <p>{{descriptions}}</p>
+        {{#if link-text}}
+        <a href="{{target-url}}" class="readmore"><span>{{link-text}}</span></a>
+        {{/if}}
+    </div>
+</div>

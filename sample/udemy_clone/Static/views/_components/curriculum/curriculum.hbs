@@ -1,0 +1,38 @@
+﻿<div id="udemy-curriculum" class="curriculum container-fluid" data-require="base/views/curriculum">
+    <h1>Curriculum</h1>
+
+    <div class="cur-div-responsive">
+        <table class="cur-table-responsive">
+            <tbody id="cur-tbody">
+            </tbody>
+        </table>
+    </div>
+
+    <div class="full-curriculum">
+        <a>Full Curriculum</a>
+    </div>
+</div>
+
+<!-- Preview Video Modal -->
+<div class="modal fade preview-video-modal" id="PreviewVideo" tabindex="-1" role="dialog" aria-labelledby="PreviewVideo" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close preview-video-modal-button" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">This lecture</h4>
+            </div>
+            <div class="modal-body">
+                <video id="player" class="video-js vjs-default-skin vjs-16-9 vjs-big-play-centered"
+                        poster="/img/batman.jpg"
+                        controls preload="auto">
+
+                    <source src="/videos/niteco.mp4" type="video/mp4" />
+                    <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser that
+                        <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                    </p>
+                </video>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,250 @@
+﻿<div class="all-course-filter-tab">
+    <div class="filter-course-left" data-require="base/views/tab-filter-course">
+        <div class="search-filter-list">
+            <div class="fils">
+                <br />
+                <ul class="fils-parent-ul">
+                    <li class="filter-type-li">
+                        {{#each tab-filter-course.filter-checked}}
+                        <b class="title-filter-type">{{this.title}}</b>
+                        <ul class="list-checkbox-fils">
+                            {{#each this.list-checked}}
+                            <li class="fils-li">
+                                <div class="checkbox"><i class="fa fa-check-square" aria-hidden="true" style="color: #540768"></i></div>
+                                <div class="title-type-check"><p>{{this.checked}} ({{this.number}})</p></div>
+                            </li>
+                            {{/each}}
+                        </ul>
+                        {{/each}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="related-topic-container">
+            <div class="title-filter-type"><b>Related Topics</b></div>
+            <ul class="list-related-ul">
+                {{#each tab-filter-course.related-topic}}
+                <li class="related-li">
+                    <div class="icon-related"><i class="fa {{this.icon}}" aria-hidden="true" style="color: {{this.color}}"></i></div>
+                    <div class="category-related"><a href="#" style="color: {{this.color}}">{{this.category-name}}</a></div>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+
+    <div class="filter-course-right">
+        <div class="list-filter-course">
+            <div class="filter-form">
+                <div class="filter-form-inner">
+                    <div class="text-sort"><p>Sort by: </p></div>
+                    <div class="dropdown">
+                        <a data-toggle="dropdown" href="#"><div class="dropdown-inner"><p id="select-type">Popularity&nbsp;</p><span class="caret"></span></div></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                            <li class="dropdow-filter-li"><a href="#" onclick="mySelectType('Popularity ')">Popularity</a></li>
+                            <li class="dropdow-filter-li"><a href="#" onclick="mySelectType('Ratings ')">Ratings</a></li>
+                            <li class="dropdow-filter-li"><a href="#" onclick="mySelectType('Newest ')">Newest</a></li>
+                            <li class="dropdow-filter-li"><a href="#" onclick="mySelectType('Price: Low-to-high ')">Price: Low-to-high</a></li>
+                            <li class="dropdow-filter-li"><a href="#" onclick="mySelectType('Price: High-to-low ')">Price: High-to-low</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-expand-modal">
+                <a class="btn-refine" href="#" style="border:1px solid #540768">
+                    <div class="content-btn-refine">
+                        Refine
+                    </div>
+                </a>
+                <a class="btn-relate-topic" href="#" style="border:1px solid #540768">
+                    <div class="content-btn-relate">
+                        Related Topics
+                    </div>
+                </a>
+            </div>
+            <div class="list-filter">
+                {{#each tab-filter-course.items}}
+                <div class="list-course-filter-ul">
+                    {{#each this.list_course}}
+                    <div class="course-filter-li">
+                        <div class="course-filter-inner-left">
+                            <img src="{{this.img}}" />
+                        </div>
+                        <div class="course-filter-inner-right">
+                            <span class="course-filter-first-row">
+                                <span class="title-two-row">
+                                    {{this.title}}
+                                </span>
+                            </span>
+                            <span class="course-filter-second-row">
+                                <span class="bio-info">{{this.instructor}}, {{this.job}}</span>
+                            </span>
+
+                            <div class="price-course">
+                                <div class="new-price">
+                                    {{#if this.newprice}} ${{this.newprice}} {{/if}}
+                                </div>
+                                {{#if this.oldprice}}
+                                <div class="old-price">
+                                    ${{this.oldprice}}
+                                </div>
+                                {{/if}}
+                            </div>
+
+                            <span class="star-reviews-row">
+                                <span class="star-reviews-inner">
+                                    <b style="font-size:20px" class="dot-inline">.&nbsp;</b>
+                                    <span class="rate-star-container">
+                                        ★★★★★<span class="rate-star" title="{{this.average-rating}}">★★★★★</span>
+                                    </span>&nbsp;
+                                    <span class="right-rating"><span class="number-viewed"> ({{reviews_count}})&nbsp;</span></span>
+                                </span>
+                            </span>
+
+                            <b style="font-size:20px" id="dot-number-lecture" class="dot-inline">  &nbsp; .&nbsp;</b>
+                            <div class="number-lecture">
+                                <div class="number-lecture-inner">
+                                    {{this.number-lecture}} lectures,
+                                </div>
+                            </div>
+
+                            <div class="time-lecture">
+                                <div class="time-lecture-inner">
+                                    {{this.time-video}} hours video
+                                </div>
+                            </div>
+                            &nbsp; &nbsp;
+                            <b style="font-size:20px" class="dot-inline">.&nbsp;</b>
+                            <div class="course-filter-level">
+
+                                <p>{{this.level}}</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    {{/each}}
+                </div>
+                {{/each}}
+            </div>
+            <!-- btn next or previous page -->
+            <div class="change-page-form">
+                <div class="change-page-form-inner">
+                    <div class="btn-previous-page">
+                        <a href="#"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="number-page">
+                        <a href="#" class="no-page">1</a>
+                        <a href="#" class="no-page">2</a>
+                        <a href="#" class="no-page">3</a>
+                        <a href="#" class="no-page">4</a>
+                        <a href="#" class="no-page">...</a>
+                        <a href="#" class="no-page">31</a>
+                    </div>
+                    <div class="btn-next-page">
+                        <a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="refine-modal">
+    <div class="reset-checked">
+        <a href="#">Reset</a>
+    </div>
+    <br>
+    <div class="filter-form">
+        <div class="filter-form-inner">
+            <div class="text-sort"><p>Sort by: </p></div>
+            <div class="dropdown">
+                <a data-toggle="dropdown" href="#"><div class="dropdown-inner"><p id="select-type">Popularity&nbsp;</p><span class="caret"></span></div></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                    <li class="dropdow-filter-li"><a href="#" onclick="mySelectType('Popularity ')">Popularity</a></li>
+                    <li class="dropdow-filter-li"><a href="#" onclick="mySelectType('Ratings ')">Ratings</a></li>
+                    <li class="dropdow-filter-li"><a href="#" onclick="mySelectType('Newest ')">Newest</a></li>
+                    <li class="dropdow-filter-li"><a href="#" onclick="mySelectType('Price: Low-to-high ')">Price: Low-to-high</a></li>
+                    <li class="dropdow-filter-li"><a href="#" onclick="mySelectType('Price: High-to-low ')">Price: High-to-low</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="fils">
+        <ul class="fils-parent-ul" data-require="base/views/tab-filter-course">
+            <li class="filter-type-li">
+                {{#each tab-filter-course.filter-checked}}
+                <b class="title-filter-type">{{this.title}}</b>
+                <ul class="list-checkbox-fils">
+                    {{#each this.list-checked}}
+                    <li class="fils-li">
+                        <div class="checkbox"><i class="fa fa-check-square" aria-hidden="true" style="color: #540768"></i></div>
+                        <div class="title-type-check"><p>{{this.checked}} ({{this.number}})</p></div>
+                    </li>
+                    {{/each}}
+                </ul>
+                {{/each}}
+            </li>
+        </ul>
+    </div>
+    <a class="btn-done-filter" href="#" style="background-color: #540768">
+        <span class="txt-done" >Done</span>
+    </a>
+</div>
+<div class="related-topic-modal">
+    <div class="title-related">
+        <a href="#">Related Topics</a>
+    </div>
+    <ul class="list-related-ul">
+        {{#each tab-filter-course.related-topic}}
+        <li class="related-li">
+            <div class="icon-related"><i class="fa {{this.icon}}" aria-hidden="true" style="color: {{this.color}}"></i></div>
+            <div class="category-related"><a href="#" style="color: {{this.color}}">{{this.category-name}}</a></div>
+        </li>
+        {{/each}}
+    </ul>
+</div>
+<div class="btn-exit-modal"></div>
+<script>
+    $(document).ready();
+    $('.rate-star').each(function () {
+        var rating = $(this).attr("title");
+        $(this).css("width", rating * 20 + "%");
+    })
+    function mySelectType(type) {
+        document.getElementById("select-type").innerHTML = type;
+    }
+    $(".fils-li").click(function (e) {
+        var kid = $(event.target).children();
+        kid.css("display", "block");
+        var parent = $(this).closest(".list-checkbox-fils");
+        parent.children().hide();
+        $(this).css("display", "block");
+    })
+    $(".fa-check-square").click(function (e) {
+        $(this).css("display", "none");
+    })
+    $(".btn-refine").click(function () {
+        $(".refine-modal").css("transition", "1s");
+        $(".refine-modal").css("display", "block");
+        $(".btn-exit-modal").css("display", "block");
+        $(".filter-form").css("display", "block");
+    })
+    $(".btn-exit-modal").click(function () {
+        $(".refine-modal").css("display", "none");
+        $(this).css("display", "none");
+        $(".related-topic-modal").css("display", "none");
+    })
+    $(".reset-checked").click(function () {
+        $(".fa-check-square").css("display", "none");
+        $(".fils-li").each(function () {
+            $(this).css("display", "block");
+            console.log("hello");
+        });
+    })
+    $(".btn-relate-topic").click(function () {
+        $(".related-topic-modal").css("display", "block");
+        $(".btn-exit-modal").css("display", "block");
+    })
+</script>

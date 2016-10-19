@@ -1,0 +1,125 @@
+﻿
+//phan container chua toan bo modal
+.modal-container {
+    width: 100%;
+    height: 100vh;
+    max-height: 1080px;
+    text-align: center;
+    top: 0;
+    z-index: 1000;
+    position: absolute;
+    display: table;
+
+    @media (max-width:$BIG_TABLET) {
+        height: auto;
+    }
+    .udemy-modal {
+        display: table-cell;
+        vertical-align: middle;
+
+        @media (max-width:$BIG_TABLET) {
+            margin: 0;
+            width: 100%;
+            padding: 0;
+            height: 184px;
+            vertical-align: top;
+        }
+        //phan chua noi dung modal
+        .udemy-modal-content {
+            background-color: rgba(0, 0, 0, 0.8);
+            display: block;
+            text-align: center;
+            width: 60%;
+            height: 357px;
+            color: white;
+            margin: 0 auto;
+            border-radius: 0px;
+
+            @media (max-width:$BIG_TABLET) {
+                background-color: rgb(35,53,67);
+                height: 184px;
+                overflow: visible;
+                box-shadow: none;
+                width: 100%;
+            }
+
+            h1 {
+                width: 100%;
+                padding: 45px 0 0 0;
+                font-family: Arial;
+                font-size: 30px;
+                font-weight: bold;
+                display: block;
+                text-align: center;
+
+                @media (max-width:$BIG_TABLET) {
+                    display: none;
+                }
+            }
+            //CSS cho phan subheader
+            .subhead {
+                display: block;
+                padding: 0 10%;
+                width: 100%;
+                font-size: 24px;
+                color: white;
+
+                @media (max-width:$BIG_TABLET) {
+                    padding: 50px 5% 0 5%;
+                    margin: 0;
+                }
+
+                @media (max-width:$SMALL_PHONE) {
+                    padding: 50px 5% 0 5%;
+                    font-size: 18px !important;
+                }
+            }
+            //phan CSS danh cho gioi thieu
+            .feature-row {
+                margin: 30px 5% 0 5%;
+                height: 50px;
+
+                @media (max-width:1024px) {
+                    display: none;
+                }
+                //chia lam 3 cot, moi cot bao gom icon va mo ta
+                .feature-col {
+                    float: left;
+                    width: 33.33333333333333333333333%;
+                    padding-left: 0.33333333333333%;
+                    //CSS cho phan mo ta
+                    .desc {
+                        float: left;
+                        width: 70%;
+                        height: 100%;
+                        text-align: left;
+                    }
+                    //CSS cho icon
+                    .fa {
+                        float: left;
+                        height: 100%;
+                        width: 30%;
+                    }
+                }
+            }
+            //phan tim kiem
+            .search-home {
+                height: 60px;
+                width: 80%;
+                border-color: blue;
+                display: block;
+                margin: auto;
+                color: white;
+                margin: 50px 10% 0 10%;
+                text-align: center;
+
+                @media (max-width:$BIG_TABLET) {
+                    display: block;
+                    margin: auto;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+

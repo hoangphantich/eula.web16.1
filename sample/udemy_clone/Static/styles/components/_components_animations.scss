@@ -1,0 +1,115 @@
+﻿@keyframes slide-from-top-auto {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-from-bottom-auto {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@include respond-to-min($desktopSize) {
+    .checking-animate {
+    }
+
+    .inactive {
+    }
+
+    .fade-in {
+        transition: all 0.5s ease-in-out;
+        opacity: 1;
+
+        &.inactive {
+            opacity: 0;
+
+            @at-root {
+                .epi-editContainer & {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .slide-in-from-left {
+        transition: all 0.5s ease-in-out;
+        transform: translateX(0%);
+
+        &.inactive {
+            transform: translateX(-100px);
+            opacity: 0;
+
+            @at-root {
+                .epi-editContainer & {
+                    opacity: 1;
+                    transform: translateX(0px);
+                }
+            }
+        }
+    }
+
+
+    .slide-in-from-right {
+        transition: all 0.5s ease-in-out;
+        transform: translateX(0%);
+
+        &.inactive {
+            transform: translateX(100px);
+            opacity: 0;
+
+            @at-root {
+                .epi-editContainer & {
+                    opacity: 1;
+                    transform: translateX(0px);
+                }
+            }
+        }
+    }
+
+    .slide-in-from-top {
+        transition: all 0.5s ease-in-out;
+        transform: translateY(0%);
+
+        &.inactive {
+            transform: translateY(-100px);
+            opacity: 0;
+
+            @at-root {
+                .epi-editContainer & {
+                    opacity: 1;
+                    transform: translateY(0px);
+                }
+            }
+        }
+    }
+
+    .slide-in-from-bottom {
+        transition: all 0.5s ease-in-out;
+        transform: translateY(0%);
+
+        &.inactive {
+            transform: translateY(100px);
+            opacity: 0;
+
+            @at-root {
+                .epi-editContainer & {
+                    opacity: 1;
+                    transform: translateY(0px);
+                }
+            }
+        }
+    }
+}

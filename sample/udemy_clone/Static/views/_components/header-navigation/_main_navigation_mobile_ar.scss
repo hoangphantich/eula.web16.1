@@ -1,0 +1,121 @@
+.main-navigation-mobile {
+    &__container {
+        @include rtl() {
+            left: auto;
+            right: 0px;
+            transition: right 0.3s ease-in-out;
+
+            &.show-menu {
+                left: auto;
+                right: -86%;
+
+                .main-navigation-mobile__menu {
+                    left: auto;
+                    right: 14%;
+                }
+            }
+
+            &.search-focus {
+                left: auto;
+                right: 0;
+
+                .main-navigation-mobile__menu {
+                    left: auto;
+                    right: 100%;
+                }
+            }
+        }
+    }
+
+    &__logo {
+        @include rtl() {
+            float: right;
+            border-left: rem(1px solid #ececef);
+            border-right: none;
+        }
+    }
+
+    &__brand-select {
+        @include rtl() {
+            background: url('/img/select_brand.png') no-repeat left 15px center;
+            background-size: auto 9px;
+
+            @if $isPremier {
+                margin: rem(0 100px 0 55px);
+            }
+
+            &.active {
+                background: url('/img/select_brand_active.png') no-repeat left 15px center;
+            }
+        }
+    }
+
+    &__toggle-menu {
+        @include rtl() {
+            float: left;
+            border-right: rem(1px solid #ececef);
+            border-left: none;
+        }
+    }
+
+    &__list-brand {
+        li {
+            @include rtl() {
+                a {
+                    padding: rem(0 18px 0 0);
+                }
+
+                span {
+                    float: right;
+                }
+
+                .brand-logo-container {
+                    float: left;
+                }
+            }
+        }
+    }
+
+    &__menu {
+        @include rtl() {
+            left: auto;
+            right: 100%;
+            transition: right 0.3s ease-in-out;
+
+            .li-menu-item__search {
+                .search-input {
+                    padding: rem(0 10px 0 40px);
+                }
+
+                .search-submit {
+                    border-radius: 2px 0 0 2px;
+                    right: auto;
+                    left: rem(20px);
+                }
+            }
+
+            .li-menu-item__list-menu-items {
+                left: auto;
+                right: 0px;
+
+                .li-menu-item__text {
+                    a {
+                        padding-left: rem(0px);
+                        padding-right: rem(20px);
+                    }
+
+                    &::after {
+                        left: auto;
+                        right: 0px;
+                    }
+                }
+
+                .li-menu-item__language {
+                    .menu-mobile__language {
+                        padding: rem(0 10px 0 0);
+                    }
+                }
+            }
+        }
+    }
+}

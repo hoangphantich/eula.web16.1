@@ -1,0 +1,28 @@
+﻿{
+    "items": [
+        {
+            "text": "Book a service",
+            "url": "#",
+            "image": "/img/icon_book_service.png",
+            "imageActive": "/img/icon_book_service_active.png"
+        },
+        {
+            "text": "Book a test drive",
+            "url": "#",
+            "image": "/img/icon_book_test.png",
+            "imageActive": "/img/icon_book_test_active.png"
+        },
+        {
+            "text": "Find a location",
+            "url": "#",
+            "image": "/img/icon_find_location.png",
+            "imageActive": "/img/icon_find_location_active.png"
+        },
+        {
+            "text": "Renew insurance",
+            "url": "#",
+            "image": "/img/icon_renew.png",
+            "imageActive": "/img/icon_renew_active.png"
+        }
+    ]
+}

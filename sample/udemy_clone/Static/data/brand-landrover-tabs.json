@@ -1,0 +1,41 @@
+﻿{
+    "logo": "/img/brand-landrover.jpg",
+    "items": [
+        {
+            "text": "overview",
+            "data-target": "overview-tab-contents",
+            "classes": "active",
+            "isModel":  false
+        },
+        {
+            "text": "models",
+            "data-target": "models-tab-contents",
+            "classes": "",
+            "isModel":  true
+        },
+        {
+            "text": "special offers",
+            "data-target": "special-offers-tab-contents",
+            "classes": "",
+            "isModel":  false
+        },
+        {
+            "text": "events",
+            "data-target": "events-tab-contents",
+            "classes": "",
+            "isModel":  false
+        },
+        {
+            "text": "after sales",
+            "data-target": "after-sales-tab-contents",
+            "classes": "",
+            "isModel":  false
+        },
+        {
+            "text": "pre-owned",
+            "data-target": "pre-owned-tab-contents",
+            "classes": "",
+            "isModel":  false
+        }
+    ]
+}

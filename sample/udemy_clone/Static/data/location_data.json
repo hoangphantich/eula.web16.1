@@ -1,0 +1,176 @@
+﻿{
+    "data": [
+        {
+            "lat": 25.237182,
+            "lng": 55.299313,
+            "isShowroom": true,
+            "isServiceCenter": true,
+            "isBodyshop": false,
+            "title": "Sheikh Zayed Road, Dubai",
+            "workTime": "Saturday to Thursday: 8am to 8pm.Friday: 4pm to 8pm",
+            "phone": "800-Motors"
+        },
+        {
+            "lat": 25.184998,
+            "lng": 55.344631,
+            "isShowroom": true,
+            "isServiceCenter": true,
+            "isBodyshop": false,
+            "title": "Sheikh Zayed Road, Dubai",
+            "workTime": "Saturday to Thursday: 8am to 8pm.<br/>Friday: 4pm to 8pm",
+            "phone": "800-Motors"
+        },
+        {
+            "lat": 25.244635,
+            "lng": 55.391323,
+            "isShowroom": false,
+            "isServiceCenter": true,
+            "isBodyshop": true,
+            "title": "Sheikh Zayed",
+            "workTime": "Saturday to ",
+            "phone": "800-Motors"
+        },
+        {
+            "lat": 25.264508,
+            "lng": 55.435269,
+            "isShowroom": true,
+            "isServiceCenter": false,
+            "isBodyshop": true,
+            "title": "Sheikh Zayed",
+            "workTime": "Saturday to Thursday",
+            "phone": "800-Motors"
+        },
+        {
+            "lat": 25.235940,
+            "lng": 55.541012,
+            "isShowroom": true,
+            "isServiceCenter": true,
+            "isBodyshop": false,
+            "title": "Sheikh Zayed Road, Dubai",
+            "workTime": "Saturday to Thursday: 8am to 8pm.<br/>Friday: 4pm to 8pm",
+            "phone": "800-Motors"
+        },
+        {
+            "lat": 25.146467,
+            "lng": 55.514919,
+            "isShowroom": false,
+            "isServiceCenter": true,
+            "isBodyshop": true,
+            "title": "Sheikh Zayed Road, Dubai",
+            "workTime": "Saturday to Thursday: 8am to 8pm. Friday: 4pm to 8pm Friday: 4pm to 8pm Friday: 4pm to 8pm",
+            "phone": "800-Motors"
+        },
+        {
+            "lat": 25.152683,
+            "lng": 55.208676,
+            "isShowroom": true,
+            "isServiceCenter": false,
+            "isBodyshop": true,
+            "title": "Sheikh Zayed",
+            "workTime": "Saturday to Thursday",
+            "phone": "800-Motors"
+        },
+        {
+            "lat": 25.109167,
+            "lng": 55.214169,
+            "isShowroom": false,
+            "isServiceCenter": true,
+            "isBodyshop": true,
+            "title": "Sheikh",
+            "workTime": "Saturday to",
+            "phone": "800-Motors"
+        },
+        {
+            "lat": 25.124089,
+            "lng": 55.328152,
+            "isShowroom": true,
+            "isServiceCenter": false,
+            "isBodyshop": true,
+            "title": "Sheikh Zayed",
+            "workTime": "Saturday",
+            "phone": "800-Motors"
+        },
+        {
+            "lat": 25.203638,
+            "lng": 55.694821,
+            "isShowroom": true,
+            "isServiceCenter": true,
+            "isBodyshop": false,
+            "title": "Sheikh Zayed",
+            "workTime": "Saturday to",
+            "phone": "800-Motors"
+        },
+        {
+            "lat": 25.089269,
+            "lng": 55.686581,
+            "isShowroom": true,
+            "isServiceCenter": true,
+            "isBodyshop": false,
+            "title": "Sheikh Zayed Road, Dubai",
+            "workTime": "Saturday to Thursday: 8am to 8pm. Friday: 4pm to 8pm Friday: 4pm to 8pm Friday: 4pm to 8pm",
+            "phone": "800-Motors"
+        },
+        {
+            "lat": 24.473339,
+            "lng": 54.368221,
+            "isShowroom": false,
+            "isServiceCenter": true,
+            "isBodyshop": true,
+            "title": "Sheikh Zayed Road, Dubai",
+            "workTime": "Saturday to Thursday: 8am to 8pm. Friday: 4pm to 8pm Friday: 4pm to 8pm Friday: 4pm to 8pm",
+            "phone": "800-Motors"
+        },
+        {
+            "lat": 24.374558,
+            "lng": 54.487698,
+            "isShowroom": true,
+            "isServiceCenter": true,
+            "isBodyshop": false,
+            "title": "Sheikh Zayed Road, Dubai",
+            "workTime": "Saturday to Thursday: 8am to 8pm. Friday: 4pm to 8pm Friday: 4pm to 8pm Friday: 4pm to 8pm",
+            "phone": "800-Motors"
+        },
+        {
+            "lat": 24.374558,
+            "lng": 54.533016,
+            "isShowroom": false,
+            "isServiceCenter": true,
+            "isBodyshop": true,
+            "title": "Sheikh Zayed",
+            "workTime": "Saturday to",
+            "phone": "800-Motors"
+        },
+        {
+            "lat": 24.333272,
+            "lng": 54.556362,
+            "isShowroom": false,
+            "isServiceCenter": true,
+            "isBodyshop": true,
+            "title": "Sheikh Zayed Road, Dubai",
+            "workTime": "Saturday to Thursday: 8am to 8pm. Friday: 4pm to 8pm",
+            "phone": "800-Motors"
+        },
+        {
+            "lat": 24.195555,
+            "lng": 55.756619,
+            "isShowroom": true,
+            "isServiceCenter": true,
+            "isBodyshop": false,
+            "title": "Sheikh Zayed",
+            "workTime": "Saturday ",
+            "phone": "800-Motors"
+        },
+        {
+            "lat": 24.178017,
+            "lng": 55.812924,
+            "isShowroom": true,
+            "isServiceCenter": true,
+            "isBodyshop": false,
+            "title": "Sheikh Zayed",
+            "workTime": "Saturday to",
+            "phone": "800-Motors"
+        }
+    ],
+    "success": true,
+    "message": "success"
+}

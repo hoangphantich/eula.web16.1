@@ -1,0 +1,31 @@
+﻿{
+    "items": [
+        {
+            "img": "/img/js_jq_scratch.jpg",
+            "title": "Learn Javascript & JQuery From Scratch",
+            "instructor": "Eduonix Learning Solutions",
+            "job_title": "The Knowledge Edge",
+            "s_rating": 4.1,
+            "reviews": "2,315 ratings",
+            "price": 20
+        },
+        {
+            "img": "/img/android_scratch.jpg",
+            "title": "Learn Android Programming From Scratch - Basics",
+            "instructor": "Eduonix Learning Solutions",
+            "job_title": "The Knowledge Edge",
+            "s_rating": 4.0,
+            "reviews": "715 ratings",
+            "price": 20
+        },
+        {
+            "img": "/img/html_css.jpg",
+            "title": "Programming for Entrepreneurs - HTML & CSS",
+            "instructor": "Pablo Farias Navarro",
+            "job_title": "Software Developer and Founder of ZENVA",
+            "s_rating": 4.1,
+            "reviews": "700 ratings",
+            "price": 20
+        }
+    ]
+}

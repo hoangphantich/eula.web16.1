@@ -1,0 +1,64 @@
+---
+title: "main menu desktop"
+---
+<nav class="main-navigation">
+    <a class="main-navigation__logo" href="#" title="">
+        <img src="/img/logo_full.png" alt="" />
+    </a>
+    <ul class="main-navigation__menu-content" data-require="base/views/main_navigation">
+        {{#each main_menu.items}}
+        <li class="main-navigation__menu-content__menu-item">
+            <a href="{{url}}" title="">{{text}}</a>
+            <ul class="main-navigation__menu-content__sub-menu-container">
+                {{#each this.submenu}}
+                <li>
+                    <a href="{{url}}" title="">{{text}}</a>
+                </li>
+                {{/each}}
+            </ul>
+        </li>
+        {{/each}}
+        <li class="main-navigation__menu-content__menu-item menu-tablet-selector">
+            <span class="menu-selector__menu-icon">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+            </span>
+            <ul class="menu-tablet__sub-container container-fluid">
+                <li class="col-sm-3">
+                    <a href="#">New Cars</a>
+                </li>
+                <li class="col-sm-3">
+                    <a href="#">Pre-Owned</a>
+                </li>
+                <li class="col-sm-3">
+                    <a href="#">After Sales</a>
+                </li>
+                <li class="col-sm-3">
+                    <a href="#">Finance & Insurance</a>
+                </li>
+                <li class="col-sm-3">
+                    <a href="#">Events</a>
+                </li>
+                <li class="col-sm-3">
+                    <a href="#">Amber</a>
+                </li>
+                <li class="col-sm-3">
+                    <a href="#">About Us</a>
+                </li>
+                <li class="col-sm-3">
+                    <a href="#">Language</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <form action="#">
+                <input class="search-input" placeholder="What are you looking for?" />
+                <span class="search-icon"></span>
+                <span class="search-close"></span>
+            </form>
+        </li>
+    </ul>
+</nav>
+

@@ -1,0 +1,203 @@
+@import "_footer_video_ar";
+
+.video-footer-block {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+
+    .row {
+        margin: 0;
+    }
+
+    .no-gutter {
+        padding: 0;
+    }
+
+    &__container {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+
+        video {
+            opacity: 0;
+        }
+
+        .vjs-big-play-button, .vjs-control-bar, .vjs-error-display {
+            display: none !important;
+        }
+
+        .vjs-controls-disabled .vjs-big-play-button, .vjs-using-native-controls .vjs-big-play-button, .vjs-loading-spinner, .vjs-poster {
+            display: none;
+        }
+    }
+
+    .news-event-container {
+        z-index: 10;
+        background: #6F7173;
+        padding-top: rem(20px);
+        padding-bottom: rem(20px);
+        padding-left: rem(20px);
+        padding-right: rem(20px);
+
+        @include respond-to-min($tabletSize) {
+            position: absolute;
+            left: 50%;
+            bottom: rem(30px);
+            background: none;
+            padding: rem(0 20px 0 0);
+        }
+
+        @include respond-to-min($desktopSize) {
+        }
+
+        @include respond-to-min($laptopSize) {
+            left: 50%;
+            margin-left: rem(100px);
+            bottom: rem(60px);
+            padding: rem(0 50px 0 0);
+        }
+
+        h2 {
+            @include latoBold();
+            font-size: rem(33px);
+            color: #fff;
+            line-height: rem(29px);
+            margin: 0;
+            letter-spacing: rem(0.5px);
+
+            @include respond-to-min($tabletSize) {
+                font-size: rem(26px);
+            }
+
+            @include respond-to-min($desktopSize) {
+                font-size: rem(42px);
+                line-height: rem(40px);
+            }
+
+            @include respond-to-min($laptopSize) {
+                font-size: rem(66px);
+                line-height: rem(58px);
+            }
+        }
+
+        p {
+            @include latoNormal();
+            color: #fff;
+            font-size: rem(14px);
+            line-height: rem(17px);
+            margin-bottom: rem(15px);
+            letter-spacing: rem(0.5px);
+            display: block;
+            font-weight: 300;
+
+            @include respond-to-min($tabletSize) {
+                font-size: rem(18px);
+                line-height: rem(22px);
+                margin-bottom: rem(27px);
+            }
+
+            @include respond-to-min($desktopSize) {
+                font-size: rem(22px);
+                line-height: rem(28px);
+            }
+
+            @include respond-to-min($laptopSize) {
+                font-size: rem(27px);
+                line-height: rem(34px);
+            }
+        }
+
+        .news-btn {
+            height: rem(35px);
+            padding: rem(0 18px);
+            @include latoNormal();
+            font-weight: 900;
+            line-height: rem(35px);
+            font-size: rem(12px);
+            text-transform: uppercase;
+            text-decoration: none;
+            background: #fff;
+            display: inline-block;
+            margin-bottom: rem(25px);
+            border-radius: rem(5px);
+            position: absolute;
+            top: -55px;
+            color: $blueTextColor;
+            &:hover {
+                @extend %white_button_hover_state;
+            }
+            @include respond-to-min($tabletSize) {
+                position: static;
+                color: #000;
+                font-size: rem(11px);
+            }
+        }
+
+        .date-picker-btn {
+            @include arial();
+            font-weight: 800;
+            font-size: rem(20px);
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: rem(20px);
+            line-height: 1;
+
+            i {
+                margin-right: rem(10px);
+                display: inline-block;
+                vertical-align: top;
+                margin-top: -1px;
+            }
+        }
+
+        .read-more {
+            @include latoBlack();
+            font-size: rem(12px);
+            text-transform: uppercase;
+            color: #fff;
+            text-decoration: none;
+            border: rem(1px solid #fff);
+            letter-spacing: 1px;
+            display: inline-block;
+            line-height: rem(28px);
+            height: rem(30px);
+            padding: rem(0 15px);
+            border-radius: rem(3px);
+            &:hover {
+                @extend %normal_button_hover_state;
+            }
+            &.hidden-mobile {
+                display: none;
+
+                @include respond-to-min($tabletSize) {
+                    display: inline-block;
+                }
+            }
+
+            @include respond-to-min($tabletSize) {
+                line-height: rem(48px);
+                height: rem(48px);
+                padding: rem(0 20px);
+                border-radius: rem(5px);
+            }
+
+            @include respond-to-min($desktopSize) {
+                padding: rem(0 30px);
+            }
+        }
+    }
+
+    @include respond-to-min($tabletSize) {
+    }
+
+    @include respond-to-min($desktopSize) {
+        overflow: hidden;
+    }
+
+    @include respond-to-min($laptopSize) {
+    }
+}

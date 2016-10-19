@@ -1,0 +1,116 @@
+﻿[
+    {
+        "title": "Section 1: Introduction to basic HTML",
+        "lectures": [
+            {
+                "icon": "fa-play-circle",
+                "id": 1,
+                "type": "video",
+                "title": "Introduction",
+                "content": "3:19"
+            },
+            {
+                "icon": "fa-play-circle",
+                "id": 2,
+                "type": "video",
+                "title": "Starting HTML5 Programming",
+                "details": "In this lecture we go through the curriculum we will follow in the course along with a basic discussion on the course objectives.",
+                "content": "10:02"
+            },
+            {
+                "icon": "fa-play-circle",
+                "id": 3,
+                "type": "video",
+                "title": "HTML Basics",
+                "details": "Learn the Basic tags used in HTML",
+                "content": "15:03"
+            },
+            {
+                "icon": "fa-file-o",
+                "id": 4,
+                "type": "article",
+                "title": "Resources Chapter 1",
+                "details": "It contains presentation files and code resources for this chapter",
+                "content": "Article"
+            },
+            {
+                "icon": "fa-file-o",
+                "id": 5,
+                "type": "article",
+                "title": "HTML Reference",
+                "details": "It contains references for HTML5",
+                "content": "Article"
+            },
+            {
+                "icon": "fa-bolt",
+                "id": 1,
+                "type": "quiz",
+                "title": "HTML Basics",
+                "details": "This Quiz tests the basics of HTML",
+                "content": 5
+            }
+
+        ]
+    },
+    {
+        "title": "Section 2: HTML -Continued",
+        "lectures": [
+            {
+                "icon": "fa-play-circle",
+                "id": 5,
+                "type": "video",
+                "title": "Introduction to CSS",
+                "details":  "Introduction to CSS for HTML developers",
+                "content": "08:40"
+            },
+            {
+                "icon": "fa-play-circle",
+                "id": 6,
+                "type": "video",
+                "title": "Making Web pages",
+                "preview":  "A",
+                "details": "This lecture deals with some interesting tags for HTML",
+                "content": "23:06"
+            },
+            {
+                "icon": "fa-play-circle",
+                "id": 7,
+                "type": "video",
+                "title": "CSS - Continued - Part1",
+                "details": "In the first part of this two part lecture you do an in depth analysis of CSS ",
+                "content": "20:03"
+            },
+            {
+                "icon": "fa-play-circle",
+                "id": 8,
+                "type": "video",
+                "title": "CSS - Continued - Part2",
+                "content": "28:07"
+            },
+            {
+                "icon": "fa-play-circle",
+                "id": 9,
+                "type": "video",
+                "title": "Putting up a website",
+                "details": "This lecture bring together some of the concepts learned earlier",
+                "content": "17:42"
+            },
+            {
+                "icon": "fa-file-o",
+                "id": 10,
+                "type": "article",
+                "title": "Resources Chapter 2",
+                "details": "Download the resources for this chapter",
+                "content": "Article"
+            },
+            {
+                "icon": "fa-bolt",
+                "id": 2,
+                "type": "quiz",
+                "title": "Advance HTML",
+                "details": "This will test the new HTML concepts learned",
+                "content": 3
+            }
+        ]
+    }
+]

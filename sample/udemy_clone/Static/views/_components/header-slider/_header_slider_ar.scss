@@ -1,0 +1,172 @@
+
+.header-slider {
+    &__item {
+        &__text {
+            @include rtl() {
+                @include respond-to-min($tabletSize) {
+                    left: auto;
+                    right: rem(32px);
+
+                    &.text-full-width {
+                        left: rem(80px);
+                    }
+                }
+
+                @include respond-to-min($desktopSize) {
+                    left: auto;
+                    right: rem(80px);
+                }
+
+                .header-button-container {
+                    a {
+                        margin: rem(0 0 13px 13px);
+
+                        @include respond-to-min($tabletSize) {
+                            margin: rem(0 0 0 20px);
+                        }
+
+                        &.header-button__white-bg {
+                            margin-left: 0;
+                        }
+
+                        img {
+                            margin: rem(0 0 0 10px);
+                        }
+                    }
+                }
+
+                &.header-slider__item__text-three-button {
+                    left: auto;
+                    right: 0px;
+
+                    .row {
+                        .col-xs-12 {
+                            &:nth-child(1) {
+                                text-align: right;
+                            }
+
+                            &:nth-child(2) {
+                                text-align: right;
+                            }
+                        }
+
+                        .col-md-6 {
+                            @include respond-to-min($tabletSize) {
+                                &:nth-child(1) {
+                                    text-align: right;
+                                }
+
+                                &:nth-child(2) {
+                                    text-align: left;
+                                }
+                            }
+                        }
+
+                        .header-button__white-bg {
+                            text-align: right;
+
+                            img {
+                                margin: rem(0 0 0 7px);
+                            }
+
+                            margin: rem(0px 0 13px 10px);
+
+
+                            @include respond-to-min($tabletSize) {
+                                margin: rem(0px 0 13px 10px);
+                            }
+
+                            @include respond-to-min($desktopSize) {
+                                padding: rem(10px 5px 10px 10px);
+                                margin: rem(0px 0 0 10px);
+                            }
+
+                            @include respond-to-min($laptopSize) {
+                                padding: rem(10px 10px 10px 20px);
+                                margin-left: rem(15px);
+                            }
+
+                            @include respond-to-min($largeSize) {
+                                padding: rem(10px 25px 10px 30px);
+                                margin-left: rem(20px);
+                            }
+
+                            &:nth-child(3) {
+                                margin-left: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .owl-dots {
+        @include rtl() {
+            @include respond-to-min($tabletSize) {
+                left: rem(30px);
+                right: auto;
+            }
+
+            @include respond-to-min($desktopSize) {
+                left: rem(80px);
+            }
+
+            .owl-dot {
+                margin: rem(0 10px 0 0);
+
+                &:nth-child(1) {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    &.owl-theme {
+        .owl-carousel {
+            .owl-nav {
+                left: 0;
+
+                [class*='owl-'] {
+                    @include rtl() {
+                        &.owl-prev {
+                            float: right;
+                            margin-right: rem(30px);
+                            margin-left: auto;
+                        }
+
+                        &.owl-next {
+                            float: left;
+                            margin-left: rem(30px);
+                            margin-right: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.owl-theme {
+    .owl-carousel {
+        .owl-nav {
+
+            [class*='owl-'] {
+                @include rtl() {
+                    &.owl-prev {
+                        .fa-angle-left:before {
+                            content: "\f105";
+                        }
+                    }
+
+                    &.owl-next {
+                        .fa-angle-right:before {
+                            content: "\f104";
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

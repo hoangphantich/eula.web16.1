@@ -1,0 +1,8 @@
+
+<div class="input-selection-container {{this.class}} {{#if this.isRequired}}is-required{{/if}}">
+    <select name="{{this.name}}" id="{{this.id}}">
+        {{#each this.options}}
+        <option value="{{this.value}}" {{#if this.selected}} selected{{/if}}>{{this.text}}</option>
+        {{/each}}
+    </select>
+</div>

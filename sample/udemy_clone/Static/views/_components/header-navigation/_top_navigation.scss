@@ -1,0 +1,195 @@
+
+/*-- top navigation --*/
+.top-navigation-container {
+    background-color: #8f9598;
+    height: rem(50px);
+    overflow: hidden;
+    display: none;
+
+    @include respond-to-min($tabletSize) {
+        display: block;
+    }
+}
+
+.top-navigation {
+    list-style: none;
+    display: block;
+    float: left;
+    margin: rem(7px 0 0 7px);
+    padding: 0;
+
+    &__item {
+        font-size: 0px;
+        display: inline-block;
+
+        @include respond-to-min($desktopSize) {
+            margin: rem(0 0 0 10px);
+        }
+
+        @include respond-to-min($laptopSize) {
+            margin: rem(0 0 0 13px);
+        }
+
+        &__content {
+            @include verticle-middle();
+            vertical-align: middle;
+            display: inline-block;
+            padding: rem(5px 8px);
+            height: 36px;
+            transition: all 100ms linear;
+
+            &:hover {
+                background-color: #fff;
+                border-radius: rem(4px);
+
+                img {
+                    display: none;
+
+                    &.active {
+                        display: inline-block;
+                    }
+                }
+
+                span {
+                    color: $blueTextColor;
+                }
+            }
+
+            img {
+                display: inline-block;
+                vertical-align: middle;
+                max-height: rem(20px);
+                margin: rem(0 8px 0 0);
+
+                &.active {
+                    display: none;
+                }
+            }
+
+
+            span {
+                display: inline-block;
+                vertical-align: middle;
+                color: #fff;
+                padding: rem(1px 0 0);
+                text-transform: uppercase;
+                @include latoBold();
+
+                @include respond-to-min($tabletSize) {
+                    font-size: rem(13px);
+                    line-height: rem(13px);
+                    width: rem(80px);
+                }
+
+                @include respond-to-min($desktopSize) {
+                    font-size: rem(10px);
+                    line-height: rem(10px);
+                    width: auto;
+                }
+
+                @include respond-to-min($laptopSize) {
+                    font-size: rem(13px);
+                    line-height: rem(13px);
+                }
+            }
+        }
+    }
+
+    &__item-desktop-only {
+        @include respond-to-min($tabletSize) {
+            display: none;
+        }
+
+        @include respond-to-min($desktopSize) {
+            display: inline-block;
+        }
+    }
+}
+
+.top-navigation-right {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    margin: rem(7px 15px 0 0);
+    color: #fff;
+    font-size: 0px;
+
+    &::before {
+        content: '';
+        height: rem(36px);
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    &__phone {
+        display: inline-block;
+        vertical-align: middle;
+        padding: rem(0 8px);
+        text-transform: uppercase;
+        @include arial();
+
+        &::before {
+            content: none;
+        }
+
+        @include respond-to-min($tabletSize) {
+            font-size: rem(13px);
+            line-height: rem(13px);
+            width: rem(110px);
+            height: auto;
+        }
+
+        @include respond-to-min($desktopSize) {
+            font-size: rem(12px);
+            line-height: rem(36px);
+            height: rem(36px);
+            width: auto;
+            margin: 0;
+        }
+
+        @include respond-to-min($laptopSize) {
+            font-size: rem(14px);
+            margin: rem(0 23px 0 0);
+        }
+        /*-- for edit mode --*/
+        .epi-editContainer {
+            display: inline-block;
+        }
+
+        strong, .text-bold {
+            @include respond-to-min($tabletSize) {
+                font-weight: bold;
+            }
+
+            @include respond-to-min($desktopSize) {
+                font-size: rem(13px);
+            }
+
+            @include respond-to-min($laptopSize) {
+                font-size: rem(16px);
+            }
+        }
+    }
+
+    &__language {
+        @include verticle-middle();
+        padding: rem(0 8px);
+        height: rem(36px);
+        line-height: rem(36px);
+        color: #fff;
+        text-decoration: none;
+
+        @include respond-to-min($tabletSize) {
+            display: none;
+        }
+
+        @include respond-to-min($desktopSize) {
+            display: inline-block;
+            font-size: rem(12px);
+        }
+
+        @include respond-to-min($laptopSize) {
+            font-size: rem(15px);
+        }
+    }
+}

@@ -1,0 +1,79 @@
+﻿{
+    "description": {
+        "title": "Here's your ticket to tech bliss: Drop us a line",
+        "subTitle": "We are global, with offices in the US, Sweden, Hong Kong, and Vietnam",
+        "description": ""
+    },
+
+    "enquiry_type": {
+        "name": "Enquiry_Type",
+        "id": "Enquiry_Type",
+        "options": [
+            {
+                "text": "General Enquiry",
+                "selected": true,
+                "value": "general"
+            },
+            {
+                "text": "Vehicle Enquiry",
+                "value": "Vehicle Enquiry"
+            },
+            {
+                "text": "File a Complain",
+                "value": "file"
+            },
+            {
+                "text": "Provide Feedback",
+                "value": "feedback"
+            }
+        ]
+    },
+
+    "new_vehicle": {
+        "name": "Vehicle_Type",
+        "id": "Vehicle_Type",
+        "class": "input-hidden",
+        "options": [
+            {
+                "text": "New Vehicle",
+                "selected": true
+            },
+            {
+                "text": "New Vehicle 2"
+            },
+            {
+                "text": "New Vehicle 3"
+            }
+        ]
+    },
+
+    "list_brand": {
+        "name": "Brand_Type",
+        "id": "Brand_Type",
+        "class": "input-hidden",
+        "options": [
+            {
+                "text": "Select Brand",
+                "selected": true
+            },
+            {
+                "text": "Brand 1"
+            },
+            {
+                "text": "Brand 2"
+            },
+            {
+                "text": "Brand 3"
+            }
+        ]
+    },
+    "additional_message": {
+        "class": "input-hidden",
+        "text": "Additional Message (You can mention the model, ect.)"
+    },
+    "message": {
+        "class": "input-hidden textarea-item-container",
+        "isRequired": true,
+        "text": "Message"
+    }
+}

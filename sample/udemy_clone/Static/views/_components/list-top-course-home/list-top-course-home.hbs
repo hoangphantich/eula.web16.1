@@ -1,0 +1,14 @@
+<div class="list-top-container">
+    {{#each list-top-course-home.items}}
+    <div class="top-course">
+        <a href="#" class="course-content">
+            <div class="course-img" style="background-image:url('{{this.image}}')">
+                <div class="card-info">
+                        <div class="icon"><div class="img" style="background-image:url('{{this.icon}}')"></div></div>
+                        <div class="title">{{this.title}}</div>
+                </div>
+            </div>
+        </a>
+    </div>
+    {{/each}}
+</div>

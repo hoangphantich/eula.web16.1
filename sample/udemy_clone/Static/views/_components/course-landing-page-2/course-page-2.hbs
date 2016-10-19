@@ -1,0 +1,218 @@
+﻿<div class="container-fluid tab-container">
+    <div class="content">
+        <div class="left_category col-md-3">
+            <div class="lc_full">
+            <b>More in Category</b>
+            <div class="sub_category" style="color:#540768">
+                <ul>
+                    {{#each header-landing-page-2.items}}
+                    <li>
+                        <a href=""><i class="fa fa-home"></i>{{this.category}}</a>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>   
+            </div>
+            <div class="show-more" data-toggle="modal" data-target="#modalShowMore">
+                <input type="button" value="More in Category" class="btn btn-default btn-md " style=" border-color:#540768" />
+            </div>
+            <div class="modal fade" id="modalShowMore" role="dialog">
+                <div class="modal-dialog modal-sm modal-category">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">More in design</h4>
+                        </div>
+                        <div class="modal-body sub_category" style="color:#540768">
+                            <ul>
+                                {{#each header-landing-page-2.items}}
+                                <li>
+                                    <a href=""><i class="fa fa-home"></i>{{this.category}}</a>
+                                </li>
+                                {{/each}}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="right-content col-md-7">
+            <div class="feature-course">
+                <h2>Featured New Course</h2>
+                <div class="feature-course-card row">
+                    <div class="col-md-5">
+                     <img  src="/img/3d_animation.jpg" />  
+                      </div> 
+                    <div class="course-intro col-md-5">
+                       <b>Title</b>
+                        <p>Something</p>
+                        All level<br />
+                        Whole new Level<br />
+                        <span class="rate-star-container">
+                            ★★★★★<span class="rate-star" title="{{this.average-rating}}">★★★★★</span>
+                        </span>
+                    </div>
+                    </div>
+                </div>
+            {{#each course-landing-page-2.items}}
+            <h3>Popular course</h3>
+                <div class="course-slider" >
+                    <ul class="flex-container">
+                        {{#each this.list_course}}
+                        <li class="course-slider-li">
+                            <div class="bg-bio-hover"></div>
+                            <div class="bio-infor-hover">
+                                <span class="image-bio">
+                                    {{#each this.img-bio}}
+                                    {{#if this.bio-avatar }} <img src="{{this.bio-avatar}}" /> {{/if}}
+                                    {{/each}}
+                                </span>
+                                <div class="number-lecture">
+                                    <div class="number-lecture-inner">
+                                        {{this.number-lecture}} lectures
+                                    </div>
+                                </div>
+                                <div class="time-lecture">
+                                    <div class="time-lecture-inner">
+                                        {{this.time-video}} hours video
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course-image">
+                                <img src="{{this.img}}" />
+                                <a href="#" data-toggle="modal" data-target="#SignUpModal">
+                                    <div class="heart_wishlist">
+                                        <div class="icon-heart-inner"><i class="fa fa-heart-o" aria-hidden="true"></i><i class="fa fa-heart" aria-hidden="true"></i></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <span class="box-second-row">
+                                <span class="title-two-row">
+                                    {{this.title}}
+                                </span>
+                            </span>
+                            <span class="box-third-row">
+                                <span class="bio-info">{{this.instructor}}, {{this.job}}</span>
+                            </span>
+                            <span class="star-reviews-row">
+                                <span class="star-reviews-inner">
+                                    <span class="rate-star-container">
+                                        ★★★★★<span class="rate-star" title="{{this.average-rating}}">★★★★★</span>
+                                    </span>
+                                    <span class="right-rating">{{this.average-rating}}<span class="number-viewed"> ({{reviews_count}})</span></span>
+                                </span>
+                            </span>
+                            <div class="price-course">
+                                <div class="new-price">
+                                    {{#if this.newprice}} ${{this.newprice}} {{/if}}
+                                </div>
+                                <div class="old-price">
+                                    {{#if this.oldprice}} ${{this.oldprice}} {{/if}}
+                                </div>
+                            </div>
+                        </li>
+                        {{/each}}
+                    </ul>
+                    
+                </div>
+            <h3>Popular course</h3>
+            <div class="course-slider">
+                <ul class="flex-container">
+                    {{#each this.list_course}}
+                    <li class="course-slider-li">
+                        <div class="bg-bio-hover"></div>
+                        <div class="bio-infor-hover">
+                            <span class="image-bio">
+                                {{#each this.img-bio}}
+                                {{#if this.bio-avatar }} <img src="{{this.bio-avatar}}" /> {{/if}}
+                                {{/each}}
+                            </span>
+                            <div class="number-lecture">
+                                <div class="number-lecture-inner">
+                                    {{this.number-lecture}} lectures
+                                </div>
+                            </div>
+                            <div class="time-lecture">
+                                <div class="time-lecture-inner">
+                                    {{this.time-video}} hours video
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-image">
+                            <img src="{{this.img}}" />
+                            <a href="#" data-toggle="modal" data-target="#SignUpModal">
+                                <div class="heart_wishlist">
+                                    <div class="icon-heart-inner"><i class="fa fa-heart-o" aria-hidden="true"></i><i class="fa fa-heart" aria-hidden="true"></i></div>
+                                </div>
+                            </a>
+                        </div>
+                        <span class="box-second-row">
+                            <span class="title-two-row">
+                                {{this.title}}
+                            </span>
+                        </span>
+                        <span class="box-third-row">
+                            <span class="bio-info">{{this.instructor}}, {{this.job}}</span>
+                        </span>
+                        <span class="star-reviews-row">
+                            <span class="star-reviews-inner">
+                                <span class="rate-star-container">
+                                    ★★★★★<span class="rate-star" title="{{this.average-rating}}">★★★★★</span>
+                                </span>
+                                <span class="right-rating">{{this.average-rating}}<span class="number-viewed"> ({{reviews_count}})</span></span>
+                            </span>
+                        </span>
+                        <div class="price-course">
+                            <div class="new-price">
+                                {{#if this.newprice}} ${{this.newprice}} {{/if}}
+                            </div>
+                            <div class="old-price">
+                                {{#if this.oldprice}} ${{this.oldprice}} {{/if}}
+                            </div>
+                        </div>
+                    </li>
+                    {{/each}}
+                </ul>
+                {{/each}}
+            </div>
+            <div class="related-topic">
+                <h3>Related Topic</h3>
+                <ul class="list-topic list-inline">
+                    <li>
+                        <a href="">
+                            <span class="fa fa-file-code-o icon"></span><br />
+                            <span class="topics">Development</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-bar-chart icon"></span><br />
+                            <span class="topics">Business</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-file-code-o icon"></span><br />
+                            <span class="topics">Development</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-file-code-o icon"></span><br />
+                            <span class="topics">Development</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-file-code-o icon"></span><br />
+                            <span class="topics">Development</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+    
+            </div>
+        </div>
+    
+

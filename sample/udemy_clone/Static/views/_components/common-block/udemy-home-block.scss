@@ -1,0 +1,108 @@
+
+@mixin responsive-button(){
+     @media (max-width: $BIG_TABLET){
+        width: 920px;
+    }
+
+        @media (max-width: $TABLET){
+        width: 700px
+    }
+
+    @media (max-width: $BIG_PHONE){
+        width: 97.5%;
+        padding: 12px 1.25%;
+    }
+
+   
+}
+
+@mixin udemy-a-to-btn{
+    display: block;
+    text-align:center;
+}
+
+
+.browse-block{
+
+    margin: 0 auto auto auto;
+  
+    width: 1140px;
+     @media (max-width: $SMALL_LAPTOP){
+        width: 940px
+    }
+    @include responsive-button();
+    a.browse-btn{ 
+    
+        height: 80px;
+        
+        margin: 40px auto 55px auto;
+
+        font-size: 28px;
+        padding: 20px 0 0 0;
+      
+
+        color: white;
+        background: #4985B8;
+
+        &:hover{
+            background: #3F73A0;
+        
+        }
+       
+        @media (max-width: $BIG_TABLET){
+            font-size: 16px;
+            height: 42px;
+            margin: 0 ;
+            padding: 10px 0 0 0;
+        }
+
+        @include udemy-a-to-btn();
+
+    }
+
+    .big-text-block{
+        font-size: 48px;
+        padding-top: 40px;
+        text-align: center;
+        @media (max-width: $BIG_TABLET){
+            font-size: 24px;
+            padding: 5px 0 0 0;
+            margin: 10px 0 0 0 ;
+        }
+    }
+
+    .small-text-block{
+        font-size: 18px;
+        text-align: center;
+         @media (max-width: $BIG_TABLET){
+            font-size: 14px;
+        }
+    }
+
+    a.signup-btn{ 
+   
+        height: 60px;
+        width: 175px;
+   
+        font-size: 20px;
+
+        margin: 20px auto 40px;
+       
+
+        padding: 16px;
+
+        border-radius: 3px;
+
+        &:hover{
+            background-color: #42943f;
+            border-color: #367b34;
+        }
+
+        @media (max-width: $BIG_TABLET){
+            margin: 10px;
+        }
+
+        @include responsive-button();
+        @include udemy-a-to-btn();
+    }
+}

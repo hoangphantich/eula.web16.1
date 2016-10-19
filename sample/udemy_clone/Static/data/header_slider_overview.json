@@ -1,0 +1,16 @@
+﻿{
+    "items": [
+        {
+            "text": "The 2016 Ford Edge",
+            "sub": "Ready for whatever comes your way",
+            "iconButton2": "/img/header_button_icon.png",
+            "iconButton_hover": "/img/white-header_button_icon.png",
+            "textButton2": "Book a test drive",
+            "urlButton2": "#",
+            "largeImage": "/img/header_image_overview.jpg",
+            "desktopImage": "/img/header_image_overview.jpg",
+            "tabletImage": "/img/header_image_overview.jpg",
+            "mobileImage": "/img/header_image_overview.jpg"
+        }
+    ]
+}

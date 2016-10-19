@@ -1,0 +1,26 @@
+﻿<div class="container">
+    <h3>Instructor Biography</h3>
+    {{#each instructor.biography}}
+    <div class="row">
+        <div class="col-md-2">
+            <img src="{{this.img}}" style="width:75px;height:75px"/>
+        </div>
+        <div class="col-md-6">
+            <div>
+                <a href="">{{this.name}}</a>, {{this.job}}
+            </div>
+            <div >
+                <a href="" class="btn btn-primary"><i class="fa fa-google"></i></a>
+                <a href="" class="btn btn-primary"><i class="fa fa-twitter"></i></a>
+                <a href="" class="btn btn-primary"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="biography">
+        <p>{{this.bio}}</p>
+    </div>
+    <div class="full-bio" data-require="base/views/full-bio">
+        <a href="javascript:void(0)">Full Biography</a>
+    </div>
+    {{/each}}
+</div>

@@ -1,0 +1,161 @@
+﻿<div class="landing-container">
+    <!-- tab content left -->
+    <div class="tab-content-left">
+        <div id="menu">
+            <ul>
+                {{#each header-course.items}}
+                <li>
+                    <a href="{{this.url}}">&nbsp;&nbsp;&nbsp;<i class="{{this.icon-menu}}" id="icon-menu" aria-hidden="true"></i>&nbsp;&nbsp;{{this.text}} <i class="fa fa-chevron-right" id="chevron-right" aria-hidden="true"></i></a>
+                    <ul class="sub-menu" style="background-color: {{this.color}}">
+                        {{#each submenu}}
+                        <li><a href="{{this.url}}">&nbsp;&nbsp;&nbsp;<i class="{{this.icon-menu}}" id="icon-menu" aria-hidden="true"></i>&nbsp;&nbsp;{{this.text}}</a></li>
+                        {{/each}}
+                    </ul>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+    <!-- tab content right -->
+    <div class="tab-content-right">
+        <div class="content-right-inner">
+            {{#each courses-landing-page.items}}
+            <!-- list course slider -->
+            <div class="list-course" data-require="base/views/courses-landing-page">
+                <div class="head-slider">
+                    <div class="head-slider-left">
+                        <div class="title-best-seller"><p>{{this.title_category1}}&nbsp;<i>{{this.title_category2}}</i></p></div>
+                    </div>
+                    <div class="head-slider-right">
+                        <a class="view-all">
+                            <div class="view-all-inner">
+                                <div class="view-text"><p><b>View All</b></p></div>
+                                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                        <div class="btn-direction-slider">
+                            <a class="btn-previous"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                            <a class="btn-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="collapse-btn">
+                        <div class="collapse-btn-inner">
+                            <div class="collapse-text"><p><b>Collapse</b></p></div>&nbsp;
+                            <i class="fa fa-minus-circle" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-slider">
+                    <ul class="flex-container">
+                        {{#each this.list_course}}
+                        <li class="course-slider-li">
+                            <div class="bg-bio-hover"></div>
+                            <div class="bio-infor-hover">
+                                <span class="image-bio">
+                                    {{#each this.img-bio}}
+                                    {{#if this.bio-avatar }} <img src="{{this.bio-avatar}}" /> {{/if}}
+                                    {{/each}}
+                                </span>
+                                <div class="number-lecture">
+                                    <div class="number-lecture-inner">
+                                        {{this.number-lecture}} lectures
+                                    </div>
+                                </div>
+                                <div class="time-lecture">
+                                    <div class="time-lecture-inner">
+                                        {{this.time-video}} hours video
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course-image">
+                                <img src="{{this.img}}" />
+                                <a href="#" data-toggle="modal" data-target="#SignUpModal">
+                                    <div class="heart_wishlist">
+                                        <div class="icon-heart-inner"><i class="fa fa-heart-o" aria-hidden="true"></i><i class="fa fa-heart" aria-hidden="true"></i></div>
+                                    </div>
+                                </a> 
+                            </div>
+                            <span class="box-second-row">
+                                <span class="title-two-row">
+                                    {{this.title}}
+                                </span>
+                            </span>
+                            <span class="box-third-row">
+                                <span class="bio-info">{{this.instructor}}, {{this.job}}</span>
+                            </span>
+                            <span class="star-reviews-row">
+                                <span class="star-reviews-inner">
+                                    <span class="rate-star-container">
+                                        ★★★★★<span class="rate-star" title="{{this.average-rating}}">★★★★★</span>
+                                    </span>
+                                    <span class="right-rating">{{this.average-rating}}<span class="number-viewed"> ({{reviews_count}})</span></span>
+                                </span>
+                            </span>
+                            <div class="price-course">
+                                <div class="new-price">
+                                    {{#if this.newprice}} ${{this.newprice}} {{/if}}
+                                </div>
+                                <div class="old-price">
+                                    {{#if this.oldprice}} ${{this.oldprice}} {{/if}}
+                                </div>
+                            </div>
+                        </li>
+                        {{/each}}
+                    </ul>
+
+                </div>
+            </div>
+            {{/each}}
+
+            <!-- end courses slider -->
+        </div>
+    </div>
+</div>
+<!-- sign up -->
+<div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="SignUpLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+        <div class="modal-content signup">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="SignUpLabel" style="text-align:center">Sign up to Add This Course to Your Wishlist</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div>
+                        <input type="text" class="form-control" placeholder="Full Name">
+                    </div>
+                    <br />
+                    <div>
+                        <input type="email" class="form-control" placeholder="E-Mail">
+                    </div>
+                    <br />
+                    <div>
+                        <input type="email" class="form-control" placeholder="Password">
+                    </div>
+                    <br />
+                </form>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="" style="text-align:center; font-size:1px" />Be the first informed about new courses as well as the best deals!</label>
+                </div>
+                <input type="submit" value="Sign Up" class="form-control btn btn-primary btn-success" />
+                <p class="smalltext">By registering you agree to our<a class="smalltext"> Terms of Service</a> and <a class="smalltext">Privacy Policy.</a></p>
+            </div>
+            <div class="modal-footer">
+                <p style="text-align:center">Already have an account? <a href="" data-toggle="modal" data-target="#LogInModal" data-dismiss="modal">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready();
+    $('.rate-star').each(function () {
+        var rating = $(this).attr("title");
+        $(this).css("width", rating * 20 + "%");
+    })
+    var numberSlider = $(".list-course").length;
+    $(".landing-container").css("min-height", numberSlider * 370);
+    $(".tab-content-right").css("min-height", numberSlider * 370);
+    var min_height_menu = numberSlider * 370 + 100;
+    var landing_height = $(".landing-container").height();
+    $(".tab-content-left").css("height", landing_height + "px");
+</script>

@@ -1,0 +1,183 @@
+﻿
+//To show full lecture
+.full-lectures {
+    height: auto !important;
+}
+
+table > tbody > tr > th,
+table > tbody > tr > td {
+    padding: 8px;
+    line-height: 2;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.cur-div-responsive {
+    width: 100%;
+    margin: auto;
+    font-size: 15px;
+    color: #000;
+
+    .cur-table-responsive {
+        display: table;
+        width: 100%;
+        margin: 0;
+        background-color: transparent;
+        border-collapse: collapse;
+        border-spacing: 0;
+
+        tbody {
+            .cur-list-title {
+                height: 44px;
+
+                th {
+                    font-weight: 600;
+                    padding-top: 30px;
+                    text-align: left;
+                }
+            }
+
+            td { vertical-align: middle !important; }
+
+            .cur-list-row {
+                height: 44px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #f5f5f5;
+                }
+
+                .cur-lec-icon {
+                    width: 20px;
+                    padding-left: 10px;
+
+                    i { color: #999FA3; }
+                }
+
+                .cur-lec-topic {
+                    width: 100px;
+                }
+
+                .cur-lec-title {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+
+                    .link {
+                        outline: none !important;
+                        color: #4985B8;
+                        display: inline-block;
+
+                        .down-arrow {
+                            display: inline-block;
+                            color: #999FA3;
+                            margin-left: 5px;
+                        }
+                    }
+
+                    .link-preview {
+                        color: #ffffff;
+                        background-color: #17aa1c;
+                        border-color: transparent;
+                        padding: 6px 10px;
+                        border-radius: 2px;
+                        display: inline-block;
+                        cursor: pointer;
+                        margin-left: 15px;
+
+                        &:hover {
+                            background-color: #0D6E10;
+                        }
+                    }
+                }
+
+                .cur-lec-content {
+                    width: 100px;
+                    text-align: right;
+                }
+
+                &.on {
+                    background-color: #fff;
+
+                    .cur-lec-title {
+
+                    }
+                    .down-arrow {
+                        transform: rotate(180deg);
+                     }
+                }
+            }
+
+            .cur-list-row-details {
+                display: none;
+                background-color: #fff;
+                border-top: 0px;
+
+                td { border: 0; }
+            }
+        }
+    }
+}
+
+.preview-video-modal {
+    padding: 10vh 0;
+
+    .modal-content{
+        background: #f9f9f9;
+        border-radius: 0;
+        border: 0;
+
+        .modal-header {
+            padding: 0;
+
+            .preview-video-modal-button {
+                margin: 10px;
+                border-radius: 50%;
+                padding-left: 1px;
+                height: 20px;
+                width: 20px;
+                color: #fff;
+                background-color: #C6C6C6;
+                opacity: 1;
+                outline: none;
+            }
+        }
+
+        .modal-title {
+            padding: 30px 35px 25px 15px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #BEBEBE;
+            line-height: 1.2;
+            font-size: 16px;
+        }
+        
+        .modal-body {
+            padding: 0;
+        }
+    }
+}
+
+
+/* Responsive */
+@media (max-width: $BIG_PHONE){
+    .cur-table-responsive tr {
+        height: auto !important;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: $SMALL_PHONE){
+    .cur-table-responsive {
+        border-top: 1px solid #ddd;
+    }
+
+    .cur-lec-content, .down-arrow {
+        display: none !important;
+    }
+}
+
+@media (max-width: $TABLET){
+    #udemy-curriculum {
+        margin-bottom: 20px;
+    }
+}

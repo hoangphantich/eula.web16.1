@@ -1,0 +1,151 @@
+﻿{
+    "select_brand": {
+        "isRequired": true,
+        "options": [
+            {
+                "text": "Select Brand",
+                "selected": true
+            },
+            {
+                "text": "Brand 1"
+            },
+            {
+                "text": "Brand 2"
+            },
+            {
+                "text": "Brand 3"
+            }
+        ]
+    },
+    "select_model": {
+        "isRequired": true,
+        "options": [
+            {
+                "text": "Select Model",
+                "selected": true
+            },
+            {
+                "text": "Model 1"
+            },
+            {
+                "text": "Model 2"
+            },
+            {
+                "text": "Model 3"
+            }
+        ]
+    },
+
+    "registration_number": {
+        "isRequired": true,
+        "text": "Registration Number"
+    },
+
+    "select_model_year": {
+        "isRequired": true,
+        "options": [
+            {
+                "text": "Select Model Year",
+                "selected": true
+            },
+            {
+                "text": "2012"
+            },
+            {
+                "text": "2013"
+            },
+            {
+                "text": "2014"
+            },
+            {
+                "text": "2015"
+            }
+        ]
+    },
+
+    "mileage": {
+        "isRequired": true,
+        "text": "Mileage (Km)"
+    },
+
+    "select_branch": {
+        "isRequired": true,
+        "options": [
+            {
+                "text": "Select Branch",
+                "selected": true
+            },
+            {
+                "text": "Branch 1"
+            },
+            {
+                "text": "Branch 2"
+            },
+            {
+                "text": "Branch 3"
+            },
+            {
+                "text": "Branch 4"
+            }
+        ]
+    },
+
+    "first_name": {
+        "isRequired": true,
+        "text": "First Name"
+    },
+
+    "last_name": {
+        "isRequired": true,
+        "text": "Last Name"
+    },
+
+    "select_city": {
+        "options": [
+            {
+                "text": "Select City",
+                "selected": true
+            },
+            {
+                "text": "City 1"
+            },
+            {
+                "text": "City 2"
+            },
+            {
+                "text": "City 3"
+            },
+            {
+                "text": "City 4"
+            }
+        ]
+    },
+
+    "select_age": {
+        "isRequired": true,
+        "options": [
+            {
+                "text": "Select Age",
+                "selected": true
+            },
+            {
+                "text": "18"
+            },
+            {
+                "text": "19"
+            },
+            {
+                "text": "20"
+            },
+            {
+                "text": "21"
+            }
+        ]
+    },
+    "uae": {
+        "text": "United Arab Emirates",
+        "value": "United Arab Emirates",
+        "readonly": true
+    },
+    "checkbox": "I would like to receive information about new models and promotions"
+}

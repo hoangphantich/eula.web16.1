@@ -1,0 +1,335 @@
+﻿
+.list-top-container {
+    height: 385px;
+    width: 1140px;
+    color: white;
+    min-width: 160px;
+    margin: auto;
+
+    @media (max-width :$SMALL_LAPTOP) {
+        height: 180px;
+        width: 940px;
+        margin: auto;
+    }
+
+    @media (max-width :$TABLET) {
+        height: 540px;
+        max-width: 720px;
+        margin: auto;
+        min-height: 270px;
+    }
+
+    @media(max-width:750px) {
+        width: 100%;
+    }
+
+
+    .top-course {
+        float: left;
+        bottom: 0;
+
+
+
+        &:hover {
+            opacity: 0.8;
+        }
+
+        &:nth-child(1) {
+            margin: 20px 10px 0 0;
+            width: 560px;
+            min-width: 270px;
+            height: 365px;
+
+            @media (max-width :$SMALL_LAPTOP) {
+                height: 160px;
+                float: left;
+                width: 270px;
+                margin: 10px 12px 10px 41px;
+            }
+
+            @media (max-width :$TABLET) {
+                height: 160px;
+                width: 564px;
+                margin: 20px auto 10px auto;
+                float: none;
+            }
+
+            @media(max-width: 640px) {
+                width: 90%;
+                margin: 20px 5% 10px 5%;
+            }
+
+            .course-content {
+                width: 100%;
+                height: 100%;
+
+                .course-img {
+                    height: 100%;
+                    background: no-repeat center;
+                    background-size: cover;
+                    display: flex;
+
+                    .card-info {
+                        margin: auto;
+                        width: 100%;
+                        height: 60%;
+                        display: flex;
+
+                        @media (max-width :$SMALL_LAPTOP) {
+                            display: block;
+                        }
+
+                        .title {
+                            color: #FFF;
+                            font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+                            margin: auto;
+                            font-size: 28px;
+                            float: right;
+                            text-align: center;
+                            width: 50%;
+                            height: 25%;
+
+                            @media (max-width :$SMALL_LAPTOP) {
+                                font-size: 24px;
+                                float: left;
+                                width: 100%;
+                                height: 40%;
+                            }
+                        }
+
+                        .icon {
+                            margin: auto;
+                            display: grid;
+                            float: left;
+                            width: 50%;
+                            text-align: center;
+                            height: 150px;
+
+                            @media (max-width :$SMALL_LAPTOP) {
+                                float: left;
+                                width: 100%;
+                                text-align: center;
+                                margin: auto;
+                                height: 70%;
+                            }
+
+                            .img {
+                                width: 115px;
+                                height: 100%;
+                                margin: auto;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                                background-position: center center;
+
+                                @media (max-width :$SMALL_LAPTOP) {
+                                    width: 30%;
+                                    margin: auto;
+                                    float: none;
+                                    width: 35px;
+                                    height: 35px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &:nth-child(2) {
+            margin: 20px 0 0 10px;
+            width: 560px;
+            min-height: 160px;
+            height: 172px;
+            min-width: 270px;
+
+            @media (max-width :$SMALL_LAPTOP) {
+                height: 160px;
+                width: 270px;
+                margin: 10px 12px 10px 12px;
+            }
+
+            @media (max-width :$TABLET) {
+                height: 160px;
+                width: 564px;
+                margin: 20px auto 10px auto;
+                float: none;
+            }
+
+            @media(max-width: 640px) {
+                width: 90%;
+                margin: 20px 5% 10px 5%;
+            }
+
+            .course-content {
+                width: 100%;
+                height: 100%;
+
+                .course-img {
+                    height: 100%;
+                    background: no-repeat center;
+                    background-size: cover;
+                    display: flex;
+
+                    .card-info {
+                        margin: auto;
+                        width: 100%;
+                        height: 60%;
+                        display: flex;
+
+                        @media (max-width :$SMALL_LAPTOP) {
+                            display: block;
+                        }
+
+                        .title {
+                            font-weight: 300;
+                            color: #FFF;
+                            font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+                            margin: auto;
+                            height: 40%;
+                            font-size: 30px;
+                            float: right;
+                            text-align: left;
+                            width: 70%;
+
+                            @media (max-width :$SMALL_LAPTOP) {
+                                font-size: 24px;
+                                width: 100%;
+                                text-align: center;
+                                float: left;
+                            }
+                        }
+
+                        .icon {
+                            margin: auto;
+                            height: 70%;
+                            text-align: right;
+                            float: left;
+                            width: 30%;
+
+                            @media (max-width :$SMALL_LAPTOP) {
+                                float: left;
+                                width: 100%;
+                                text-align: center;
+                            }
+
+                            .img {
+                                background-size: 100% 100%;
+                                float: right;
+                                width: 75px;
+                                height: 85px;
+
+                                @media (max-width :$SMALL_LAPTOP) {
+                                    width: 30%;
+                                    margin: auto;
+                                    float: none;
+                                    width: 35px;
+                                    height: 35px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &:nth-child(3) {
+            margin: 20px 0 0 10px;
+            width: 560px;
+            min-height: 160px;
+            height: 172px;
+            min-width: 270px;
+
+            @media (max-width :$SMALL_LAPTOP) {
+                height: 160px;
+                float: right;
+                width: 270px;
+                margin: 10px 41px 10px 12px;
+            }
+
+            @media (max-width :$TABLET) {
+                height: 160px;
+                width: 564px;
+                margin: 20px auto 10px auto;
+                float: none;
+            }
+
+            @media(max-width: 640px) {
+                width: 90%;
+                margin: 20px 5% 10px 5%;
+            }
+
+            .course-content {
+                width: 100%;
+                height: 100%;
+
+                .course-img {
+                    height: 100%;
+                    background: no-repeat center;
+                    background-size: cover;
+                    display: flex;
+
+                    .card-info {
+                        margin: auto;
+                        width: 100%;
+                        height: 60%;
+                        display: flex;
+
+                        @media (max-width :$SMALL_LAPTOP) {
+                            display: block;
+                        }
+
+                        .title {
+                            font-weight: 300;
+                            color: #FFF;
+                            font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+                            margin: auto;
+                            height: 40%;
+                            font-size: 30px;
+                            float: right;
+                            text-align: left;
+                            width: 50%;
+
+                            @media (max-width :$SMALL_LAPTOP) {
+                                font-size: 24px;
+                                float: left;
+                                width: 100%;
+                                text-align: center;
+                            }
+                        }
+
+                        .icon {
+                            margin: auto;
+                            height: 70%;
+                            display: grid;
+                            text-align: right;
+                            float: left;
+                            width: 50%;
+
+                            @media (max-width :$SMALL_LAPTOP) {
+                                float: left;
+                                width: 100%;
+                                text-align: center;
+                            }
+
+                            .img {
+                                background-size: 100% 100%;
+                                float: right;
+                                width: 75px;
+                                height: 85px;
+                                text-align: right;
+
+                                @media (max-width :$SMALL_LAPTOP) {
+                                    text-align: center;
+                                    width: 35px;
+                                    height: 35px;
+                                    margin: auto;
+                                    float: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

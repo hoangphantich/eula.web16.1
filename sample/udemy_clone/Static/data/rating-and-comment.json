@@ -1,0 +1,36 @@
+﻿{
+  "rating": [
+    {
+      "1-star": 1,
+      "2-star": 2,
+      "3-star": 6,
+      "4-star": 36,
+      "5-star": 56,
+      "average-rating": 4.6
+    }
+  ],
+
+  "comment": [
+    {
+      "avatar": "/img/anonymous.png",
+      "comment": "So far great! I needed a total refresher on the basics of Excel and Kyle's way of explaining things is great. I'm so glad I chose this course.",
+      "time": "10 hours ago",
+      "name": "Lisa Norwood",
+      "rating": 4.5
+    },
+    {
+      "avatar": "/img/user1.jpg",
+      "comment": "This man is a god.",
+      "time": "a day ago",
+      "name": "Adeeb Syed",
+      "rating": 4
+    },
+    {
+      "avatar": "/img/user2.jpg",
+      "comment": "Keeps reiterating the course outline that can be read on the page where you buy the course. Don't waste time",
+      "time": "a month ago",
+      "name": "Darius Avellino",
+      "rating": 2
+    }
+  ]  
+}

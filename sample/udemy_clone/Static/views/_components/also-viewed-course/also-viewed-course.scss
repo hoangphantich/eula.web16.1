@@ -1,0 +1,157 @@
+﻿/* MY CONSTANT */
+$ALSO_COURSE_ON_BIG_PHONE : $BIG_PHONE - 1;
+
+/* Desktop */
+.row {
+    margin: auto;
+    width: 95%;
+}
+
+.also-viewed-title {
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    //margin-top: 0;
+}
+
+.also-viewed-container {
+
+    .also-viewed-list {
+        border: 1px solid #ccc;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 100%;
+
+        .also-viewed-list__item {
+        	background: #fff;
+            border-top: 1px solid #ccc;
+            padding: 10px 0;
+            width: 100%;
+            display: inline-block;
+
+            &:first-child {
+                border-top: 0;
+            }
+
+            & > div {
+                display: flex;
+                width: 100%;
+            }
+
+            .course-image {
+                padding-right: 0;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            .course-description {
+                font-size: 13px;
+                display: flex;
+                flex-direction: column;
+
+                .course-title {
+                    color: #555;
+                    line-height: 1.3;
+                    display: block;
+                    outline: none !important;
+                }
+                   
+                .course-instructor {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    height: 25px;
+                    line-height: 2;
+                    max-width: 200px;
+                }
+
+                .course-review {
+                    .rating-star {
+                        margin: 0 2px 0 -2px;
+                        position: relative;
+                        display: inline-block;
+                        color: lightgray;
+                        content: '★★★★★';
+                        font-size: 20px;
+
+                        .rating-point {
+                            width: 85%;
+                            position: absolute;
+                            z-index: 10;
+                            left: 0;
+                            top: 0;
+                            overflow: hidden;
+                            color: #17aa1c;
+                            content: '★★★★★';
+                            font-size: 20px;
+                        }
+                    }
+                }
+
+                .course-price {
+                    font-size: 15px;
+                    color: #353535;
+                    line-height: 1;
+                    font-weight: bold;
+                    margin-top: auto;
+                }
+            }
+        }
+    }
+}
+
+/* Responsive */
+@media (max-width: $TABLET) and (min-width: $BIG_PHONE){
+    .also-viewed-container {
+        .also-viewed-list {
+        	border: 0;
+        	text-align: center;
+
+            .also-viewed-list__item {
+                border: 1px solid #ccc !important;
+                width: 235px;
+                float: none;
+
+                & > div {
+                    flex-direction: column;
+                }
+
+                .course-image {
+                    margin: auto;
+                    margin-bottom: 15px;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $ALSO_COURSE_ON_BIG_PHONE) {
+    .also-viewed-container {
+
+        .also-viewed-list {
+        	border: 0;
+        	text-align: center;
+
+            .also-viewed-list__item {
+            	border: 1px solid #ccc !important;
+                width: 235px;
+                margin-bottom: 4px;
+
+                & > div {
+                    flex-direction: column;
+                }
+
+                .course-image {
+                    margin: auto;
+                    margin-bottom: 15px;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

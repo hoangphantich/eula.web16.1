@@ -1,0 +1,67 @@
+@import "_cookies_ar";
+
+.cookies-container {
+    background: url('/img/cookies_bg.png') no-repeat center center;
+    background-size: 100% 100%;
+    position: relative;
+    display: none;
+
+    padding: rem(10px 50px 10px 10px);
+
+    @include respond-to-min($tabletSize) {
+        padding: rem(20px 150px 20px 20px);
+    }
+
+    @include respond-to-min($desktopSize) {
+        padding: rem(20px 270px 20px 36px);
+    }
+
+    p {
+        color: #fff;
+        font-size: rem(16px);
+        line-height: rem(24px);
+        @include latoNormal();
+
+        a {
+            color: $orangeLinkCookie;
+            text-decoration: none;
+        }
+    }
+
+    .cookies-close {
+        position: absolute;
+        width: rem(37px);
+        height: rem(35px);
+        border: rem(1px solid #828282);
+        border-radius: rem(3px);
+        @include vertical-align(absolute);
+        cursor: pointer;
+        right: rem(10px);
+
+        @include respond-to-min($tabletSize) {
+            right: rem(20px);
+        }
+
+        @include respond-to-min($desktopSize) {
+            right: rem(30px);
+        }
+
+        &::before, &::after {
+            content: '';
+            position: absolute;
+            height: rem(1px);
+            width: rem(22px);
+            background-color: #fff;
+            top: 50%;
+            left: 50%;
+        }
+
+        &::before {
+            transform: translate(-50%,-50%) rotate(-45deg);
+        }
+
+        &::after {
+            transform: translate(-50%,-50%) rotate(45deg);
+        }
+    }
+}

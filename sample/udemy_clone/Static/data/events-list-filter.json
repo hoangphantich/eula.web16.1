@@ -1,0 +1,29 @@
+﻿{
+    "events": {
+        "isRequired": false,
+        "options": [
+            {
+                "text": "Ford events",
+                "selected": true
+            },
+            {
+                "text": "Land Rover events"
+            },
+            {
+                "text": "Ferrari"
+            }
+        ]
+    },
+    "price": {
+        "isRequired": false,
+        "options": [
+            {
+                "text": "Lowest to Highest",
+                "selected": true
+            },
+            {
+                "text": "Highest to Lowest"
+            }
+        ]
+    }
+}

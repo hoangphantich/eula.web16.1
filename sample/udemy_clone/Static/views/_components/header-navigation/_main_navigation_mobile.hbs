@@ -1,0 +1,83 @@
+---
+title: "Brand - Main navigation page"
+---
+<div class="main-navigation-mobile__container" data-require="base/views/main_navigation_mobile">
+    <div class="main-navigation-mobile__header-bar">
+        <a class="main-navigation-mobile__logo" href="#" title="Home">
+            <img src="/img/premier-logo-mobile.png" alt="" />
+        </a>
+        <span class="main-navigation-mobile__toggle-menu">
+            <span class="main-navigation-mobile__toggle-menu__icon-container">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </span>
+        <div class="main-navigation-mobile__brand-select">
+            Brands
+
+            <ul class="main-navigation-mobile__list-brand orange-top-border">
+                {{#each brand-navigations.items}}
+                <li>
+                    <a href="#" title="">
+                        <span>{{this.name}}</span>
+                        <span class="brand-logo-container">
+                            <img src="{{this.img-src}}" alt="" />
+                        </span>
+                    </a>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+    <div class="main-navigation-mobile__menu">
+        <ul class="main-navigation-mobile__menu__ul">
+            <li class="li-menu-item__search">
+                <form action="#">
+                    <input class="search-input" name="search-input" id="search-input" placeholder="Search" />
+                    <button type="submit" class="search-submit" name="search-sumbit" id="search-submit"><i class="fa fa-search">&nbsp;</i></button>
+                </form>
+            </li>
+            <li class="li-menu-item__list-menu-items">
+                <ul>
+                    {{#each top_menu.items}}
+                    <li class="li-menu-item__menu-icon">
+                        <a href="{{this.url}}" title="">
+                            <span class="menu-mobile__icon"><img src="{{this.image}}" /></span>
+                            <span class="menu-mobile__text">{{this.text}}</span>
+                        </a>
+                    </li>
+                    {{/each}}
+
+                    <li class="li-menu-item__menu-sub-container">
+                        <ul class="ul-menu-item__sub-menu">
+                            {{#each main_menu.items}}
+                            <li class="li-menu-item__text">
+                                <a href="{{this.url}}" title="">
+                                    <span class="menu-mobile__text">{{this.text}}</span>
+                                </a>
+                            </li>
+                            {{/each}}
+                            <li class="li-menu-item__text">
+                                <a href="#" title="">
+                                    <span class="menu-mobile__text">Amber</span>
+                                </a>
+                            </li>
+                            <li class="li-menu-item__text">
+                                <a href="#" title="">
+                                    <span class="menu-mobile__text">About Us</span>
+                                </a>
+                            </li>
+                            <li class="li-menu-item__text li-menu-item__language">
+                                <span class="menu-mobile__label">Change Language:</span>
+                                <a class="menu-mobile__language" href="#" title="">English</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+

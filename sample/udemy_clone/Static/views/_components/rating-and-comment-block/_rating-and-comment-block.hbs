@@ -1,0 +1,198 @@
+﻿<div class="container">
+
+{{#with rating-and-comment}}
+{{#with rating.[0]}}
+<div class="rating-block clearfix">
+    <span class="title">Review</span>
+    <div>
+        <div class="col-sm-4 nopadding">
+            <span>
+                Average Rating
+            </span>
+
+            <div class="rating-float-point">
+                {{average-rating}}
+            </div>
+            <span class="rating-star stars-container">
+                ★★★★★
+                <span title="{{average-rating}}" class="rating-point">★★★★★</span>
+            </span>
+
+        </div>
+        <div class="col-sm-8 nopadding">
+            <span>Detail</span><br />
+            <ul class="rate-list">
+                <li class="list-filter clearfix">
+
+                    <span class="star-count">5 Stars</span>
+                    <div class="full-rating-progress">
+                        <div class="rating-progress" title="{{5-star}}">
+
+                        </div>
+                    </div>
+                    <span class="ratingFilter">
+                        {{5-star}}%
+                    </span>
+                    <a class="clear-filter">
+                        Clear Selection
+                    </a>
+
+                </li>
+                <li class="list-filter clearfix">
+
+                    <span class="star-count">4 Stars</span>
+                    <div class="full-rating-progress">
+                        <div class="rating-progress" title="{{4-star}}">
+
+                        </div>
+                    </div>
+                    <span class="ratingFilter">
+                        {{4-star}}%
+                    </span>
+                    <a class="clear-filter">
+                        Clear Selection
+                    </a>
+
+                </li>
+                <li class="list-filter clearfix">
+
+                    <span class="star-count">3 Stars</span>
+                    <div class="full-rating-progress">
+                        <div class="rating-progress" title="{{3-star}}">
+
+                        </div>
+                    </div>
+                    <span class="ratingFilter">
+                        {{3-star}}%
+                    </span>
+                    <a class="clear-filter">
+                        Clear Selection
+                    </a>
+
+                </li>
+                <li class="list-filter clearfix">
+
+                    <span class="star-count">2 Stars</span>
+                    <div class="full-rating-progress">
+                        <div class="rating-progress" title="{{2-star}}">
+
+                        </div>
+                    </div>
+                    <span class="ratingFilter">
+                        {{2-star}}%
+                    </span>
+                    <a class="clear-filter">
+                        Clear Selection
+                    </a>
+
+                </li>
+                <li class="list-filter clearfix">
+
+                    <span class="star-count">1 Stars</span>
+                    <div class="full-rating-progress">
+                        <div class="rating-progress" title="{{1-star}}">
+
+                        </div>
+                    </div>
+                    <span class="ratingFilter">
+                        {{1-star}}%
+                    </span>
+                    <a class="clear-filter">
+                        Clear Selection
+                    </a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{{/with}}
+<ul class="comment-list">
+    {{#each comment}}
+    <li>
+        <div class="row info-container">
+            <div class="avatar col-sm-4 col-xs-4 nopadding">
+                <img src="{{avatar}}" />
+            </div>
+            <ul class="user-details fx col-sm-8 col-xs-6">
+                <li class="username ellipsis">{{name}}</li>
+                <li><span class="review-created">posted {{time}}</span></li>
+            </ul>
+
+            <div class="col-sm-2 float-right">
+                <a data-toggle="tooltip" data-placement="left" title="Report Abuse" href="javascript:void(0)">
+                    <i class="fa fa-flag" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="row rating-container">
+            <div class="col-sm-8 mt3-xs nopadding">
+                <span class="rating-star stars-container">
+                    ★★★★★
+                    <span title="{{rating}}" class="rating-point">★★★★★</span>
+                </span>
+            </div>
+        </div>
+
+        <div class="row comment-container">
+            <div class="col-sm-10 mt3-xs nopadding">
+                {{comment}}
+            </div>
+        </div>
+    </li>
+    {{/each}}
+</ul>
+{{/with}}
+</div>
+
+<script>
+$(document).ready();
+
+$('[data-toggle="tooltip"]').tooltip();
+
+$('.rating-point').each(function () {
+    var rating = $(this).attr("title");
+    $(this).css("width", rating * 20 + "%");
+})
+
+
+$('.rating-progress').each(function () {
+    var progress = $(this).attr("title");
+    $(this).css("width", progress + "%");
+})
+    
+var starFilter = function () {
+    if (!$('.list-filter').hasClass('active')) {
+        $(this).parent().addClass('active');
+
+        $('.ratingFilter').not(this).each(function () {
+            //disable other link
+            var parent = $(this).parent();
+            parent.children().addClass('disable-filter');
+            parent.children('.ratingFilter').css('color', 'black');
+        });
+
+        $(this).parent().children('.clear-filter').show();
+        //show filter? Backend ajax?
+
+    }
+}
+
+$('.ratingFilter').bind("click", starFilter);
+
+$('.clear-filter').click(function () {
+    $(this).parent().removeClass('active')
+    $(this).hide();
+
+    //enable other
+    $('.clear-filter').not(this).each(function () {
+        //disable other link
+        var parent = $(this).parent();
+        parent.children().removeClass('disable-filter');
+        parent.children('.ratingFilter').css('color', '#337ab7');
+    });
+})
+
+</script>

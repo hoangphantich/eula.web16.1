@@ -1,0 +1,313 @@
+@import "_input_style_ar";
+
+/**--- input select item ---**/
+.input-selection-container {
+    position: relative;
+    height: rem(40px);
+    vertical-align: middle;
+    background: #fff;
+
+    @include respond-to-min($tabletSize) {
+        height: rem(60px);
+    }
+
+    .common-input {
+        border: rem(1px solid #c8c8c8);
+        border-radius: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        outline: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        color: #6a6a6a;
+        font-size: rem(12px);
+        @include arial();
+
+        &::-ms-expand {
+            display: none;
+        }
+
+        padding: rem(0 20px);
+
+        @include respond-to-min($tabletSize) {
+            padding: rem(0 30px);
+            font-size: rem(16px);
+        }
+    }
+
+    select {
+        @extend .common-input;
+        background: url('/img/select_arrow.png') no-repeat right 10px center;
+        background-size: auto 5px;
+        padding: rem(0 16px);
+
+        @include respond-to-min($tabletSize) {
+            background: url('/img/select_arrow.png') no-repeat right 20px center;
+            background-size: auto 8px;
+            padding: rem(0 26px);
+        }
+
+        &.customized-selected {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        option {
+            padding-left: 0px;
+        }
+    }
+
+    input {
+        @extend .common-input;
+        padding-left: rem(23px);
+
+        @include respond-to-min($tabletSize) {
+            padding-left: rem(33px);
+        }
+    }
+
+    textarea {
+        @extend .common-input;
+        padding-left: rem(23px);
+
+        @include respond-to-min($tabletSize) {
+            padding-left: rem(33px);
+        }
+    }
+
+    .selected-label {
+        @extend .common-input;
+        background: url('/img/select_arrow.png') no-repeat right 10px center;
+        background-size: auto 5px;
+        line-height: rem(38px);
+
+        @include respond-to-min($tabletSize) {
+            background: url('/img/select_arrow.png') no-repeat right 20px center;
+            background-size: auto 8px;
+            line-height: rem(58px);
+        }
+
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        cursor: pointer;
+    }
+
+    .disabled-label {
+        color: #a7a7a7;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        z-index: 10;
+        top: 100%;
+        left: 0px;
+        width: 100%;
+        max-height: 400px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        pointer-events: none;
+        opacity: 0;
+        transform: translate(0, -20px);
+        transition: all 0.25s;
+
+        &.show-select {
+            pointer-events: inherit;
+            opacity: 1;
+            transform: translate(0, 0);
+        }
+
+        li {
+            @extend .common-input;
+            border-top: none;
+            height: rem(40px);
+            background: #fff;
+            display: block;
+            cursor: pointer;
+            @include verticle-middle();
+
+            &:hover {
+                background: #f6f6f6;
+            }
+
+            @include respond-to-min($tabletSize) {
+                height: rem(60px);
+            }
+        }
+    }
+
+    .selected-option {
+        display: none;
+    }
+
+    & .invalid {
+        border-color: red;
+    }
+}
+
+.input-datepicker-container {
+    input {
+        background: url('/img/icon_calendar.png') no-repeat right 20px center;
+        cursor: pointer;
+    }
+}
+
+.textarea-item-container {
+    height: rem(150px);
+
+    textarea {
+        padding-top: rem(15px);
+        padding-bottom: rem(15px);
+
+        @include respond-to-min($tabletSize) {
+            padding-top: rem(20px);
+            padding-bottom: rem(20px);
+        }
+    }
+}
+
+.input-hidden {
+    display: none;
+}
+
+.is-required {
+    &::before {
+        position: absolute;
+        top: 50%;
+        margin-top: rem(-14px);
+        content: '*';
+        color: $blueTextColor;
+        font-size: rem(16px);
+        z-index: 2;
+        left: rem(10px);
+
+        @include respond-to-min($tabletSize) {
+            left: rem(15px);
+        }
+    }
+
+    &.textarea-item-container {
+        &::before {
+            top: rem(20px);
+
+            @include respond-to-min($tabletSize) {
+                top: rem(30px);
+            }
+        }
+    }
+}
+
+.button-common {
+    background-color: #003977;
+    font-size: rem(12px);
+    line-height: rem(12px);
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    border: none;
+    outline: none;
+    border-radius: rem(3px);
+    padding: rem(15px 20px 15px);
+    letter-spacing: rem(1px);
+
+    @include latoBlack();
+
+    @include respond-to-min($tabletSize) {
+        padding: rem(19px 30px 19px);
+    }
+}
+
+.checkbox-container {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    font-size: 0;
+    cursor: pointer;
+
+    input {
+        opacity: 0;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        z-index: 2;
+        /*float: left;*/
+        width: rem(18px);
+        height: rem(18px);
+        cursor: pointer;
+
+        @include respond-to-min($tabletSize) {
+            width: rem(35px);
+            height: rem(35px);
+        }
+
+        &[type=checkbox]:checked {
+            & + .checkbox-label {
+                &::before {
+                    background: url('/img/icon_checkbox.png') no-repeat center center;
+                    background-color: #fff;
+                    background-size: 9px auto;
+
+                    @include respond-to-min($tabletSize) {
+                        background-size: 19px auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .checkbox-label {
+        display: inline-block;
+        vertical-align: middle;
+        @include latoNormal();
+        color: $grayText;
+        line-height: rem(30px);
+        position: relative;
+        z-index: 0;
+        user-select: none;
+        /*width: 100%;
+        padding-left: rem(50px);
+        margin-top: rem(-40px);*/
+        font-size: rem(14px);
+        line-height: rem(20px);
+        margin-left: rem(10px);
+        cursor: pointer;
+
+        @include respond-to-min($tabletSize) {
+            font-size: rem(18px);
+            line-height: rem(20px);
+            margin-left: rem(15px);
+        }
+
+        @include respond-to-min($desktopSize) {
+            font-size: rem(18px);
+            line-height: rem(30px);
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            z-index: 0;
+            width: rem(18px);
+            height: rem(18px);
+            left: rem(-28px);
+            /*left: rem(0px);*/
+            border: rem(1px solid #cbcbcb);
+            @include vertical-align(absolute);
+            background-color: #fff;
+            cursor: pointer;
+
+            @include respond-to-min($tabletSize) {
+                width: rem(35px);
+                height: rem(35px);
+                left: rem(-50px);
+            }
+        }
+    }
+}

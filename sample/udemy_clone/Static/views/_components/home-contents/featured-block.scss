@@ -1,0 +1,20 @@
+.featured-container {
+    padding-top: rem(70px);
+    padding-bottom: rem(20px);
+    background: #8f9598;
+    
+    @include respond-to-min($tabletSize) {
+        padding-top: rem(70px);
+        padding-bottom: rem(20px);
+    }
+
+    @include respond-to-min($desktopSize) {
+        padding-top: rem(70px);
+        padding-bottom: rem(60px);
+    }
+
+    @include respond-to-min($laptopSize) {
+        padding-top: rem(108px);
+        padding-bottom: rem(80px);
+    }
+}

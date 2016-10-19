@@ -1,0 +1,7 @@
+﻿{
+    "paths": [
+        { "id": "Home Page", "path": "Static/compiled/pages/home.html" },       
+        { "id": "404", "path": "Static/compiled/pages/404.html" },
+        { "id": "500", "path": "Static/compiled/pages/500.html" }
+    ]
+}

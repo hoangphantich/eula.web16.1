@@ -1,0 +1,23 @@
+﻿@mixin respond-to-min($width) {
+    @media only screen and (min-width: $width) {
+        @content;
+    }
+}
+
+@mixin respond-to-max($width) {
+    @media only screen and (max-width: $width - 1px) {
+        @content;
+    }
+}
+
+@mixin respond-to-min-max($min-width, $max-width) {
+    @media only screen and (min-width: $min-width) and (max-width: $max-width) {
+        @content;
+    }
+}
+
+@mixin landscape-media() {
+    @media only screen and (orientation: landscape) {
+        @content;
+    }
+}

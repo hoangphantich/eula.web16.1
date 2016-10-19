@@ -1,0 +1,51 @@
+﻿.container-fluid{
+    position:relative;
+}
+.content {
+    padding: 10px 0 0 0px;
+    >span{
+        padding:0 10px;
+        word-spacing:-12px;
+    }
+ @media(max-width:$SMALL_PHONE){
+     font-size:11px;
+ }
+}
+
+.glyphicon-calendar:before {
+  content: "\e109";
+  padding-right:4px;
+}
+.glyphicon-globe:before {
+  content: "\e135";
+  padding-right:4px;
+}
+.full-detail{
+    display: none;
+    padding-top:40px;
+    width: calc(100% - 1px);
+    position:absolute;
+    bottom: 0;
+    font-weight:bold;
+    background: linear-gradient(rgba(244,244,244,0), rgba(244,244,244,0.95), #f4f4f4);
+   
+ 
+}
+
+.fulldetail-container{
+    position: relative;
+    overflow:hidden;
+
+}
+
+.target{
+    padding-top:25px;
+    position:relative;
+}
+
+.h3{
+    padding-left:65px;
+    font-weight:100;
+    font-size: 36px;
+    margin-bottom:unset;
+}

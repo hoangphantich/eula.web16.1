@@ -1,0 +1,35 @@
+.video-footer-block {
+    .news-event-container {
+        @include respond-to-min($tabletSize) {
+            @include rtl() {
+                left: auto;
+                right: 50%;
+
+                padding: rem(0 0 0 20px);
+            }
+        }
+
+        @include respond-to-min($desktopSize) {
+        }
+
+        @include respond-to-min($laptopSize) {
+            @include rtl() {
+                left: auto;
+                right: 50%;
+                margin-right: rem(100px);
+                margin-left: 0;
+                padding: rem(0 0 0 50px);
+            }
+        }   
+
+        .date-picker-btn {
+            i {
+                @include rtl() {
+                    margin-left: rem(10px);
+                    margin-right: 0;
+                }
+            }
+        }
+
+    }
+}

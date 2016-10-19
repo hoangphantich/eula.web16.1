@@ -1,0 +1,95 @@
+/**--- input select item ---**/
+.input-selection-container {
+    @include rtl() {
+        select {
+            background: url('/img/select_arrow.png') no-repeat left 10px center;
+
+            @include respond-to-min($tabletSize) {
+                background: url('/img/select_arrow.png') no-repeat left 20px center;
+            }
+        }
+
+        input {
+            padding-right: rem(23px);
+            padding-left: rem(20px);
+
+            @include respond-to-min($tabletSize) {
+                padding-right: rem(33px);
+                padding-left: rem(30px);
+            }
+        }
+
+        textarea {
+            padding-right: rem(23px);
+            padding-left: rem(20px);
+
+            @include respond-to-min($tabletSize) {
+                padding-right: rem(33px);
+                padding-left: rem(30px);
+            }
+        }
+
+        .selected-label {
+            background: url('/img/select_arrow.png') no-repeat left 10px center;
+
+            @include respond-to-min($tabletSize) {
+                background: url('/img/select_arrow.png') no-repeat left 20px center;
+            }
+
+            right: 0px;
+            left: auto;
+        }
+
+        ul {
+            right: 0px;
+            left: auto;
+        }
+    }
+}
+
+.input-datepicker-container {
+    @include rtl() {
+        input {
+            background: url('/img/icon_calendar.png') no-repeat left 20px center;
+        }
+    }
+}
+
+
+.is-required {
+    @include rtl() {
+        &::before {
+            right: rem(10px);
+            left: 0px;
+
+            @include respond-to-min($tabletSize) {
+                right: rem(15px);
+                left: 0px;
+            }
+        }
+    }
+}
+
+.checkbox-container {
+    @include rtl() {
+        .checkbox-label {
+            margin-right: rem(10px);
+            margin-left: 0;
+
+            @include respond-to-min($tabletSize) {
+                margin-right: rem(15px);
+                margin-left: 0;
+            }
+
+            &::before {
+                left: auto;
+                right: rem(-28px);
+
+                @include respond-to-min($tabletSize) {
+                    right: rem(-50px);
+                    left: auto;
+                }
+            }
+        }
+    }
+}

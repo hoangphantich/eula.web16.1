@@ -1,0 +1,211 @@
+﻿{{#with introdution-detail-course.course.[0]}}
+
+<div class="main-details">
+    <div class="up-intro-course">
+        <h1 class="title">{{title}}</h1>
+        <div class="subtitle">{{subtitle}}</div>
+
+        <div class="enrolled">
+            <a href="javascript:void(0)">
+                <span class="rating-star stars-container">
+                    ★★★★★
+                    <span title="{{rating}}" class="rating-point">★★★★★</span>
+                </span>
+
+                <span class="rating-count">
+                    {{rating}} ({{rating-count}} ratings) • {{enrolled-number}} students enrolled
+                </span>
+            </a>
+        </div>
+
+        <div class="instruct-category">
+            
+            
+            <span class="instructed-by">
+                Instructed by
+                
+                <a href="#" data-toggle="modal" data-target="#instructor-info-modal">
+                    {{instructor.name}}
+                </a>
+            </span>
+
+            <span class="in-category">
+                <a href="#">
+                    {{cate-lv1}}
+                </a>
+                &nbsp;/&nbsp;
+                <a href="#">
+                    {{cate-lv2}}
+                </a>
+            </span>
+        </div>
+
+    </div>
+
+    <div class="down-intro-course container-fluid">
+        <div class="col-lg-8 col-md-7 intro-video">
+            <video id="player" class="video-js vjs-default-skin vjs-16-9 vjs-big-play-centered"
+                   poster="{{poster}}"
+                   controls preload="auto">
+
+                <source src="{{video-link}}" type="video/mp4" />
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a web browser that
+                    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                </p>
+            </video>
+        </div>
+
+        <div class="col-lg-4 col-md-5" style="padding-top: 10px;">
+            <div class="make-reverse">
+
+                <div class="right-top col-md-12 col-sm-6">
+                    <div class="take-crouse">
+                        <div class="course-price ">
+                            <span class="current-price" >{{current-price}}</span>
+                            <span class="old-price price-span">{{old-price}}</span>
+                            <span class="discount-rate price-span"></span>
+                        </div>
+
+                        <button class="btn btn-success btn-take-course">
+                            Take this course
+                        </button>
+                        <br />
+                        <button class="btn btn-take-course btn-cart">
+                            Add to cart
+                        </button>
+                    </div>
+                    <div class="action-link">
+                        <a href="#">Redeem a Coupon</a>
+                        <br />
+                        <a href="#">Start Free Preview</a>
+                        <br />
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">More Options <span class="caret"></span> </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Gift this course</a></li>
+                            <li><a href="#">Buy for my team</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><i class="fa fa-flag" aria-hidden="true"></i>&nbsp;Report Abuse</a></li>
+                        </ul>
+
+
+                    </div>
+
+                </div>
+
+                <div class="right-middle col-md-11 col-sm-6">
+
+                    <ul class="list">
+                        <li class="list-item">
+                            <span class="list-left">Lectures</span>
+                            <span class="list-right">{{lectures-count}}</span>
+                        </li>
+                        <li class="list-item">
+                            <span class="list-left">Video</span>
+                            <span class="list-right">{{video-length}} hours</span>
+                        </li>
+                        <li class="list-item">
+                            <span class="list-left">Skill Level</span>
+                            <span class="list-right">{{skill-level}}</span>
+                        </li>
+
+                        <li class="list-item">
+                            <span class="list-left">Languages</span>
+                            <span class="list-right">
+                                {{languages}}
+                            </span>
+                        </li>
+
+                        <li class="list-item">
+                            <span class="list-left">Includes</span>
+                            <span class="list-right">
+                                {{#each includes}}
+                                <span>
+                                    {{feature}}
+                                </span>
+                                <br>
+                                {{/each}}
+                            </span>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+            
+            <div class="right-bottom col-md-12">
+                <a href="javascript:void(0)" id="wishlist">
+                    
+                    <i class="icon fa fa-heart-o icon-heart-empty not-in-wishlist"></i>
+                    <span class="not-in-wishlist">Wishlist</span>
+                </a>
+                <a href="javascript:void(0)" id="unwishlist">
+                    <i class="icon fa fa-heart icon-heart in-wishlist none"></i>
+                    <span class="in-wishlist none">Wishlisted</span>
+                </a>
+            </div>
+
+          
+        </div>
+
+    </div>
+</div>
+
+<div class="modal fade" id="instructor-info-modal" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="top clearfix">
+                    
+                    <div class="left-col">
+                        <img width="65" height="65" src="{{instructor.avatar}}">
+                    </div>
+                    <div class="right-col">
+                        <a href="#/" class="user" target="_self">{{instructor.name}}</a>
+                        <div class="job">
+                            {{instructor.job}}
+                        </div>
+                        <a href="#" class="message btn btn-success btn-sm">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp; Message
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{/with}}
+
+
+<script>
+    $(document).ready();
+    var rating = $('.rating-point').attr("title");
+    $('.rating-point').css("width", rating * 20 + "%");
+
+    videojs("player", { "example_option": true });
+
+
+    var currentprice = $('.current-price:first').text();
+    var oldprice = $('.old-price:first').text();
+
+    $('.current-price:first').prepend("$");
+    $('.old-price:first').prepend("$");
+    var off = Math.round((1 - (currentprice / oldprice)) * 100);
+    $('.discount-rate:first').text(off + "% off");
+
+
+    $('#unwishlist').hide();
+    $('#wishlist').click(function () {
+        $('#wishlist').hide();
+        $('#unwishlist').show();
+    })
+
+    $('#unwishlist').click(function () {
+        $('#unwishlist').hide();
+        $('#wishlist').show();
+    })
+</script>
+
+

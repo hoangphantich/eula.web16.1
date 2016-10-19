@@ -1,0 +1,65 @@
+﻿.header{
+    color:#fff;
+    height:137px;
+    background-size: contain !important;
+    .breadcrumb_list{
+        margin-top:20px;
+        padding-left:4%;
+        .breadcrumb{
+            background-color:transparent;
+            font-weight:300;
+            font-size:17px;
+            padding-bottom:0;
+            li{
+             
+                a{
+                    color:white !important;
+                    transition:.15s;
+                }
+                a:hover, a:focus{
+                        color:inherit !important;
+                }
+            }
+        }
+    }
+    .header_title{
+        padding-left:4%;
+        h2{
+            padding-left:15px;
+            margin-top:0;
+            font-size:25px;
+        }
+    }
+    .tab_bar{
+        padding-left:4%;
+        color:white;
+        margin-top:-5px;
+        .tabs{
+            list-style-type: none;
+            padding-left:0;
+            li{
+                 display:inline-block;
+                 padding:4px 2px;
+                 cursor:pointer;
+                 margin-left:14px;
+                 a{
+                     color:inherit;
+                }
+                 a:hover{
+                     color:#fff;
+                 }
+            }
+            .active{
+                     color:white;
+                     padding-top:4px;
+                     border-bottom:3px solid;
+                     a{
+                         color:white;
+                     }
+            }
+        }
+    }
+}
+
+
+

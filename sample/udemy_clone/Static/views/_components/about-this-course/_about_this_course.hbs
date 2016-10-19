@@ -1,0 +1,57 @@
+﻿{{#with about-this-course.course}}
+<div id="about-this-course" class="container-fluid"  data-require="base/views/full-detail">
+    <div class="content big-detail fulldetail-container">
+        <strong>Course Description</strong>
+        <p>{{course_description}}</p>
+        <div class="full-detail">
+            <a>Full Detail</a>
+        </div>
+    </div>
+    {{/with}}
+
+    <div class="content">
+        <strong>What are the requirements?</strong>
+        <div class="small-detail fulldetail-container">
+            <ul>
+                {{#each about-this-course.requirement}}
+                <li>{{this.require}}</li>
+                {{/each}}
+            </ul>
+            <div class="full-detail">
+                <a>Full Detail</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <strong>What am I going to get from this course?</strong>
+        <div class="small-detail fulldetail-container">
+            <div class="list-benefit">
+                <ul>
+                    {{#each about-this-course.benefits}}
+                    <li>{{this.benefit}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+            <div class="full-detail">
+                <a>Full Detail</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="target small-detail fulldetail-container">
+            <strong>What is the target audience?</strong>
+            <ul>
+                {{#each about-this-course.targets}}
+                <li>{{this.target}}</li>
+                {{/each}}
+            </ul>
+            <div class="full-detail">
+                <a href="#" >Full Detail</a>
+            </div>
+        </div>
+    </div>
+
+
+</div>

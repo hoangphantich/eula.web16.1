@@ -1,0 +1,104 @@
+﻿{
+    "items": [
+        {
+            "department-name": "DEPARTMENT 1",
+            "sevices-list": [
+                {
+                    "service": { 
+                        "thumbnail": "/img/sevice-bg.png",
+                        "service-title": "Service Title",
+                        "service-price": " AED 000",
+                        "short-descriptions": "This is a short description of the service. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse ut purus."
+                    },
+                    "service": { 
+                        "thumbnail": "/img/sevice-bg.png",
+                        "service-title": "Service Title",
+                        "service-price": " AED 000",
+                        "short-descriptions": "This is a short description of the service. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse ut purus."
+                    },
+                    "service": { 
+                        "thumbnail": "/img/sevice-bg.png",
+                        "service-title": "Service Title",
+                        "service-price": " AED 000",
+                        "short-descriptions": "This is a short description of the service. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse ut purus."
+                    }
+                }
+            ]
+        },
+        {
+            "department-name": "DEPARTMENT 2",
+            "sevices-list": [
+                {
+                    "service": { 
+                        "thumbnail": "/img/sevice-bg.png",
+                        "service-title": "Service Title",
+                        "service-price": " AED 000",
+                        "short-descriptions": "This is a short description of the service. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse ut purus."
+                    },
+                    "service": { 
+                        "thumbnail": "/img/sevice-bg.png",
+                        "service-title": "Service Title",
+                        "service-price": " AED 000",
+                        "short-descriptions": "This is a short description of the service. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse ut purus."
+                    },
+                    "service": { 
+                        "thumbnail": "/img/sevice-bg.png",
+                        "service-title": "Service Title",
+                        "service-price": " AED 000",
+                        "short-descriptions": "This is a short description of the service. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse ut purus."
+                    }
+                }
+            ]
+        },
+        {
+            "department-name": "DEPARTMENT 3",
+            "sevices-list": [
+                {
+                    "service": { 
+                        "thumbnail": "/img/sevice-bg.png",
+                        "service-title": "Service Title",
+                        "service-price": " AED 000",
+                        "short-descriptions": "This is a short description of the service. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse ut purus."
+                    },
+                    "service": { 
+                        "thumbnail": "/img/sevice-bg.png",
+                        "service-title": "Service Title",
+                        "service-price": " AED 000",
+                        "short-descriptions": "This is a short description of the service. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse ut purus."
+                    },
+                    "service": { 
+                        "thumbnail": "/img/sevice-bg.png",
+                        "service-title": "Service Title",
+                        "service-price": " AED 000",
+                        "short-descriptions": "This is a short description of the service. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse ut purus."
+                    }
+                }
+            ]
+        },
+        {
+            "department-name": "DEPARTMENT 4",
+            "sevices-list": [
+                {
+                    "service": { 
+                        "thumbnail": "/img/sevice-bg.png",
+                        "service-title": "Service Title",
+                        "service-price": " AED 000",
+                        "short-descriptions": "This is a short description of the service. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse ut purus."
+                    },
+                    "service": { 
+                        "thumbnail": "/img/sevice-bg.png",
+                        "service-title": "Service Title",
+                        "service-price": " AED 000",
+                        "short-descriptions": "This is a short description of the service. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse ut purus."
+                    },
+                    "service": { 
+                        "thumbnail": "/img/sevice-bg.png",
+                        "service-title": "Service Title",
+                        "service-price": " AED 000",
+                        "short-descriptions": "This is a short description of the service. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse ut purus."
+                    }
+                }
+            ]
+        }
+    ]
+}

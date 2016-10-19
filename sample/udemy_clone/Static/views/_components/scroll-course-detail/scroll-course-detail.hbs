@@ -1,0 +1,48 @@
+﻿<div id="udemy-details-scroll" data-target="#udemy-scrollbar" class="scroll-container" data-require="base/views/scroll-course-detail">
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="nav-course-details">
+        <div class="container-fluid" id="top-scroll">
+             <div>
+                <div class="collapse navbar-collapse" id="udemy-scrollbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#udemy_about_course">About This Course</a></li>
+                        <li><a href="#udemy-curriculum">Curriculum</a></li>
+                        <li><a href="#udemy-instructor">Instructor</a></li>
+                        <li><a href="#udemy-rating-and-comment-block">Review</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="udemy_about_course" class="container">
+        <h3>About This Course</h3>
+        <div class="content">
+            {{#with about-this-course.course}}
+            <span class="glyphicon glyphicon-calendar">Published {{date_publish}}</span>
+            <span class="glyphicon glyphicon-globe">{{language}}</span>
+            <br />
+            {{/with}}
+        </div>
+    </div>
+
+    <div class="row row-curr-about">
+        <div class="col-md-8 col-curr-about">
+            {{> _about_this_course}}
+           
+            {{> curriculum}}
+        </div>
+
+        <div class="col-md-4">
+            {{> also-viewed-course}}
+        </div>
+    </div>
+
+    <div id="udemy-instructor" class="container-fluid">
+        {{> instructor-bio}}
+    </div>
+
+    <div id="udemy-rating-and-comment-block">
+        {{> _rating-and-comment-block}}
+    </div>
+</div>
+

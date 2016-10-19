@@ -1,0 +1,50 @@
+﻿---
+title: Students Who Viewed This Course Also Viewed
+---
+
+
+   
+<h3 class="also-viewed-title">Students Who Viewed This Course Also Viewed</h3>
+
+<div class="also-viewed-container">
+    <ul class="also-viewed-list">
+        {{#each also-viewed-course.items}}
+        <li class="also-viewed-list__item">
+            <div class="">
+                <div class="col-md-4 course-image">
+                    <a href="#">
+                        <img src={{img}}>
+                    </a>
+                </div>
+                <div class="col-md-8 course-description">
+                    <div>
+                        <a href="" class="course-title">
+                            <strong>{{title}}</strong>
+                        </a>
+                    </div>
+                    <div class="course-instructor">
+                        {{instructor}}
+                        {{#if job_title}}
+                        <span>, {{job_title}}</span>
+                        {{/if}}
+                    </div>
+                    <div class="course-review">
+                        <span class="rating-star stars-container">
+                            ★★★★★
+                            <span title="{{s_rating}}" class="rating-point">★★★★★</span>
+                        </span>
+
+                        {{s_rating}}
+                        {{#if s_rating}}
+                        <span>({{reviews}})</span>
+                        {{/if}}
+                    </div>
+                    <div class="course-price">
+                        <span>${{price}}</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        {{/each}}
+    </ul>
+</div>

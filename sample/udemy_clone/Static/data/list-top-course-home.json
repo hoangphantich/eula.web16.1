@@ -1,0 +1,19 @@
+﻿{
+  "items": [
+    {
+      "image": "/img/topic-bg-python.jpg",
+      "title": "Top Python Courses",
+      "icon": "/img/topic-i-python.png"
+    },
+    {
+      "image": "/img/topic-bg-java.jpg",
+      "title": "The Top Java Tutorials",
+      "icon": "/img/topic-i-java.png"
+    },
+    {
+      "image": "/img/topic-bg-excel.jpg",
+      "title": "Excel",
+      "icon": "/img/topic-i-excel.png"
+    }
+  ]
+}

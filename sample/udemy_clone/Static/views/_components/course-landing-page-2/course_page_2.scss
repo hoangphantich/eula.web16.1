@@ -1,0 +1,486 @@
+﻿
+.tab-container{
+    background-color:#f4f4f4;
+  .content{
+    .left_category{
+        margin-top:30px;
+        width:295px;
+        .lc_full{
+            @media(max-width:$TABLET - 1){
+                display:none;
+            }
+        }
+        .modal-dialog{
+            @media(min-width:$BIG_PHONE){
+                margin: 90px auto;
+            }
+            
+        }
+          .modal-content{
+               border-radius:0;
+               @media(max-width:$BIG_PHONE){
+                   width:65%;
+                   margin: 90px auto;
+               }
+           }
+        .show-more{
+            @media(min-width:$TABLET){
+                display:none;
+            }
+        }
+        b{
+            font-size:12px;
+            margin-top:10px;
+            padding-left:17%;
+        }
+        .sub_category{
+            margin-top:10px;
+          ul{
+              list-style-type:none !important;
+              padding-left:17%;
+              li{
+                  margin-bottom:10px;
+                  a{
+                      color:inherit;
+                      i{
+                          margin-right:8px;
+                      }
+                  }
+              }
+          }
+        }
+    }
+    .right-content{
+        margin-top:16px;
+        width:925px;
+         @media(max-width:$LAPTOP){
+                   width:850px;
+                } 
+         @media(max-width:$SMALL_LAPTOP){
+             width:60%;
+         }
+          @media(max-width:$SMALL_TABLET){
+             width:70%;
+         }
+        .feature-course{
+            h2{
+                font-size: 30px;
+                color: rgba(0,0,0,0.8);
+                margin: 0 0 10px;
+                font-weight:400;
+            }
+            .feature-course-card{
+                width:95%;
+                margin-left:0;
+                background-color:white;
+                height:280px;
+                @media(max-width:$TABLET - 1){
+                   
+                    height:auto;
+                }
+             .course-intro{
+                        padding-left:15px !important;
+                        .rate-star-container {
+                                        width: auto;
+                                        font-size: 20px;
+                                        color: lightgray;
+                                        position: relative;
+                                        content: '★★★★★';
+
+                                        .rate-star {
+                                            content: '★★★★★';
+                                            overflow: hidden;
+                                            color: #17aa1c;
+                                            z-index: 10;
+                                            left: 0;
+                                            position: absolute;
+                                        }
+                                    }
+                    }
+               .col-md-5{
+                   padding:0;
+                   height:100%;
+                     @media(max-width:$TABLET - 1){
+                   
+                    height:auto;
+                }
+                    img{
+                  width:100%;
+                  height:100%;
+                    @media(max-width:$TABLET - 1){
+                   
+                    height:auto;
+                }
+               }
+               }
+              
+            }
+        }
+        .course-slider {
+                    margin-top: 20px;
+                    display: flex;
+                    width: 100%;
+                    height: 345px;
+                    position: relative;
+                    overflow:visible;
+                      @media(max-width:$LAPTOP) {
+                          height:590px;
+                        }
+                      @media(max-width:$BIG_PHONE){
+                          height:auto;
+                      }
+                    .flex-container {
+                       
+                        float: left;
+                        width: 100%;
+                        height: 293px;
+                        list-style-type: none;
+                        padding: 0;
+                        display: inline-block;
+                        position: absolute;
+                        -webkit-transition:0.3s;
+                        -moz-transition:0.3s;
+                       
+                        @media(max-width:$BIG_PHONE) {
+                            width: 100%;
+                            height: auto;
+                            position: initial;
+                        }
+
+                        .course-slider-li {
+                            background-color: white;
+                            width: 200px;
+                            height: 278px;
+                            border: 1px solid #e8e8e8;
+                            margin: 15px 16px 0 0;
+                            float: left;
+                            z-index: 9;
+                            position: relative;
+                            cursor: pointer;
+                            
+                 
+                            @media(max-width:$BIG_PHONE) {
+                                width: 100%;
+                                height: auto;
+                                background-color: #f4f4f4;
+                                border: none;
+                                border-bottom: 1px solid #e8e8e8;
+
+                                &:hover {
+                                    .course-image {
+                                        opacity: 0.8;
+                                    }
+                                }
+                            }
+
+                            .bg-bio-hover {
+                                display: none;
+                                background-color: #000;
+                                opacity: 0.5;
+                                top: 0;
+                                position: absolute;
+                                z-index: 10;
+                                width: 100%;
+                                height: 122px;
+                            }
+
+                            .bio-infor-hover {
+                                display: none;
+                                width: 100%;
+                                height: 122px;
+                                z-index: 12;
+                                top: 0;
+                                position: absolute;
+
+                                .image-bio {
+                                    width: 100%;
+                                    height: 60px;
+                                    display: flex;
+                                    z-index: 13;
+
+                                    img {
+                                        width: 50px;
+                                        height: 50px;
+                                        margin: 10px 0px 5px 5px;
+                                        border-radius: 2px;
+                                        border: 3px solid #fff;
+                                    }
+                                }
+
+                                .number-lecture {
+                                    width: 80%;
+                                    margin: 10px 10px 0 5px;
+
+                                    .number-lecture-inner {
+                                        color: #fff;
+                                        font-weight: 600;
+                                        font-size: 13px;
+                                    }
+                                }
+
+                                .time-lecture {
+                                    width: 80%;
+                                    margin: 0 10px 0 5px;
+
+                                    .time-lecture-inner {
+                                        color: #fff;
+                                        font-weight: 600;
+                                        font-size: 13px;
+                                    }
+                                }
+                            }
+
+                            &:hover {
+                                .bio-infor-hover {
+                                    display: block;
+
+                                    @media(max-width:$BIG_PHONE) {
+                                        display: none;
+                                        width: 0;
+                                        height: 0;
+                                    }
+                                }
+
+                                .bg-bio-hover {
+                                    display: block;
+
+                                    @media(max-width:$BIG_PHONE) {
+                                        display: none;
+                                        width: 0;
+                                        height: 0;
+                                    }
+                                }
+                            }
+
+                            .course-image {
+                                width: 100%;
+                                height: 122px;
+                                top: 0;
+                                position: relative;
+
+                                @media(max-width:$BIG_PHONE) {
+                                    height: 88px;
+                                    width: 88px;
+                                    float: left;
+                                    overflow: hidden;
+                                }
+
+                                img {
+                                    height: 100%;
+                                    width: 100%;
+                                    z-index: 11;
+
+                                    @media(max-width:$BIG_PHONE) {
+                                        height:100%;
+                                        vertical-align:middle;
+                                        width:150%;
+                                        margin-left:-20%;
+                                    }
+                                }
+                                .heart_wishlist {
+                                    position: absolute;
+                                    top: 0;
+                                    right: 0;
+                                    width: 18px;
+                                    height: 18px;
+                                    margin: 15px 15px 10px 0px;
+                                    z-index: 13;
+                                    @media(max-width:$BIG_PHONE) {
+                                        display: none;
+                                    }                               
+                                    .icon-heart-inner {
+                                        width: 19px;
+                                        height:18px;
+                                        float: right;
+                                        position:relative;
+                                        .fa-heart-o {
+                                            z-index: 13;
+                                            font-size: 19px;
+                                            color: white; 
+                                            position: absolute;                                 
+                                                .bio-infor-hover {
+                                                    .image-bio {
+                                                        img {
+                                                            display: none;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        .fa-heart {
+                                                margin: 2px;
+                                                display: none;
+                                            }
+                                            &:hover {
+                                                .fa-heart {
+                                                    display: block;
+                                                    color: red;
+                                                    font-size: 15px;
+                                                    z-index: 15;
+                                                    position: absolute;
+                                                }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .box-second-row {
+                                width: 100%;
+                                min-height: 33px;
+                                display: flex;
+
+                                @media(max-width:$BIG_PHONE) {
+                                    width: calc(100% - 88px);
+                                    min-height: 16px;
+                                }
+
+                                .title-two-row {
+                                    width: 92%;
+                                    line-height: 1.3;
+                                    font-weight: bold;
+                                    font-size: 13px;
+                                    padding: 0;
+                                    margin: 10px auto 10px auto;
+
+                                    @media(min-width:$BIG_PHONE) {
+                                        text-overflow: ellipsis;
+                                        word-wrap: break-word;
+                                        overflow: hidden;
+                                        line-height: 1.3em;
+                                        max-height: 2.6em;
+                                    }
+
+                                    @media(max-width:$BIG_PHONE ) {
+                                        margin: 0 0 0 10px;
+                                    }
+                                }
+                            }
+
+                            .box-third-row {
+                                width: 100%;
+                                min-height: 33px;
+                                display: flex;
+
+                                @media(max-width:$BIG_PHONE ) {
+                                    width: calc(100% - 88px);
+                                    min-height: 16px;
+                                }
+
+                                .bio-info {
+                                    width: 92%;
+                                    line-height: 1.3;
+                                    font-size: 13px;
+                                    margin: auto;
+
+                                    @media(max-width:$BIG_PHONE) {
+                                        margin-left: 10px;
+                                    }
+                                }
+                            }
+
+                            .star-reviews-row {
+                                width: 100%;
+                                height: 28px;
+                                display: flex;
+
+                                @media(max-width:$BIG_PHONE ) {
+                                    width: 160px;
+                                    margin-left: 88px;
+                                }
+
+                                .star-reviews-inner {
+                                    width: 92%;
+                                    margin: 10px auto 10px auto;
+                                    height: 100%;
+                                    display: flex;
+
+                                    @media(max-width:$BIG_PHONE ) {
+                                        margin: 0 0 0 10px;
+                                    }
+
+                                    .rate-star-container {
+                                        width: auto;
+                                        font-size: 20px;
+                                        color: lightgray;
+                                        position: relative;
+                                        content: '★★★★★';
+
+                                        .rate-star {
+                                            content: '★★★★★';
+                                            overflow: hidden;
+                                            color: #17aa1c;
+                                            z-index: 10;
+                                            left: 0;
+                                            position: absolute;
+                                        }
+                                    }
+
+                                    .right-rating {
+                                        width: calc(100% - 88px);
+                                        font-size: small;
+                                        float: right;
+                                        margin: auto;
+
+                                        .number-viewed {
+                                            color: #999;
+                                            font-size: 12px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .price-course {
+                                width: 100%;
+                                height: 20px;
+                                display: flex;
+                                margin-top: 10px;
+
+                                @media(max-width:$BIG_PHONE) {
+                                    width: 160px;
+                                    margin: 0 0 0 88px;
+                                }
+
+                                .new-price {
+                                    font-weight: bold;
+                                    float: left;
+                                    width: 40px;
+                                    margin-left: 10px;
+                                }
+
+                                .old-price {
+                                    margin: auto auto auto 0;
+                                    font-size: 13px;
+                                    float: left;
+                                    width: 30%;
+                                    text-decoration: line-through;
+                                    color: rgba(0,0,0,0.55);
+                                }
+                            }
+                        }
+                    }
+                }
+        .related-topic{
+            position:relative;
+            width:100%;
+            
+            .list-topic{
+                list-style-type:none;
+                color:#540768;
+                margin: 30px auto;
+                li{
+                    display:inline-block;
+                    margin:10px 6.3% 10px 15px;
+                    a{
+                        color:inherit;
+                        .icon{
+                            font-size:33px;
+                            padding-left:24%;
+                            margin-bottom:9px;
+                        }
+                    }
+                }
+            }
+        }
+       }
+  }
+}
+

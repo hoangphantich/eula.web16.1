@@ -1,0 +1,39 @@
+﻿{
+    "all_location": {
+        "image": "/img/icon_location.png",
+        "options": [
+            {
+                "text": "All Locations",
+                "selected": true
+            },
+            {
+                "text": "Location 1"
+            },
+            {
+                "text": "Location 2"
+            },
+            {
+                "text": "Location 3"
+            }
+        ]
+    },
+
+    "showroom": {
+        "image": "/img/icon_car.png",
+        "text": "Showroom",
+        "id": "checkbox_showroom",
+        "checked": true
+    },
+    "service_centre": {
+        "image": "/img/icon_service.png",
+        "text": "Service Centre",
+        "id": "service_centre",
+        "checked": true
+    },
+    "bodyshop": {
+        "image": "/img/icon_bodyshop.png",
+        "text": "Bodyshop",
+        "id": "bodyshop",
+        "checked": true
+    }
+}

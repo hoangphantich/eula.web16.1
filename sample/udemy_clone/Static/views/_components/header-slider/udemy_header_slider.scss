@@ -1,0 +1,40 @@
+$tablet_height: 184px;
+
+
+body{
+    width: 100%;
+    padding: 0;
+    
+}
+
+.el-slider{
+
+    width: 100%;
+    height:100vh;  
+    .el-slider__img{
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        position:relative;
+        img{
+            width:100%;
+            height:100%;
+            position: absolute;
+
+       }
+         @media (max-width: $BIG_TABLET){
+             display:none;
+         } 
+    }
+    @media (max-width: $BIG_TABLET ){
+            height: $tablet_height;
+            background-color: rgb(35,53,67);
+            margin-top:0;
+    }
+  }
+
+ 
+.overflow-hidden { overflow:hidden !important }

@@ -1,0 +1,34 @@
+﻿---
+title: "list cards for containing courses' infomation"
+---
+<div class="container">
+    <div class="tab-content">
+        {{> list-top-course-home}}
+        <ul class="course-card-ul">
+            {{#each info-course-items.items}}
+            <li class="course-card-li card-mg-10 fn-force-lg">
+
+                <div class="course-card-li__item">
+                    <img class="course-card-img" src={{this.img}} />
+
+                    <div class="course-card-info">
+                        <p class="course-card-title">{{this.title}}</p>
+
+                        <p class="course-card-instructor">{{this.instructor}}</p>
+
+                        <div class="course-card-details">
+                            <span>
+                                <i class="fa fa-users" aria-hidden="true" id="icon-modal"></i>
+                                <span>{{this.registered}}</span>
+                                <span>${{this.price}}</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+</div>
+    

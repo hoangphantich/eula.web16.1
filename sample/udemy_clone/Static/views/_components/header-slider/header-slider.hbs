@@ -1,0 +1,83 @@
+---
+title: "Header Slider"
+---
+<div class="header-slider owl-theme" data-require="base/views/header_slider">
+    <div>
+        {{#each this.items}}
+        <div class="header-slider__item">
+            <picture>
+                <source media="(min-width: 75rem)" srcset="{{largeImage}}">
+                <source media="(min-width: 62rem)" srcset="{{desktopImage}}">
+                <source media="(min-width: 48rem)" srcset="{{tabletImage}}">
+                <img class="header-slider__item__image-preview" src="{{mobileImage}}" alt="" />
+            </picture>
+            {{#if this.videoMp4}}
+            <div class="header-slider__item__video">
+                <video>
+                    <source src="{{videoMp4}}" type='video/mp4'>
+                    <source src="{{videoWebm}}" type='video/webm'>
+                    <source src="{{videoOgg}}" type="video/ogg">
+                </video>
+            </div>
+            {{/if}}
+
+            {{#if this.iconButton3}}
+            <div class="header-slider__item__text header-slider__item__text-three-button container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <h3>{{text}}</h3>
+                    </div>
+                    <div class="col-xs-12 col-md-6 header-button-container">
+                        <a class="header-button__white-bg" href="{{urlButton1}}" title="">
+                            <img src="{{iconButton_hover}}" alt="" class="header-button__white-bg__img--hover" />
+                            <img src="{{iconButton1}}" alt="" class="header-button__white-bg__img" />
+                            <span>{{{textButton1}}}</span>
+                        </a>
+                        <a class="header-button__white-bg" href="{{urlButton2}}" title="">
+                            <img src="{{iconButton_hover}}" alt="" class="header-button__white-bg__img--hover" />
+                            <img src="{{iconButton2}}" alt="" class="header-button__white-bg__img" />
+                            <span>{{{textButton2}}}</span>
+                        </a>
+                        <a class="header-button__white-bg" href="{{urlButton3}}" title="">
+                            <img src="{{iconButton_hover}}" alt="" class="header-button__white-bg__img--hover" />
+                            <img src="{{iconButton3}}" alt="" class="header-button__white-bg__img" />
+                            <span>{{{textButton3}}}</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {{else}}
+            <div class="header-slider__item__text">
+                <h3>{{text}}</h3>
+                <p>{{sub}}</p>
+                <div class="header-button-container">
+                    {{#if this.textButton1}}
+                    <a class="header-button-normal" href="{{urlButton1}}" title="">{{textButton1}}</a>
+                    <a class="header-button-mobile" href="{{urlButton1}}" title="">{{textButton1Mobile}}</a>
+                    {{/if}}
+
+                    {{#if this.textButton2}}
+                    <a class="header-button__white-bg" href="{{urlButton2}}" title="">
+                        <img src="{{iconButton_hover}}" alt="" class="header-button__white-bg__img--hover" />
+                        <img src="{{iconButton2}}" alt="" class="header-button__white-bg__img" />
+                        <span>{{textButton2}}</span>
+                    </a>
+                    {{/if}}
+                </div>
+            </div>
+            {{/if}}
+        </div>
+        {{/each}}
+    </div>
+
+    {{#if this.hasArrow}}
+    <div class="header-slider__arrow">
+        <img src="{{this.arrowWatch}}" alt="" />
+        <span>{{this.arrowText}}</span>
+        <img class="header-slider__arrow__icon-arrow" src="{{this.arrowIcon}}" alt="" />
+    </div>
+    {{/if}}
+</div>
+
+
+

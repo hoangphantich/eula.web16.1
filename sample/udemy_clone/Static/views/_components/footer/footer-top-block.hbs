@@ -1,0 +1,35 @@
+---
+title: "Footer top block"
+---
+<div class="container-fluid top-footer-block" data-require="base/modules/bootstrap-column-same-height">
+    {{#if this.hideScrollTop}}
+    {{else}}
+        {{> scroll_top}}
+    {{/if}}
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 top-footer-col store-market-col column-same-height">
+            <div class="row">
+                <div class="col-xs-12 col-lg-9 short-descriptions centered">
+                    <p>Luxury vehicles at your fingertips.<br /> Download the Al Tayer Mobile App today!</p>
+                </div>
+                <div class="col-xs-12 col-lg-3 market-buttons centered">
+                    <a href="#"><img src="/img/appstore.png" alt="" /></a>
+                    <a href="#"><img src="/img/google-market.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 top-footer-col signup-col column-same-height">
+            <div class="footer-signup-content" data-require="base/views/email-subcription">
+                <p>Get the best offers first, and be updated on the latest releases.</p>
+                <form action="#" name="signup-form" method="GET">
+                    <input name="signup" type="text" placeholder="Email Address" />
+                    <input name="submit" type="submit" value="Sign up" />
+                </form>
+                <div class="thankyou-message">
+                    Thank you for registering.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

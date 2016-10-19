@@ -1,0 +1,124 @@
+﻿{
+    "items": [
+        {
+            "image": "/img/car_figo.jpg",
+            "name": "Figo",
+            "description": "Figo combines modern styling, with an impressive interior and attractive pricing.",
+            "price": "32,000"
+        },
+        {
+            "image": "/img/car_fiesta.jpg",
+            "name": "Fiesta",
+            "description": "The Fiesta features a new, more sculpted look. From its grille to its sleek new hood.",
+            "price": "40,000"
+        },
+        {
+            "image": "/img/car_focus.jpg",
+            "name": "Focus",
+            "description": "It only takes a glance to see 2014 Ford Focus dynamic new look.",
+            "price": "62,000"
+        },
+        {
+            "image": "/img/car_fusion.jpg",
+            "name": "Fusion",
+            "description": "With its sculpted lines and sleek silhouette, the 2015 Ford Fusion conveys a sense of agility.",
+            "price": "65,000"
+        },
+        {
+            "image": "/img/car_ecosport.jpg",
+            "name": "Ecosport",
+            "description": "The new 2015 Ford EcoSport is designed from the ground up with driving fun in mind.",
+            "price": "60,000"
+        },
+        {
+            "image": "/img/car_taurus.jpg",
+            "name": "Taurus",
+            "description": "The Taurus design could be characterized as aggressive, bold, almost menacing.",
+            "price": "90,000"
+        },
+        {
+            "image": "/img/car_mustang.jpg",
+            "name": "Mustang",
+            "description": "The classic Mustang Fastback has returned with an entirely new energy.",
+            "price": "122,000"
+        },
+        {
+            "image": "/img/car_roush.jpg",
+            "name": "Roush",
+            "description": "ROUSH  Supercharged 5.0 V8 Engine boosts power to 525bhp and offers 465lb ft of torque.",
+            "price": "288,000"
+        },
+        {
+            "image": "/img/car_escape.jpg",
+            "name": "Escape",
+            "description": "Adding to its sleek appearance is several design cues including sculpted wheel arches.",
+            "price": "85,000"
+        },
+        {
+            "image": "/img/car_edge.jpg",
+            "name": "Edge",
+            "description": "From the bold front grille through the fluid shapes and smooth lines that run the length of its body.",
+            "price": "115,000"
+        },
+        {
+            "image": "/img/car_explorer.jpg",
+            "name": "Explorer",
+            "description": "A strong structure serves as the foundation for Explorer capability.",
+            "price": "130,000"
+        },
+        {
+            "image": "/img/car_flex.jpg",
+            "name": "Flex",
+            "description": "Beginning with the unmistakable chrome grille that continues its linear design.",
+            "price": "125,000"
+        },
+        {
+            "image": "/img/car_expedition.jpg",
+            "name": "Expedition",
+            "description": "Capability in size, power, comfort and versatility is but one way the 2015 Ford Expedition.",
+            "price": "142,000"
+        },
+        {
+            "image": "/img/car_ranger.jpg",
+            "name": "Ranger",
+            "description": "Ranger gives you what you want from a full-size pickup in a compact truck that's priced much less.",
+            "price": "110,000"
+        },
+        {
+            "image": "/img/car_e_series.jpg",
+            "name": "E-series",
+            "description": "The Ford E-Series is built for heavier duty requirements.",
+            "price": "115,000"
+        },
+        {
+            "image": "/img/car_f150.jpg",
+            "name": "F-150",
+            "description": "An entirely unique truck, F-150 is very tough to take on a rough side of you and the road.",
+            "price": "180,000"
+        },
+        {
+            "image": "/img/car_f250.jpg",
+            "name": "F-250",
+            "description": "The F-250 is the first among the line up of Super Duty F-Series trucks. It is available in 3 cab styles.",
+            "price": "190,000"
+        },
+        {
+            "image": "/img/car_f350.jpg",
+            "name": "F-350",
+            "description": "Only one heavy-duty pickup runs roughshod over the competition: F-Series Super Duty.",
+            "price": "210,000"
+        },
+        {
+            "image": "/img/car_f450.jpg",
+            "name": "F-450",
+            "description": "The F-450 Super Duty is available in three cab styles- Regular, Super Cab and Crew Cab.",
+            "price": "220,000"
+        },
+        {
+            "image": "/img/car_f550.jpg",
+            "name": "F-550",
+            "description": "It's not just a new powertrain. It's a new powertrain that's Built Ford Tough.",
+            "price": "240,000"
+        }
+    ]
+}

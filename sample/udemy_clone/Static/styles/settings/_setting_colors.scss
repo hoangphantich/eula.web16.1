@@ -1,0 +1,14 @@
+﻿$blueTextColor : #002d6a;
+$orangeBorder: #e86d1f;
+$orangeLinkCookie: #e86d20;
+$orangeActiveMenu: #e86618;
+$grayText: #323232;
+
+$isPremier: false;
+
+@if $isPremier {
+    $orangeBorder: #ed1b23;
+    $orangeLinkCookie: #ed1b23;
+    $orangeActiveMenu: #ed1b23;
+}
+    

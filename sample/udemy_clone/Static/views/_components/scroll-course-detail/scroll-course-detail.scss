@@ -1,0 +1,71 @@
+﻿.scroll-container {
+    background-color: #f4f4f4;
+
+    .navbar.navbar-inverse.navbar-fixed-top#nav-course-details {
+        position: relative;
+        top: initial;
+        background-color: white;
+        color: black;
+        border-top: 1px solid #cbcbcb;
+        border-bottom: 1px solid #cbcbcb;
+         @media (max-width: $SMALL_LAPTOP){
+            display: none;
+         }
+
+        #top-scroll {
+            .navbar-collapse {
+                width:1170px;
+                margin:auto;
+                .navbar-nav {
+                    color: black !important;
+
+                    li {
+                        a:hover {
+                            color: black;
+                        }
+
+                        &.active a {
+                            background-color: white;
+                            color: #222;
+                            border-bottom: 5px solid #4985B8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.col-curr-about {
+    text-align: justify;
+}
+
+.row-curr-about {
+    width: 1170px;
+
+    @media (max-width: $SMALL_LAPTOP) {
+        width: 970px;
+    }
+
+    @media (max-width: $TABLET) {
+        width: 750px;
+    }
+
+    @media (max-width: $BIG_PHONE) {
+        width: 100%;
+    }
+
+    .col-curr-about {
+        padding: 0;
+    }
+}
+
+
+
+.f-nav {
+    z-index: 9999;
+    position: fixed !important;
+    left: 0;
+    top: 0 !important;
+    width: 100%;
+}

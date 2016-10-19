@@ -1,0 +1,19 @@
+﻿{
+    "items": [
+        {
+            "title": "warranty",
+            "thumbnail": "/img/warranty-img.jpg",
+            "short-descriptions": "We know the importance of having a new car and being rest assured that it stays in tip-top condition."
+        },
+        {
+            "title": "SERVICE GUIDE",
+            "thumbnail": "/img/warranty-img1.jpg",
+            "short-descriptions": "How much does it cost to maintain your vehicle with us? Get the complete service price guide."
+        },
+        {
+            "title": "TRADE-IN",
+            "thumbnail": "/img/warranty-img2.jpg",
+            "short-descriptions": "You can always change your mind later or get an upgrade. Find out how to trade-in your old vehicle."
+        }
+    ]
+}
