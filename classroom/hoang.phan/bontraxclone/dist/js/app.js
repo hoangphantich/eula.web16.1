@@ -761,3 +761,15 @@ function _init() {
     });
   };
 }(jQuery));
+
+$(document).ready(() => {
+  $(".html-embeded").each(() => {
+    let url = $(this).attr("data");
+    let self = $(this); console.log(url);
+//    $.get(url, (result) => {
+//      let content = $(result);
+//      self.html(content);
+//    })
+  })
+});
+
