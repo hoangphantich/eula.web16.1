@@ -1,0 +1,69 @@
+body{
+    background: url(../images/maiphuongthuy.jpg) no-repeat center fixed;
+    background-size: cover;
+
+}
+
+.container{
+    max-width: 979px;
+/*    border: 1px solid red;*/
+}
+
+#header .container{
+    max-width: 1000px;
+}
+
+#logo-div{
+    margin-top: 18px;
+}
+
+#nav-link{
+    padding: 0px;
+    padding-top: 40px;
+}
+/*
+.header-top{
+    margin-top: 40px;
+}
+.header-bottom{
+
+    margin-top: 40px;
+}
+*/
+
+.navbar-nav {
+    float: right;
+}
+.navbar-nav>li{
+    margin-left: 10px;
+}
+.navbar-nav>li>a {
+    padding:  0px;
+}
+
+#pick-language{
+    background-color: darkgrey;
+    padding: 0px 3px;
+    border-radius: 3px;
+}
+
+#divider-language{
+    color: white;
+}
+
+#nav-bot{
+    margin-top: 40px;
+}
+
+#nav-bot>li>a {
+    margin: 0px 10px;
+    text-decoration: underline;
+}
+
+
+url(../images/flag-french.png)
+/*
+.brand-logo{
+    background: url(../images/logo.jpg);
+}
+*/
