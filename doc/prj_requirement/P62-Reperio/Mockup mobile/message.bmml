@@ -1,0 +1,22 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="788" measuredH="514" mockupW="282" mockupH="510">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="506" y="4" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="621" y="115" w="-1" h="-1" measuredW="52" measuredH="22" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>14</size>
+        <text>Reperio</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="547" y="152" w="-1" h="-1" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Thank%20you%20for%20your%20payment%21%0A%20%0AThank%20you%20for%20ordering%20new%20kit%21%0A%20%0AThank%20you%20for%20providing%20information%0A%20%0A...</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Link" x="574" y="259" w="-1" h="-1" measuredW="173" measuredH="19" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Click%20here%20to%20go%20to%20homepage</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

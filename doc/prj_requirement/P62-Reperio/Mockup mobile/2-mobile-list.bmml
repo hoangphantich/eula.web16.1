@@ -1,0 +1,37 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1084" measuredH="533" mockupW="489" mockupH="510">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="595" y="23" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="708" y="127" w="-1" h="-1" measuredW="52" measuredH="22" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>14</size>
+        <text>Reperio</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="627" y="181" w="218" h="113" measuredW="128" measuredH="111" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Code%20%5E%2C%20Desc%20%5Ev%0A123%2C%20Laptop%5Bx%5D%0A456%2C%20Bag%5Bx%5D%0A789%2C%20Phone%5Bx%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="760" y="151" w="-1" h="-1" measuredW="75" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Hi%20username</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="764" y="300" w="-1" h="-1" measuredW="81" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>New%20code</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="742" y="334" w="-1" h="-1" measuredW="103" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Order%20new%20kit</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Paragraph" x="884" y="181" w="-1" h="-1" measuredW="200" measuredH="80" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>This%20page%20let%20you%20manage%20codes%20%28create%2Cupdate%2Cdelete%29</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
