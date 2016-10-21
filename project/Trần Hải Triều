@@ -1,0 +1,6 @@
+Web app quản lý từ vựng: 
+ - Frontend: + nhập từ vựng, cách đọc, nghĩa từ frontend và submit để đưa vào database
+             + random và test từ vựng cho người học theo số lượng từ hoặc bài (tuy theo nhu cầu) và
+             đưa animation vào để không gây nhàm chán cho người học
+ 
+ - Backend: + Xử lý database SQL trên localhost
