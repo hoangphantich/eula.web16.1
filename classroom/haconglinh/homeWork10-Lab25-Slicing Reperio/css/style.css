@@ -1,26 +1,27 @@
-body{
-    background: url(../images/maiphuongthuy.jpg) no-repeat center fixed;
+body {
+    /*    background: url(../images/maiphuongthuy.jpg) no-repeat center fixed;*/
     background-size: cover;
-
 }
 
-.container{
+.container {
     max-width: 979px;
-/*    border: 1px solid red;*/
+        border: 1px solid red;
 }
 
-#header .container{
+#header .container {
     max-width: 1000px;
 }
 
-#logo-div{
+#logo-div {
     margin-top: 18px;
 }
 
-#nav-link{
+#nav-link {
     padding: 0px;
     padding-top: 40px;
 }
+
+
 /*
 .header-top{
     margin-top: 40px;
@@ -34,24 +35,28 @@ body{
 .navbar-nav {
     float: right;
 }
-.navbar-nav>li{
+
+.navbar-nav>li {
     margin-left: 10px;
 }
+
 .navbar-nav>li>a {
-    padding:  0px;
+    padding: 0px;
+    color: black;
 }
 
-#pick-language{
+#pick-language {
     background-color: darkgrey;
     padding: 0px 3px;
     border-radius: 3px;
+    margin-right: 5px;
 }
 
-#divider-language{
+#divider-language {
     color: white;
 }
 
-#nav-bot{
+#nav-bot {
     margin-top: 40px;
 }
 
@@ -60,10 +65,19 @@ body{
     text-decoration: underline;
 }
 
-
 url(../images/flag-french.png)
 /*
 .brand-logo{
     background: url(../images/logo.jpg);
 }
 */
+
+
+/*Main Content*/
+
+#rowForm {
+    background-image: url(../images/bg_map.png) no-repeat center fixed;
+    background-size: cover;
+    border: 1px solid green;
+    height: 165px;
+}

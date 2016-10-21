@@ -8,8 +8,12 @@ body {
     margin-bottom: 50px;
 }
 .col-xs-12 img {
-    max-width: 100%;
-    max-height: 700px;
+    width: 100%;
+    height: auto;
+    
+}
+.col-xs-12{
+    max-height: 550px;
 }
 
 
@@ -17,10 +21,11 @@ body {
     float: right;
     margin-top: 20px;
     font-size: 1em;
+    color: white;
     
 }
 #the-basics input{
-    margin-left: 50px;
+    float: left;
 }
 .tt-suggestion .tt-selectable {
     margin-left: 100px;
