@@ -1,15 +1,12 @@
 body {
     /*    background: url(../images/maiphuongthuy.jpg) no-repeat center fixed;*/
     background-size: cover;
+    outline: 1px solid red;
 }
 
 .container {
-    max-width: 979px;
-        border: 1px solid red;
-}
-
-#header .container {
     max-width: 1000px;
+     outline: 1px solid green;
 }
 
 #logo-div {
@@ -21,16 +18,6 @@ body {
     padding-top: 40px;
 }
 
-
-/*
-.header-top{
-    margin-top: 40px;
-}
-.header-bottom{
-
-    margin-top: 40px;
-}
-*/
 
 .navbar-nav {
     float: right;
@@ -65,19 +52,23 @@ body {
     text-decoration: underline;
 }
 
-url(../images/flag-french.png)
-/*
-.brand-logo{
-    background: url(../images/logo.jpg);
-}
-*/
-
 
 /*Main Content*/
 
-#rowForm {
-    background-image: url(../images/bg_map.png) no-repeat center fixed;
-    background-size: cover;
-    border: 1px solid green;
-    height: 165px;
+#form-row {
+    background: url(../images/bg_map.png) no-repeat center fixed;
+    height: 400px;
 }
+
+#div-wellcome{
+    padding: 0px;
+    margin: 40px;
+   
+}
+
+#welcome-text{
+     font-style: italic;;
+}
+
+
+/*End css*/
