@@ -762,12 +762,12 @@ function _init() {
   };
 }(jQuery));
 
-$(document).ready(function() {
-  $(".html-embeded").each(function() {
-    let url = $(this).attr("data");
-    let self = $(this);
-    $.get(url, function(result) {
-      let content = $(result);
+jQuery(document).ready(function() {
+  jQuery(".html-embeded").each(function() {
+    let url = jQuery(this).attr("data");
+    let self = jQuery(this);
+    jQuery.get(url, function(result) {
+      let content = jQuery(result);
       self.html(content);
     })
   })

@@ -1,0 +1,17 @@
+* {
+  /*default*/
+}
+
+body {
+  /* default wrapper*/
+
+}
+
+#menu {
+  width: 1200px;
+  margin: 22px auto;  
+}
+
+#logo {
+  margin-left: 110px;
+}

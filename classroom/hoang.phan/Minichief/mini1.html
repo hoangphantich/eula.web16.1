@@ -24,7 +24,8 @@
     
     <a href="http://w3school.org" id="tut">W3school</a>
     
-    <form id="register_form" action="http://vnexpress.net" method="get">
+    <form id="register_form" action="http://vnexpress.net" 
+          method="get" onsubmit="hienthi();">
         <input type="text" name="name" value="Hoang Phan" />
         <input type="text" name="email" />
         
@@ -41,6 +42,11 @@
     <script src="my.js"></script>
     
     <script>
+        function hienthi(){
+          alert("Loi");
+          return false;  
+        }
+      
         $(document).ready(function(){
             $("#choose_file").change(function() {
                 // will log a FileList object, view gifs below
@@ -59,6 +65,7 @@
         });
         
         function submitData(e){
+          return function(e){
             //remove browser control
             e.preventDefault();
             
@@ -67,13 +74,14 @@
             let email = $('input[name="email"]').val();
             
             //validate
-            console.log(name);
+            alert("Chay");
             
             //submit form
             $('#register_form').submit();
+          }
         }
 
-        $('input[type="submit"]').click(submitData);
+        $('input[type="submit"]').click(submitData(event));
         
         $(document).ready(function(){
             //select h1 inside div -> traverse

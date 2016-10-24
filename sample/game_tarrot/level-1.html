@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Halloween Tarot - Play</title>
+<link rel="stylesheet" href="index.css" type="text/css">
+<style>
+.g-title{margin-top:-73%; margin-left:38%;}
+.heart{margin-left:1%}
+.re-play{margin-top:10%;}
+</style>
+<script src="jquery-1.10.2.min.js" type="text/javascript"></script>
+<script>
+	$(window).load(function() {
+		var status = 0;
+		
+		$(".true").click(function() {
+			status = 1;
+			$("#true")[0].play();
+			var score = $(".score").text();
+			var result = parseInt(score)+1;
+			$(".score").text(result);
+			if(score == 4) {
+				window.location.href = "survive.html";
+			}
+			if(status == 1) $(this).hide("slow");
+		});
+		
+		$(".f").click(function() {
+			status = 1;
+			$("#false")[0].play();
+			var heart = $(".heart").text();
+			var result = parseInt(heart)-1;
+			$(".heart").text(result);
+			if(heart == 1) {
+				window.location.href = "death.html";
+			}
+			if(status == 1) $(this).hide("slow");
+		});
+		
+		
+		//if(heart == 0) {}
+		
+		/*$(".f").click(function() {
+			var i;
+			for(i = 0; i < 3; i++)
+				$(".heart"+i).hide('slow');
+		});
+		
+		$(function(){
+    		$('.heart').each(function(index){
+        		$(this).click(function(){
+            		$(this).removeClass("heart"+index);
+        		});
+    		});
+		});*/
+		
+	});
+</script>
+</head>
+<body>
+<img class="bg" src="images/7607129-Illustration-of-a-burned-in-aged-ancient-magical-sigil-or-seal-on-a-worn-textured-background--Stock-Illustration.jpg">
+
+<div class="g-title"><a href="index.html">Halloween Tarot</a></div>
+
+<div class="guide">Trick-or-treat?<br>Hãy chọn ra 5 lá bài khác biệt trong 16 lá bài dưới đây... Chú ý: Bạn chỉ có 3 cơ hội để thoát thân... Hahahahaaaa...</div>
+
+<div class="bg-heart"><img src="images/like.png"><div class="heart">3</div></div>
+
+<img class="bg-score" src="images/score.jpg"><div class="score">0</div>
+
+<table class="tarot">
+	<tr>
+    	<td><a href="javascript:;" class="f"><img src="images/1.jpg"></a></td>
+        <td><a href="javascript:;" class="f"><img src="images/6.jpg"></a></td>
+        <td><a href="javascript:;" class="true"><img src="images/23.jpg"></a></td>
+        <td><a href="javascript:;" class="f"><img src="images/0.jpg"></a></td>
+    </tr>
+    <tr>
+    	<td><a href="javascript:;" class="f"><img src="images/7.jpg"></a></td>
+        <td><a href="javascript:;" class="f"><img src="images/13.jpg"></a></td>
+        <td><a href="javascript:;" class="true"><img src="images/57.jpg"></a></td>
+        <td><a href="javascript:;" class="f"><img src="images/14.jpg"></a></td>
+    </tr>
+    <tr>
+    	<td><a href="javascript:;" class="true"><img src="images/41.jpg"></a></td>
+        <td><a href="javascript:;" class="f"><img src="images/16.jpg"></a></td>
+        <td><a href="javascript:;" class="true"><img src="images/26.jpg"></a></td>
+        <td><a href="javascript:;" class="f"><img src="images/2.jpg"></a></td>
+    </tr>
+    <tr>
+    	<td><a href="javascript:;" class="true"><img src="images/56.jpg"></a></td>
+        <td><a href="javascript:;" class="f"><img src="images/17.jpg"></a></td>
+        <td><a href="javascript:;" class="f"><img src="images/19.jpg"></a></td>
+        <td><a href="javascript:;" class="f"><img src="images/10.jpg"></a></td>
+    </tr>
+</table>
+
+<div class="re-play"><a href="level-1.html">Replay!!</a></div>
+
+<audio controls autoplay hidden="">
+<source src="sound/epic_journey_to_hell.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="false" preload="auto">
+<source  src="sound/wood2.wav" type="audio/mpeg">
+</audio>
+
+<audio id="true" preload="auto">
+<source  src="sound/ding.mp3" type="audio/mpeg">
+</audio>
+</body>
+</html>
