@@ -55,9 +55,9 @@ body {
 
 /*Main Content*/
 
-#form-row {
-    background: url(../images/bg_map.png) no-repeat center fixed;
-    height: 400px;
+#form-row{
+    background: url(../images/bg.png) no-repeat center;
+    height: 380px;
 }
 
 #div-wellcome{
@@ -71,4 +71,6 @@ body {
 }
 
 
+
 /*End css*/
+
