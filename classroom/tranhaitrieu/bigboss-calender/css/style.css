@@ -1,0 +1,55 @@
+body {
+		  background-color: green;
+		  color: #000;
+		  font-family: 'Vollkorn', serif;
+		}
+		
+		.calendar {
+		  max-width: 600px;
+		  margin: 0px auto;
+		}
+		
+		.calendar-day {
+		  width: 8%;
+		  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.1);
+		  background-color: #fff;
+		  font-size: 22px;
+		  line-height: 50%;
+		  padding-left: 10px;
+		  padding-right: 10px;
+		  padding-top: 5px;
+		  padding-bottom: 5px;
+		  margin: 5px;
+		  text-align: center;
+		  display: inline-block;
+		}
+		
+		.special {
+		  color: red;
+		  box-shadow: 0px 2px 1px 0px rgba(255, 20, 20, 0.1);
+		}
+		
+		.calendar-day:hover {
+		  background-color: #aaa;
+		  color: #FFF;
+		  cursor: pointer;
+		}
+		
+		.calendar-months {
+		  text-align: center;
+		  width: 100%;
+		  overflow: hidden;
+		}
+		
+		.month-element {
+		  display: inline-block;
+		  margin: 15px;
+		  cursor: pointer;
+		}
+
+				.month-element:hover {
+		  background-color: white;
+		  display: inline-block;
+		  margin: 15px;
+		  cursor: pointer;
+		}
